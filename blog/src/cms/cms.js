@@ -1,11 +1,16 @@
 import CMS from "netlify-cms-app";
+import IframeCMSWidget from "../components/widgets/iframe";
 
-CMS.registerEditorComponent({
-  id: "iframe",
-  label: "Iframe",
-  fields: [{ name: "id", label: "Embed Link", widget: "string" }],
-  pattern: /^iframe (\S+)$/,
-  fromBlock: function (match) {
+CMS.registerWidget([IframeCMSWidget.widget]);
+
+CMS.registerEditorComponent(
+  {
+    id: "iframe",
+    label: "Iframe",
+    fields: [{ name: "id", label: "Embed Link", widget: "string" }],
+    widget: "iframe",
+    //pattern: /^iframe (\S+)$/,
+  } /*fromBlock: function (match) {
     return {
       id: match[1],
     };
@@ -16,4 +21,5 @@ CMS.registerEditorComponent({
   toPreview: function (obj) {
     return `<iframe src=${obj.id} width="100%" height="auto"/>`;
   },
-});
+}*/
+);
