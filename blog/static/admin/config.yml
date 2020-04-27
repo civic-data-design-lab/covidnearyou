@@ -64,10 +64,16 @@ collections:
     label: "Jupyter Files"
     folder: "/blog/content/posts/src/jupyter"
     create: true
+    identifier_field: "name"
     delete: true
     media_folder: ""
     public_folder: ""
-    widget: "list"
     editor:
       preview: false
-    field: {label: "Files", name: "file", widget: "file"}
+    fields: 
+      - label: "Files"
+        name: "files"
+        public_folder: ""
+        media_folder: ""
+        widget: "list"
+        field: { label:"file", name:"file", widget:"file"}
