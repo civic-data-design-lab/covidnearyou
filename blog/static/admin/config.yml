@@ -60,3 +60,14 @@ collections:
       - { label: "Featured", name: "featured", widget: "boolean", default: false }
       - { label: "Avatar", name: "avatar", widget: "image" }
       - { label: "Social", name: "social", widget: "list", collapsed: false, field: { label: "URL", name: "url", widget: "string" } }
+  - name: "jupyter_files"
+    label: "Jupyter Files"
+    folder: "/blog/content/posts/src/jupyter"
+    create: true
+    delete: true
+    media_folder: ""
+    public_folder: ""
+    widget: "list"
+    editor:
+    | preview: false
+    field: {label: "Files", name: "file", widget: "file"}

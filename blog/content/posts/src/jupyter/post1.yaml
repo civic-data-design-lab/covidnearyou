@@ -1,0 +1,266 @@
+md/slide_0.md: '```python
+
+  import pandas as pd
+
+  import numpy as np
+
+  import matplotlib.pyplot as plt
+
+  import os
+
+
+  ```
+
+  '
+md/slide_1.md: '
+
+  ```python
+
+  import itertools
+
+  ```
+
+
+  ### Set Environment Variables and Load Data
+
+
+
+  ```python
+
+  DATA_BASE = "./data"
+
+  ZIPCODE_COUNTY = "ZIP_COUNTY_032020.xlsx"
+
+  FNY_DATA = "FNY_RESEARCH_2020-04-06.csv"
+
+  ```
+
+
+
+  ```python
+
+  zipcode_df = pd.read_excel(os.path.join(DATA_BASE, ZIPCODE_COUNTY))
+
+  fny_df = pd.read_csv(os.path.join(DATA_BASE, FNY_DATA))
+
+
+  ```
+
+  '
+md/slide_2.md: "\n### 1. Process Zip Code Data\n\n** Ignore this. This is some processing\
+  \ to match zip codes to counties.\n\n\n```python\n# Get the index of the county\
+  \ with the highest TOT_RATION\nidx = zipcode_df.groupby(['ZIP']).TOT_RATIO.transform(max)\
+  \ == zipcode_df['TOT_RATIO']\nzip_code_processed = zipcode_df[idx]\nzip_code_processed['length']\
+  \ = zip_code_processed.ZIP.apply(lambda x: len(str(x)))\nzip_code_processed \n```\n\
+  \n    <ipython-input-16-51a301c4bd5a>:4: SettingWithCopyWarning: \n    A value is\
+  \ trying to be set on a copy of a slice from a DataFrame.\n    Try using .loc[row_indexer,col_indexer]\
+  \ = value instead\n    \n    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n\
+  \      zip_code_processed['length'] = zip_code_processed.ZIP.apply(lambda x: len(str(x)))\n\
+  \n\n\n\n\n<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n   \
+  \     vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align:\
+  \ top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n\
+  </style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"\
+  text-align: right;\">\n      <th></th>\n      <th>ZIP</th>\n      <th>COUNTY</th>\n\
+  \      <th>RES_RATIO</th>\n      <th>BUS_RATIO</th>\n      <th>OTH_RATIO</th>\n\
+  \      <th>TOT_RATIO</th>\n      <th>length</th>\n    </tr>\n  </thead>\n  <tbody>\n\
+  \    <tr>\n      <th>0</th>\n      <td>501</td>\n      <td>36103</td>\n      <td>0.000000</td>\n\
+  \      <td>1.00000</td>\n      <td>0.000000</td>\n      <td>1.000000</td>\n    \
+  \  <td>3</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>601</td>\n     \
+  \ <td>72001</td>\n      <td>0.839276</td>\n      <td>0.79902</td>\n      <td>0.871166</td>\n\
+  \      <td>0.837500</td>\n      <td>3</td>\n    </tr>\n    <tr>\n      <th>3</th>\n\
+  \      <td>602</td>\n      <td>72003</td>\n      <td>1.000000</td>\n      <td>0.99880</td>\n\
+  \      <td>1.000000</td>\n      <td>0.999919</td>\n      <td>3</td>\n    </tr>\n\
+  \    <tr>\n      <th>5</th>\n      <td>603</td>\n      <td>72005</td>\n      <td>0.997152</td>\n\
+  \      <td>0.99816</td>\n      <td>1.000000</td>\n      <td>0.997290</td>\n    \
+  \  <td>3</td>\n    </tr>\n    <tr>\n      <th>8</th>\n      <td>604</td>\n     \
+  \ <td>72005</td>\n      <td>1.000000</td>\n      <td>1.00000</td>\n      <td>1.000000</td>\n\
+  \      <td>1.000000</td>\n      <td>3</td>\n    </tr>\n    <tr>\n      <th>...</th>\n\
+  \      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n\
+  \      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n    </tr>\n    <tr>\n\
+  \      <th>54176</th>\n      <td>99925</td>\n      <td>2198</td>\n      <td>0.000000</td>\n\
+  \      <td>0.00000</td>\n      <td>1.000000</td>\n      <td>1.000000</td>\n    \
+  \  <td>5</td>\n    </tr>\n    <tr>\n      <th>54177</th>\n      <td>99926</td>\n\
+  \      <td>2198</td>\n      <td>0.000000</td>\n      <td>0.00000</td>\n      <td>1.000000</td>\n\
+  \      <td>1.000000</td>\n      <td>5</td>\n    </tr>\n    <tr>\n      <th>54178</th>\n\
+  \      <td>99927</td>\n      <td>2198</td>\n      <td>0.000000</td>\n      <td>0.00000</td>\n\
+  \      <td>1.000000</td>\n      <td>1.000000</td>\n      <td>5</td>\n    </tr>\n\
+  \    <tr>\n      <th>54179</th>\n      <td>99928</td>\n      <td>2130</td>\n   \
+  \   <td>0.000000</td>\n      <td>0.00000</td>\n      <td>1.000000</td>\n      <td>1.000000</td>\n\
+  \      <td>5</td>\n    </tr>\n    <tr>\n      <th>54180</th>\n      <td>99929</td>\n\
+  \      <td>2275</td>\n      <td>0.000000</td>\n      <td>0.00000</td>\n      <td>1.000000</td>\n\
+  \      <td>1.000000</td>\n      <td>5</td>\n    </tr>\n  </tbody>\n</table>\n<p>39467\
+  \ rows \xD7 7 columns</p>\n</div>\n\n\n\n\n```python\nzip_code_processed \n```\n\
+  \n\n\n\n<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n     \
+  \   vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align:\
+  \ top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n\
+  </style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"\
+  text-align: right;\">\n      <th></th>\n      <th>ZIP</th>\n      <th>COUNTY</th>\n\
+  \      <th>RES_RATIO</th>\n      <th>BUS_RATIO</th>\n      <th>OTH_RATIO</th>\n\
+  \      <th>TOT_RATIO</th>\n      <th>length</th>\n    </tr>\n  </thead>\n  <tbody>\n\
+  \    <tr>\n      <th>0</th>\n      <td>501</td>\n      <td>36103</td>\n      <td>0.000000</td>\n\
+  \      <td>1.00000</td>\n      <td>0.000000</td>\n      <td>1.000000</td>\n    \
+  \  <td>3</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>601</td>\n     \
+  \ <td>72001</td>\n      <td>0.839276</td>\n      <td>0.79902</td>\n      <td>0.871166</td>\n\
+  \      <td>0.837500</td>\n      <td>3</td>\n    </tr>\n    <tr>\n      <th>3</th>\n\
+  \      <td>602</td>\n      <td>72003</td>\n      <td>1.000000</td>\n      <td>0.99880</td>\n\
+  \      <td>1.000000</td>\n      <td>0.999919</td>\n      <td>3</td>\n    </tr>\n\
+  \    <tr>\n      <th>5</th>\n      <td>603</td>\n      <td>72005</td>\n      <td>0.997152</td>\n\
+  \      <td>0.99816</td>\n      <td>1.000000</td>\n      <td>0.997290</td>\n    \
+  \  <td>3</td>\n    </tr>\n    <tr>\n      <th>8</th>\n      <td>604</td>\n     \
+  \ <td>72005</td>\n      <td>1.000000</td>\n      <td>1.00000</td>\n      <td>1.000000</td>\n\
+  \      <td>1.000000</td>\n      <td>3</td>\n    </tr>\n    <tr>\n      <th>...</th>\n\
+  \      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n\
+  \      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n    </tr>\n    <tr>\n\
+  \      <th>54176</th>\n      <td>99925</td>\n      <td>2198</td>\n      <td>0.000000</td>\n\
+  \      <td>0.00000</td>\n      <td>1.000000</td>\n      <td>1.000000</td>\n    \
+  \  <td>5</td>\n    </tr>\n    <tr>\n      <th>54177</th>\n      <td>99926</td>\n\
+  \      <td>2198</td>\n      <td>0.000000</td>\n      <td>0.00000</td>\n      <td>1.000000</td>\n\
+  \      <td>1.000000</td>\n      <td>5</td>\n    </tr>\n    <tr>\n      <th>54178</th>\n\
+  \      <td>99927</td>\n      <td>2198</td>\n      <td>0.000000</td>\n      <td>0.00000</td>\n\
+  \      <td>1.000000</td>\n      <td>1.000000</td>\n      <td>5</td>\n    </tr>\n\
+  \    <tr>\n      <th>54179</th>\n      <td>99928</td>\n      <td>2130</td>\n   \
+  \   <td>0.000000</td>\n      <td>0.00000</td>\n      <td>1.000000</td>\n      <td>1.000000</td>\n\
+  \      <td>5</td>\n    </tr>\n    <tr>\n      <th>54180</th>\n      <td>99929</td>\n\
+  \      <td>2275</td>\n      <td>0.000000</td>\n      <td>0.00000</td>\n      <td>1.000000</td>\n\
+  \      <td>1.000000</td>\n      <td>5</td>\n    </tr>\n  </tbody>\n</table>\n<p>39467\
+  \ rows \xD7 7 columns</p>\n</div>\n\n"
+md/slide_3.md: "\n\n### 2. Process FNY Data\n\n\n```python\n#fny_df\n\n```\n\n\n```python\n\
+  codebook = {}\n```\n\n\n```python\ndef fill_columns(data):\n    codebook['no_symptoms']\
+  \ = \"0: False, 1: True\"\n    data['no_symptoms'] = data['no_symptoms'].fillna(0)\n\
+  \    \n    for column in ['fever', 'running_nose',\n       'diarrhea', 'chills',\
+  \ 'nausea', 'cough', 'sorethroat', 'bodyache',\n       'headache', 'fatigue', 'breath']:\n\
+  \        codebook[column] = \"0: False, 1: True\"\n    codebook['fever_f'] = \"\
+  0: Not Applicable, X: Temperature in Fahrenheit\"\n    \n    \n    data[['fever',\
+  \ 'fever_f', 'running_nose',\n       'diarrhea', 'chills', 'nausea', 'cough', 'sorethroat',\
+  \ 'bodyache',\n       'headache', 'fatigue', 'breath']] = data[['fever', 'fever_f',\
+  \ 'running_nose',\n       'diarrhea', 'chills', 'nausea', 'cough', 'sorethroat',\
+  \ 'bodyache',\n       'headache', 'fatigue', 'breath']].fillna(0)\n    \n    \n\
+  \    data.drop([' flu_vaccine'], axis=1)\n    \n    for column in [' diagnosis_influenza',\
+  \ ' diagnosis_novel_coronavirus_2019',\n       ' diagnosis_pneumonia', ' diagnosis_bronchitis',\n\
+  \       ' diagnosis_strep_throat', ' diagnosis_upper_respiratory_infection',\n \
+  \      ' diagnosis_lower_respiratory_infection', ' diagnosis_common_cold']:\n  \
+  \      codebook[column] = \"0: False, 1: True, 2: Not Applicable\"\n    data[['\
+  \ diagnosis_influenza', ' diagnosis_novel_coronavirus_2019',\n       ' diagnosis_pneumonia',\
+  \ ' diagnosis_bronchitis',\n       ' diagnosis_strep_throat', ' diagnosis_upper_respiratory_infection',\n\
+  \       ' diagnosis_lower_respiratory_infection', ' diagnosis_common_cold']] = \
+  \ data[[' diagnosis_influenza', ' diagnosis_novel_coronavirus_2019',\n       ' diagnosis_pneumonia',\
+  \ ' diagnosis_bronchitis',\n       ' diagnosis_strep_throat', ' diagnosis_upper_respiratory_infection',\n\
+  \       ' diagnosis_lower_respiratory_infection', ' diagnosis_common_cold']].fillna(2)\n\
+  \    \n    for column in [' diagnosis_other', ' test_other', ' travel_location']:\n\
+  \        codebook[column] = \"NA: No Response; X: User-given reponse\"\n    data[['\
+  \ diagnosis_other', ' test_other', ' travel_location']] = data[[' diagnosis_other',\
+  \ ' test_other', ' travel_location']].fillna('NA')\n    \n    \n    for column in\
+  \ [' diagnosis_dont_remember',\n       ' test_nose_throat_swab', ' test_positive_flu',\
+  \ ' test_negative_flu',\n       ' test_positive_novel_coronavirus_2019',\n     \
+  \  ' test_negative_novel_coronavirus_2019', ' test_other',\n       ' test_dont_remember',\
+  \ ' days_absent', ' travel']:\n        codebook[column] = \"0: False, 1: True, 2:\
+  \ Not Applicable\"\n        \n        data[[' diagnosis_dont_remember',\n      \
+  \ ' test_nose_throat_swab', ' test_positive_flu', ' test_negative_flu',\n      \
+  \ ' test_positive_novel_coronavirus_2019',\n       ' test_negative_novel_coronavirus_2019',\
+  \ ' test_other',\n       ' test_dont_remember', ' days_absent', ' travel']] = data[['\
+  \ diagnosis_dont_remember',\n       ' test_nose_throat_swab', ' test_positive_flu',\
+  \ ' test_negative_flu',\n       ' test_positive_novel_coronavirus_2019',\n     \
+  \  ' test_negative_novel_coronavirus_2019', ' test_other',\n       ' test_dont_remember',\
+  \ ' days_absent', ' travel']].fillna(2)\n\n```\n"
+md/slide_4.md: "\n\n```python\n# For any zipcode that is less than 5 append a zero\
+  \ in front\nfny_df = fny_df.dropna(subset=['zip'])\nfny_df['length'] = fny_df.zip.apply(lambda\
+  \ x: len(str(x)))\n```\n\n\n```python\ndef padWithZero(zipcode, num_zeros):\n  \
+  \  return ''.join([''.join(itertools.repeat('0', num_zeros)), zipcode])\n```\n\n"
+md/slide_5.md: '
+
+  ```python
+
+  fny_df[''zip''] = fny_df.apply(lambda x: padWithZero(x.zip, 5 - x.length), axis=1)
+
+  ```
+
+
+
+  ```python
+
+  fill_columns(fny_df)
+
+  ```
+
+  '
+md/slide_6.md: '
+
+  ## Playground
+
+
+
+  ```python
+
+  fny_df_with_symptoms = fny_df[fny_df[''no_symptoms''] == 0]
+
+  fny_df_with_symptoms
+
+  counts_by_symptoms = fny_df[''no_symptoms''].value_counts().tolist()
+
+  ```
+
+
+
+  ```python
+
+  fig, ax = plt.subplots()
+
+  labels = [''No Reported Symptoms'', ''Reported Symptoms'']
+
+  width = 0.25
+
+  ax.bar(labels, counts_by_symptoms, label=''User Report'')
+
+
+  ax.set_ylabel(''Number of Participants'')
+
+  ax.set_title(''Participant Total by Reporting Status'')
+
+  ax.legend()
+
+
+  plt.show()
+
+  print("Only {:.2f}% of Participants reported having COVID19 Symptoms.".format(100*counts_by_symptoms[1]/sum(counts_by_symptoms)))
+
+  ```
+
+  '
+md/slide_7.md: "\n\n![png](output_19_0.png)\n\n\n    Only 1.87% of Participants reported\
+  \ having COVID19 Symptoms.\n\n"
+md/slide_8.md: "\n\n```python\nfny_df.groupby(['zip']).no_symptoms.sum().to_csv(os.path.join(DATA_BASE,\
+  \ 'covid_symptoms_count_per_zip.csv'))\n```\n\n\n```python\ntotal_participants_with_symptoms\
+  \ = len(fny_df_with_symptoms)\ntotal_participants_with_symptoms\n```\n\n\n\n\n \
+  \   197\n\n\n\n\n```python\nfny_df_with_symptoms.groupby(['zip'])[['fever', 'running_nose',\n\
+  \       'diarrhea', 'chills', 'nausea', 'cough', 'sorethroat', 'bodyache',\n   \
+  \    'headache', 'fatigue', 'breath']].sum().sum().sort_values(ascending=False).apply(lambda\
+  \ x: \"{:.2f}%\".format(100*x/total_participants_with_symptoms))\n\n## Symptoms\
+  \ co-occurrance behavior\n```\n\n\n\n\n    fatigue         47.21%\n    headache\
+  \        44.16%\n    running_nose    30.96%\n    cough           28.43%\n    bodyache\
+  \        25.38%\n    sorethroat      23.86%\n    diarrhea        20.30%\n    fever\
+  \           20.30%\n    nausea          19.29%\n    chills          17.26%\n   \
+  \ breath          10.66%\n    dtype: object\n\n\n\n\n"
+md/slide_9.md: '
+
+
+  ```python
+
+
+  ```
+
+
+
+  ```python
+
+
+  ```
+
+
+
+  ```python
+
+
+  ```
+
+  '
+name: post_1
