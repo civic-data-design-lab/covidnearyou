@@ -69,5 +69,5 @@ collections:
     public_folder: ""
     widget: "list"
     editor:
-    | preview: false
+      preview: false
     field: {label: "Files", name: "file", widget: "file"}
