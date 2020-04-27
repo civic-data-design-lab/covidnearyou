@@ -72,4 +72,4 @@ collections:
     editor:
       preview: false
     widget: "list"
-      field: { label:"Item", name:"item", widget:"file"}
+    field: { label:"Item", name:"item", widget:"file"}
