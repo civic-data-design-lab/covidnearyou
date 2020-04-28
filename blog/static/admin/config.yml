@@ -39,7 +39,9 @@ collections:
       - label: "Jupyter Files"
         name: "jupyterfiles"
         widget: "list"
-        field: { label: "File", name:"file", widget: "file", media_library: { config: { multiple: true }}}
+        fields:
+          - { label: "Title", name:"title", widget: "string"}
+          - { label: "File", name:"file", widget: "file", media_library: { config: { multiple: true }}}
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
     label: "Authors"
