@@ -8,10 +8,10 @@ publish_mode: editorial_workflow
 media_folder: media    # I'm not using these default media directories at the moment.
 public_folder: /media
 
-media_library: 
-  name: uploadcare
-  config:
-    publicKey: 86ff0d65192c294c0193
+#media_library: 
+#  name: uploadcare
+#  config:
+#    publicKey: 86ff0d65192c294c0193
 
 collections:
   - name: "tags"
