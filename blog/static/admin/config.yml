@@ -43,7 +43,6 @@ collections:
       - { label: "Hero", name: "hero", widget: "image" }
       - label: "Jupyter Files"
         name: "jupyterfiles"
-        identifier_field: "title"
         widget: "list"
         field: { label: "File", name: "file", widget: "file", media_library: { config: { multiple: true }}}
       - { label: "Body", name: "body", widget: "markdown" }
