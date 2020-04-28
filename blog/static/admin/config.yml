@@ -38,6 +38,7 @@ collections:
       - { label: "Hero", name: "hero", widget: "image" }
       - label: "Jupyter Files"
         name: "jupyterfiles"
+        identifier_field: "title"
         widget: "list"
         fields:
           - { label: "Title", name:"title", widget: "string"}
