@@ -8,7 +8,8 @@ excerpt: With the growing community interest in Gatsby, we hope to create more
 tags:
   - General
 hero: ./images/hero.jpg
-jupyter_files: []
+jupyter_files:
+  - images/post1.yml
 ---
 My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
 
