@@ -39,8 +39,6 @@ collections:
       - label: "Jupyter Files"
         name: "jupyter_files"
         widget: "list"
-        media_folder: "jups"
-        public_folder: "./jups"
         field: { label: "file", name:"file", widget: "file"}
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
