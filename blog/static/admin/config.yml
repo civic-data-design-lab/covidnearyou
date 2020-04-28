@@ -66,12 +66,13 @@ collections:
     create: true
     identifier_field: "name"
     delete: true
-    format: "yml"
     media_folder: ""
     public_folder: ""
     editor:
       preview: false
-    widget: "list"
     fields:
       - {label: "Name", name: "name", widget: "string"}
-      - { label:"Item", name:"item", widget:"file"}
+      - label: "Items"
+        name: "items"
+        widget: "list"
+        field: { label: "file", name:"file", widget: "file"}
