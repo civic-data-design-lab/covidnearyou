@@ -67,12 +67,12 @@ collections:
     path: "{{name}}/directory"
     create: true
     format: "yml"
-    identifier_field: "name"
+    identifier_field: "title"
     delete: true
     media_folder: "files"
     public_folder: "./files"
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: "Author", name: "name", widget: "relation", collection: "authors", valueField: "name", searchFields: ["name"] }
       - label: "Items"
