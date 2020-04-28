@@ -37,9 +37,9 @@ collections:
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", valueField: "name", searchFields: ["name"], multiple: true}
       - { label: "Hero", name: "hero", widget: "image" }
       - label: "Jupyter Files"
-        name: "jupyter_files"
+        name: "jupyterfiles"
         widget: "list"
-        field: { label: "file", name:"file", widget: "file"}
+        field: { label: "File", name:"file", widget: "file", media_library: { config: { multiple: true }}}
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
     label: "Authors"
