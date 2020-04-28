@@ -4,9 +4,14 @@ backend: # Set up your backend
 
   #local_backend: true # Optional if you want to use the local proxy mode
 
-  #publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 media_folder: media    # I'm not using these default media directories at the moment.
 public_folder: /media
+
+media_library: 
+  name: uploadcare
+  config:
+    publicKey: 86ff0d65192c294c0193
 
 collections:
   - name: "tags"
@@ -76,7 +81,4 @@ collections:
     fields:
       - { label: "Author", name: "name", widget: "relation", collection: "authors", valueField: "name", searchFields: ["name"] }
       - { label: "Title", name: "title", widget: "string"}
-      - label: "Items"
-        name: "items"
-        widget: "list"
-        field: { label: "file", name:"file", widget: "file"}
+      - { label: "Items", name: "items", widget: "file", media_library: { config: { multiple: true , previewStep: false }} }
