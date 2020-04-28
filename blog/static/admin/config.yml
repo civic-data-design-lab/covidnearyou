@@ -75,9 +75,8 @@ collections:
       preview: true
     fields:
       - { label: "Author", name: "name", widget: "relation", collection: "authors", valueField: "name", searchFields: ["name"] }
+      - { label: "Title", name: "title", widget: "string"}
       - label: "Items"
         name: "items"
         widget: "list"
-        fields:
-          - { label: "Name", name:"title", widget: "string"}
-          - { label: "file", name:"file", widget: "file"}
+        field: { label: "file", name:"file", widget: "file"}
