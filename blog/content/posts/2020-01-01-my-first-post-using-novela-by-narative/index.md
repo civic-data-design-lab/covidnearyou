@@ -1,15 +1,16 @@
 ---
-title: My first post using Novela by Narative
-author: Dennis Brotzky
-date: 2019-04-30T00:00:00.000Z
 excerpt: With the growing community interest in Gatsby, we hope to create more
   resources that make it easier for anyone to grasp the power of this incredible
   tool.
+jupyter_files:
+  - images/post1.yml
+title: My first post using Novela by Narative
+author: Dennis Brotzky
+date: 2019-04-30T00:00:00.000Z
 tags:
   - General
 hero: ./images/hero.jpg
-jupyter_files:
-  - images/post1.yml
+jupyterfiles: []
 ---
 My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
 
