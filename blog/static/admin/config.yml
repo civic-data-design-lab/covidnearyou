@@ -36,13 +36,12 @@ collections:
       - { label: "Excerpt", name: "excerpt", widget: "string", required: false }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", valueField: "name", searchFields: ["name"], multiple: true}
       - { label: "Hero", name: "hero", widget: "image" }
-      - label: "Jupyter"
-        name: "jupyter"
-        widget: "relation"
-        collection: "jupyter_files"
-        valueField: "items"
-        searchFields: ["items"]
-        multiple: true
+      - label: "Jupyter Files"
+        name: "jupyter_files"
+        widget: "list"
+        media_folder: "jups"
+        public_folder: "./jups"
+        field: { label: "file", name:"file", widget: "file"}
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
     label: "Authors"
