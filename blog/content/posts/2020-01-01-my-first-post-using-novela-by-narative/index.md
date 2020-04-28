@@ -13,6 +13,8 @@ tags:
 hero: ./images/hero.jpg
 jupyterfiles:
   - - https://ucarecdn.com/11b466aa-6d81-46e7-b25f-833dd4ed754d/
+  - images/post4.yml
+  - images/post5.yml
 ---
 My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
 
