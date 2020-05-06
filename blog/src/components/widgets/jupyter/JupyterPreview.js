@@ -4,12 +4,13 @@ import yaml from "js-yaml";
 import containerStyles from "./styles.css";
 import { css } from "@emotion/core";
 import { Accordion, Container, Icon } from "semantic-ui-react";
+import styled from "@emotion/styled";
 
 export default function JupyterPreviewWrapper(props) {
   const [snippet, setSnippetState] = useState("");
 
   useEffect(() => {
-    fetch(`/data/jupter-snippet/${props.path}`)
+    fetch(`/data/jupyter-snippet/${props.path}`)
       .then((response) => response.text())
       .then((data) => {
         const snippets = yaml.load(data);
@@ -30,7 +31,7 @@ function JuptyerPreview({ selectedSnippet, snippet, label }) {
   };
 
   return (
-    <Container className={"jupyter"}>
+    <Body className={"jupyter"}>
       <Accordion fluid styled>
         <Accordion.Title
           active={accordionState.activeIndex === 0}
@@ -40,7 +41,7 @@ function JuptyerPreview({ selectedSnippet, snippet, label }) {
           <Icon name="dropdown" />
           {label}
         </Accordion.Title>
-        <Accordion.Content active={accordionState.active === 0}>
+        <Accordion.Content active={accordionState.activeIndex === 0}>
           <div
             className={containerStyles}
             dangerouslySetInnerHTML={{
@@ -49,12 +50,14 @@ function JuptyerPreview({ selectedSnippet, snippet, label }) {
           ></div>
         </Accordion.Content>
       </Accordion>
-    </Container>
+    </Body>
   );
 }
 
+const Body = styled.div``;
 JuptyerPreview.propTypes = {
   path: PropTypes.string,
   snippet: PropTypes.string,
   lable: PropTypes.string,
 };
+

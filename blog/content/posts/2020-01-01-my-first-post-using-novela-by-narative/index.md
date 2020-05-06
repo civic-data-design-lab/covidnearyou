@@ -30,7 +30,8 @@ It is recommended to NOT use H1s as it is reserved for the article heading. Any 
 
 ## Jupyter Snippets
 
-<jupyter path="test.yml" snippet="snippet01" label="Snippet 1: Setting up Headers" />
+<jupyter path="test.yml" snippet="snippet0" label="Snippet 1: Setting up Headers" />
+<jupyter path="test.yml" snippet="snippet1" label="Snippet 2: Reading Files" />
 
 ## Emphasis
 
