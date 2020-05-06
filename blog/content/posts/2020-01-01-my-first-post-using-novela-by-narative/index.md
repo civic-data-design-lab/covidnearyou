@@ -26,7 +26,7 @@ It is recommended to NOT use H1s as it is reserved for the article heading. Any 
 
 ## Iframe
 
-<iframe id="https://www.youtube.com/embed/JtBmUxz4GsM" title="Tiny Desk" allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture" src="path" />
+<iframe id="https://www.youtube.com/embed/JtBmUxz4GsM" title="TinyDesk" allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture" src="/img/hero.jpg" />
 
 ## Jupyter Snippets
 
