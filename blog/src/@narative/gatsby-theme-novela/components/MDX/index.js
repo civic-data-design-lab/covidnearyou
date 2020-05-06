@@ -15,7 +15,7 @@ import Headings from "@narative/gatsby-theme-novela/src/components/Headings";
 import HorizontalRule from "@narative/gatsby-theme-novela/src/components/HorizontalRule";
 import Lists from "@narative/gatsby-theme-novela/src/components/Lists";
 import Paragraph from "@narative/gatsby-theme-novela/src/components/Paragraph";
-import Tables from "@narative/gatsby-theme-novela/src/components/Tables";
+import Table from "@narative/gatsby-theme-novela/src/components/Tables";
 import { ImageZoom } from "@narative/gatsby-theme-novela/src/components/Image";
 import Figcaption from "@narative/gatsby-theme-novela/src/components/Figcaption";
 
@@ -58,7 +58,7 @@ export default function MDX(cos) {
     <MDXProvider components={shortcodes}>
       <MDXBody>
         <MDXRenderer isDark={true} {...cos.props}>
-          | {cos.content}
+          {cos.content}
         </MDXRenderer>
         {cos.children}
       </MDXBody>
@@ -76,14 +76,14 @@ const ARTICLE_WIDTH = css`
   width: 100%;
   max-width: 680px;
   ${mediaqueries.desktop`
-      max-width: 507px;
-    `}
+    max-width: 507px;
+  `}
   ${mediaqueries.tablet`
     max-width: 486px;
-    `};
+  `};
   ${mediaqueries.phablet`
-      padding: 0 20px;
-    `};
+    padding: 0 20px;
+  `};
 `;
 
 const HeadingsCSS = css`
@@ -101,8 +101,8 @@ const HeadingsCSS = css`
   h2 * {
     margin: 25px auto 18px;
     ${mediaqueries.tablet`
-        margin: 30px auto 18px;
-      `};
+      margin: 30px auto 18px;
+    `};
   }
   h3,
   h3 * {
@@ -137,8 +137,8 @@ const ImageCSS = css`
     margin: 15px auto 50px;
     border-radius: 5px;
     ${mediaqueries.tablet`
-        margin: 10px auto 45px;
-      `};
+      margin: 10px auto 45px;
+    `};
   }
   div.Image__Small {
     display: inline-block;
@@ -151,18 +151,18 @@ const ImageCSS = css`
     width: 100%;
     max-width: 680px;
     ${mediaqueries.tablet`
-        margin: 10px auto 45px;
-      `};
+      margin: 10px auto 45px;
+    `};
     ${mediaqueries.desktop`
-        max-width: 507px;
-      `}
+      max-width: 507px;
+    `}
     ${mediaqueries.tablet`
-        max-width: 486px;
-        margin: 0 auto 25px;
-      `};
+      max-width: 486px;
+      margin: 0 auto 25px;
+    `};
     ${mediaqueries.phablet`
-        padding: 0 20px;
-      `};
+      padding: 0 20px;
+    `};
   }
   .Image__Container {
     text-align: center;
@@ -176,19 +176,19 @@ const ImageCSS = css`
     width: 100%;
     max-width: ${IMAGE_WIDTHS.large};
     ${mediaqueries.desktop_medium`
-        left: -34px;
-      `};
+      left: -34px;
+    `};
     ${mediaqueries.desktop`
-        left: -26px;
-      `};
+      left: -26px;
+    `};
     ${mediaqueries.tablet`
+      border-radius: 0;
+      left: 0;
+      margin: 0 auto 25px;
+      img {
         border-radius: 0;
-        left: 0;
-        margin: 0 auto 25px;
-        img {
-          border-radius: 0;
-        }
-      `};
+      }
+    `};
   }
   div.Image__Large {
     position: relative;
@@ -200,12 +200,12 @@ const ImageCSS = css`
       border-radius: 0;
     }
     ${mediaqueries.desktop`
-        left: -53px;
-      `};
+      left: -53px;
+    `};
     ${mediaqueries.tablet`
-        left: 0;
-        margin: 0 auto 25px;
-      `};
+      left: 0;
+      margin: 0 auto 25px;
+    `};
   }
 `;
 
@@ -238,9 +238,9 @@ const PrismCSS = (p) => css`
       opacity: 0.3;
       color: #dcd9e6;
       ${mediaqueries.tablet`
-          opacity: 0;
-          width: 0;
-        `};
+        opacity: 0;
+        width: 0;
+      `};
     }
     .token-line.highlight-line {
       margin: 0 -32px;
@@ -248,9 +248,9 @@ const PrismCSS = (p) => css`
       background: ${p.theme.colors.prism.highlight};
       border-left: 3px solid ${p.theme.colors.prism.highlightBorder};
       ${mediaqueries.tablet`
-          margin: 0 -20px;
-          padding: 0 20px;
-        `};
+        margin: 0 -20px;
+        padding: 0 20px;
+      `};
     }
     .operator + .maybe-class-name {
       color: #ffcf74 !important;
@@ -259,26 +259,26 @@ const PrismCSS = (p) => css`
       color: #5fa8aa !important;
     }
     ${mediaqueries.desktop`
-        left: -26px;
-      `};
+      left: -26px;
+    `};
     ${mediaqueries.tablet`
-        max-width: 526px;
-        padding: 20px 20px;
-        left: 0;
-      `};
+      max-width: 526px;
+      padding: 20px 20px;
+      left: 0;
+    `};
     ${mediaqueries.phablet`
-        text-size-adjust: none;
-        border-radius: 0;
-        margin: 0 auto 25px;
-        padding: 25px 20px;
-        overflow: initial;
-        width: unset;
-        max-width: unset;
-        float: left;
-        min-width: 100%;
-        overflow: initial;
-        position: relative;
-      `};
+      text-size-adjust: none;
+      border-radius: 0;
+      margin: 0 auto 25px;
+      padding: 25px 20px;
+      overflow: initial;
+      width: unset;
+      max-width: unset;
+      float: left;
+      min-width: 100%;
+      overflow: initial;
+      position: relative;
+    `};
   }
 `;
 
@@ -289,14 +289,14 @@ const JupyterCSS = css`
   }
 `;
 const MDXBody = styled.div`
-   position: relative;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-     ${HeadingsCSS}
-     ${ImageCSS}
-     ${PrismCSS}
-     ${IframeCSS}
-     ${JupyterCSS}
-    `;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+   ${HeadingsCSS}
+   ${ImageCSS}
+   ${PrismCSS}
+   ${IframeCSS}
+   ${JupyterCSS}
+  `;
