@@ -43,11 +43,11 @@ collections:
       - { label: "Hero", name: "hero", widget: "image" }
       - label: "Jupyter Files"
         name: "jupyterfiles"
-        widget: "list"
+        widget: "list
         field: { label: "File", name: "file", widget: "file", media_library: { config: { multiple: true }}}
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "jupyter"
-    label: "jupyter"
+    label: "Jupyter Snippets"
     folder: "/blog/content/usr_meta/usr_meta"
     create: true
     delete: true
@@ -61,7 +61,7 @@ collections:
       preview: false
     fields:
       - { label: 'Name', name: 'name', widget: 'relation', collection: 'authors', valueField: 'name', searchFields: ["name"]}
-      - { label: "Files", name: "files", widget: 'list', field: {label: 'Jupter File', name: 'jupyter_file', widget: 'file', media_library: { config: { multiple: true }}}}
+      - { label: "Files", name: "files", widget: 'list', field: {label: 'Jupyter File', name: 'jupyter_file', widget: 'file', media_library: { config: { multiple: true }}}}
   - name: "authors"
     label: "Authors"
     folder: "/blog/content/authors/authors"
