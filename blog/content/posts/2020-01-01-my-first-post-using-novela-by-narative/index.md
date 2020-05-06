@@ -24,6 +24,14 @@ It is recommended to NOT use H1s as it is reserved for the article heading. Any 
 
 ###### H6
 
+## Iframe
+
+<iframe id="https://www.youtube.com/embed/JtBmUxz4GsM" title="Tiny Desk" allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture" src="path" />
+
+## Jupyter Snippets
+
+<jupyter path="test.yml" snippet="snippet01" label="Snippet 1: Setting up Headers" />
+
 ## Emphasis
 
 Emphasis, aka italics, with *asterisks* or *underscores*.
