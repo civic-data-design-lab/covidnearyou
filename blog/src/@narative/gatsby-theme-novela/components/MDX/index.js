@@ -15,7 +15,7 @@ import Headings from "@narative/gatsby-theme-novela/src/components/Headings";
 import HorizontalRule from "@narative/gatsby-theme-novela/src/components/HorizontalRule";
 import Lists from "@narative/gatsby-theme-novela/src/components/Lists";
 import Paragraph from "@narative/gatsby-theme-novela/src/components/Paragraph";
-import Table from "@narative/gatsby-theme-novela/src/components/Tables";
+import Tables from "@narative/gatsby-theme-novela/src/components/Tables";
 import { ImageZoom } from "@narative/gatsby-theme-novela/src/components/Image";
 import Figcaption from "@narative/gatsby-theme-novela/src/components/Figcaption";
 
