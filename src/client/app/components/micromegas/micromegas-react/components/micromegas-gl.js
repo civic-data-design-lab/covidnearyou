@@ -6,6 +6,20 @@ import DeckGL from "@deck.gl/react";
 import { createSelector } from "reselect";
 import WebMercatorViewport from "@math.gl/web-mercator";
 import { connect } from "react-redux";
+import { Tab } from "semantic-ui-react";
+import { Client as Styletron } from "styletron-engine-atomic";
+import { Provider as StyletronProvider } from "styletron-react";
+import { LightTheme, BaseProvider, styled } from "baseui";
+import { StatefulInput } from "baseui/input";
+
+const engine = new Styletron();
+
+const Centered = styled("div", {
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  height: "100%",
+});
 
 import {
   generateMapboxLayers,
@@ -18,6 +32,7 @@ import * as MapStateActions from "../actions/map-state-actions";
 import * as MapStyleActions from "../actions/map-style-actions";
 
 import MapContainer from "./map-container";
+import D3MapContainer from "./d3MapContainer";
 
 import {
   DIMENSIONS,
@@ -136,7 +151,7 @@ class MicromegasGl extends Component {
       //filters,
       //interactionConfig,
       //hoverInfo,
-      //clicked,
+      //d
       //mousePos,
       //readOnly: uiState.readOnly,
       onViewStateChange,
@@ -157,13 +172,35 @@ class MicromegasGl extends Component {
       height,
       width,
     };
+
+    const panes = [
+      {
+        menuItem: "COVID Dashboard",
+        render: () => (
+          <Tab.Pane>
+            <MapContainer
+              key={0}
+              index={0}
+              mapLayers={null}
+              {...mapFields}
+            ></MapContainer>
+          </Tab.Pane>
+        ),
+      },
+      {
+        menuItem: "Data",
+        render: () => <div> Data </div>,
+      },
+    ];
+
     return (
-      <MapContainer
-        key={0}
-        index={0}
-        mapLayers={null}
-        {...mapFields}
-      ></MapContainer>
+      <StyletronProvider value={engine}>
+        <BaseProvider theme={LightTheme}>
+          <Centered>
+            <Tab menu={{ tabular: "right" }} panes={panes} />
+          </Centered>
+        </BaseProvider>
+      </StyletronProvider>
     );
   }
 }

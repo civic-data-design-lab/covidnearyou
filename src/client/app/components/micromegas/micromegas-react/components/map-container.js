@@ -17,9 +17,11 @@ const MAP_STYLE = {
   container: {
     display: "inline-block",
     position: "relative",
+    width: "100%",
+    height: "200px",
   },
   top: {
-    position: "absolute",
+    //position: "absolute",
     top: "0px",
     pointerEvents: "none",
   },
@@ -209,18 +211,18 @@ class MapContainer extends Component {
       onViewportChange: this._onViewportChange,
       mapboxApiUrl,
       height,
-      width,
+      width: "80vw",
     };
 
     //console.log(`url ${mapboxApiUrl}`);
     return (
       <MapComponent
         {...mapProps}
-        key="bottom"
+        key="map"
         ref={this._setMapboxMap}
-        mapStyle={mapStyle.mapStyles.dark.url}
+        mapStyle={"mapbox://styles/mapbox/light-v10"}
       >
-        // {this._renderDeckOverlay(layersToRender)}
+        {/*this._renderDeckOverlay(layersToRender)*/}
       </MapComponent>
     );
   }

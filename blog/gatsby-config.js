@@ -32,6 +32,7 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-transformer-yaml`,
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {

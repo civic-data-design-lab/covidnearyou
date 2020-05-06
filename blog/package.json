@@ -14,11 +14,15 @@
     "gatsby": "^2.13.41",
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-plugin-netlify-cms": "^4.1.40",
+    "gatsby-source-filesystem": "^2.3.0",
+    "gatsby-transformer-yaml": "^2.4.0",
     "netlify-cms-app": "^2.11.23",
     "netlify-cms-media-library-uploadcare": "^0.5.5",
     "netlify-cms-proxy-server": "^1.1.4",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
   }
 }

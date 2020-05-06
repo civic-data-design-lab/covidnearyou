@@ -19,24 +19,21 @@ const Centered = styled("div", {
 });
 
 const StyledWrapper = styled("div", {
-  position: "absolute",
-  width: "100vw",
-  height: "100vh",
+  //position: "absolute",
+  width: "80%",
+  margin: "auto",
+  height: "auto",
 });
 
 const App = () => (
   <StyletronProvider value={engine}>
     <BaseProvider theme={LightTheme}>
       <StyledWrapper>
-        <AutoSizer>
-          {({ height, width }) => (
-            <MicromegasGl
-              width={width}
-              height={height}
-              mapboxApiAccessToken={MAPBOX_TOKEN}
-            />
-          )}
-        </AutoSizer>
+        <MicromegasGl
+          //width={width}
+          //height={height}
+          mapboxApiAccessToken={MAPBOX_TOKEN}
+        />
       </StyledWrapper>
     </BaseProvider>
   </StyletronProvider>

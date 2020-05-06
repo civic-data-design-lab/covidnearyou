@@ -25,9 +25,10 @@ export const INITIAL_MAP_STATE = {
   latitude: 37.75043,
   longitude: -122.34679,
   zoom: 9,
+  //interactive: false,
   dragRotate: false,
-  width: 800,
-  height: 800,
+  width: "100%",
+  height: "auto",
   isSplit: false,
 };
 

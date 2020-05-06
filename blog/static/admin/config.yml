@@ -46,6 +46,22 @@ collections:
         widget: "list"
         field: { label: "File", name: "file", widget: "file", media_library: { config: { multiple: true }}}
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "jupyter"
+    label: "jupyter"
+    folder: "/blog/content/usr_meta/usr_meta"
+    create: true
+    delete: true
+    slug: "{{name}}"
+    format: 'yml'
+    public_folder: '/blog/static/data/jupyter-snippet'
+    media_folder: '/blog/static/data/jupyter-snippet'
+    path: "{{slug}}"
+    identifier_field: "name"
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'relation', collection: 'authors', valueField: 'name', searchFields: ["name"]}
+      - { label: "Files", name: "files", widget:'list', collasped: false, field: {label: 'File', name: 'file', widget: 'file', media_library: { config: { multiple: true }}}}
   - name: "authors"
     label: "Authors"
     folder: "/blog/content/authors/authors"
