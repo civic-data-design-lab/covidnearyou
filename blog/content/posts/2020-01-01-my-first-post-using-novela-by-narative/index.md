@@ -1,6 +1,6 @@
 ---
 title: My first post using Novela by Narative
-author: Dennis Brotzky
+author: Innocent Ndubuisi-Obi Jr
 date: 2019-04-30T00:00:00.000Z
 tags:
   - General
