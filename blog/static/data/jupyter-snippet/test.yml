@@ -1,0 +1,426 @@
+snippet0: "\n<div class=\"cell border-box-sizing code_cell rendered\">\n <div class=\"\
+  input\">\n  <div class=\"prompt input_prompt\">\n   In\_[1]:\n  </div>\n  <div class=\"\
+  inner_cell\">\n   <div class=\"input_area\">\n    <div class=\"highlight hl-ipython3\"\
+  >\n     <pre><span></span><span class=\"kn\">import</span> <span class=\"nn\">pandas</span>\
+  \ <span class=\"k\">as</span> <span class=\"nn\">pd</span>\n<span class=\"kn\">import</span>\
+  \ <span class=\"nn\">numpy</span> <span class=\"k\">as</span> <span class=\"nn\"\
+  >np</span>\n<span class=\"kn\">import</span> <span class=\"nn\">matplotlib.pyplot</span>\
+  \ <span class=\"k\">as</span> <span class=\"nn\">plt</span>\n<span class=\"kn\"\
+  >import</span> <span class=\"nn\">os</span>\n</pre>\n    </div>\n   </div>\n  </div>\n\
+  \ </div>\n</div>\n\n<div class=\"cell border-box-sizing code_cell rendered\">\n\
+  \ <div class=\"input\">\n  <div class=\"prompt input_prompt\">\n   In\_[2]:\n  </div>\n\
+  \  <div class=\"inner_cell\">\n   <div class=\"input_area\">\n    <div class=\"\
+  highlight hl-ipython3\">\n     <pre><span></span><span class=\"kn\">import</span>\
+  \ <span class=\"nn\">itertools</span>\n</pre>\n    </div>\n   </div>\n  </div>\n\
+  \ </div>\n</div>\n"
+snippet1: "\n<div class=\"cell border-box-sizing text_cell rendered\">\n <div class=\"\
+  prompt input_prompt\">\n </div>\n <div class=\"inner_cell\">\n  <div class=\"text_cell_render\
+  \ border-box-sizing rendered_html\">\n   <h3 id=\"Set-Environment-Variables-and-Load-Data\"\
+  >\n    Set Environment Variables and Load Data\n    <a class=\"anchor-link\" href=\"\
+  #Set-Environment-Variables-and-Load-Data\">\n     \xB6\n    </a>\n   </h3>\n  </div>\n\
+  \ </div>\n</div>\n\n<div class=\"cell border-box-sizing code_cell rendered\">\n\
+  \ <div class=\"input\">\n  <div class=\"prompt input_prompt\">\n   In\_[3]:\n  </div>\n\
+  \  <div class=\"inner_cell\">\n   <div class=\"input_area\">\n    <div class=\"\
+  highlight hl-ipython3\">\n     <pre><span></span><span class=\"n\">DATA_BASE</span>\
+  \ <span class=\"o\">=</span> <span class=\"s2\">\"./data\"</span>\n<span class=\"\
+  n\">ZIPCODE_COUNTY</span> <span class=\"o\">=</span> <span class=\"s2\">\"ZIP_COUNTY_032020.xlsx\"\
+  </span>\n<span class=\"n\">FNY_DATA</span> <span class=\"o\">=</span> <span class=\"\
+  s2\">\"FNY_RESEARCH_2020-04-06.csv\"</span>\n</pre>\n    </div>\n   </div>\n  </div>\n\
+  \ </div>\n</div>\n\n<div class=\"cell border-box-sizing code_cell rendered\">\n\
+  \ <div class=\"input\">\n  <div class=\"prompt input_prompt\">\n   In\_[\_]:\n \
+  \ </div>\n  <div class=\"inner_cell\">\n   <div class=\"input_area\">\n    <div\
+  \ class=\"highlight hl-ipython3\">\n     <pre><span></span><span class=\"n\">zipcode_df</span>\
+  \ <span class=\"o\">=</span> <span class=\"n\">pd</span><span class=\"o\">.</span><span\
+  \ class=\"n\">read_excel</span><span class=\"p\">(</span><span class=\"n\">os</span><span\
+  \ class=\"o\">.</span><span class=\"n\">path</span><span class=\"o\">.</span><span\
+  \ class=\"n\">join</span><span class=\"p\">(</span><span class=\"n\">DATA_BASE</span><span\
+  \ class=\"p\">,</span> <span class=\"n\">ZIPCODE_COUNTY</span><span class=\"p\"\
+  >))</span>\n<span class=\"n\">fny_df</span> <span class=\"o\">=</span> <span class=\"\
+  n\">pd</span><span class=\"o\">.</span><span class=\"n\">read_csv</span><span class=\"\
+  p\">(</span><span class=\"n\">os</span><span class=\"o\">.</span><span class=\"\
+  n\">path</span><span class=\"o\">.</span><span class=\"n\">join</span><span class=\"\
+  p\">(</span><span class=\"n\">DATA_BASE</span><span class=\"p\">,</span> <span class=\"\
+  n\">FNY_DATA</span><span class=\"p\">))</span>\n</pre>\n    </div>\n   </div>\n\
+  \  </div>\n </div>\n</div>\n"
+snippet2: "\n<div class=\"cell border-box-sizing text_cell rendered\">\n <div class=\"\
+  prompt input_prompt\">\n </div>\n <div class=\"inner_cell\">\n  <div class=\"text_cell_render\
+  \ border-box-sizing rendered_html\">\n   <h3 id=\"1.-Process-Zip-Code-Data\">\n\
+  \    1. Process Zip Code Data\n    <a class=\"anchor-link\" href=\"#1.-Process-Zip-Code-Data\"\
+  >\n     \xB6\n    </a>\n   </h3>\n  </div>\n </div>\n</div>\n\n<div class=\"cell\
+  \ border-box-sizing text_cell rendered\">\n <div class=\"prompt input_prompt\">\n\
+  \ </div>\n <div class=\"inner_cell\">\n  <div class=\"text_cell_render border-box-sizing\
+  \ rendered_html\">\n   <p>\n    ** Ignore this. This is some processing to match\
+  \ zip codes to counties.\n   </p>\n  </div>\n </div>\n</div>\n\n<div class=\"cell\
+  \ border-box-sizing code_cell rendered\">\n <div class=\"input\">\n  <div class=\"\
+  prompt input_prompt\">\n   In\_[5]:\n  </div>\n  <div class=\"inner_cell\">\n  \
+  \ <div class=\"input_area\">\n    <div class=\"highlight hl-ipython3\">\n     <pre><span></span><span\
+  \ class=\"c1\"># Get the index of the county with the highest TOT_RATION</span>\n\
+  <span class=\"n\">idx</span> <span class=\"o\">=</span> <span class=\"n\">zipcode_df</span><span\
+  \ class=\"o\">.</span><span class=\"n\">groupby</span><span class=\"p\">([</span><span\
+  \ class=\"s1\">'ZIP'</span><span class=\"p\">])</span><span class=\"o\">.</span><span\
+  \ class=\"n\">TOT_RATIO</span><span class=\"o\">.</span><span class=\"n\">transform</span><span\
+  \ class=\"p\">(</span><span class=\"nb\">max</span><span class=\"p\">)</span> <span\
+  \ class=\"o\">==</span> <span class=\"n\">zipcode_df</span><span class=\"p\">[</span><span\
+  \ class=\"s1\">'TOT_RATIO'</span><span class=\"p\">]</span>\n<span class=\"n\">zip_code_processed</span>\
+  \ <span class=\"o\">=</span> <span class=\"n\">zipcode_df</span><span class=\"p\"\
+  >[</span><span class=\"n\">idx</span><span class=\"p\">]</span>\n<span class=\"\
+  n\">zip_code_processed</span><span class=\"p\">[</span><span class=\"s1\">'length'</span><span\
+  \ class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"n\">zip_code_processed</span><span\
+  \ class=\"o\">.</span><span class=\"n\">ZIP</span><span class=\"o\">.</span><span\
+  \ class=\"n\">apply</span><span class=\"p\">(</span><span class=\"k\">lambda</span>\
+  \ <span class=\"n\">x</span><span class=\"p\">:</span> <span class=\"nb\">len</span><span\
+  \ class=\"p\">(</span><span class=\"nb\">str</span><span class=\"p\">(</span><span\
+  \ class=\"n\">x</span><span class=\"p\">)))</span>\n<span class=\"n\">zip_code_processed</span>\
+  \ \n</pre>\n    </div>\n   </div>\n  </div>\n </div>\n <div class=\"output_wrapper\"\
+  >\n  <div class=\"output\">\n   <div class=\"output_area\">\n    <div class=\"prompt\"\
+  >\n    </div>\n    <div class=\"output_subarea output_stream output_stderr output_text\"\
+  >\n     <pre>&lt;ipython-input-5-51a301c4bd5a&gt;:4: SettingWithCopyWarning: \n\
+  A value is trying to be set on a copy of a slice from a DataFrame.\nTry using .loc[row_indexer,col_indexer]\
+  \ = value instead\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n\
+  \  zip_code_processed['length'] = zip_code_processed.ZIP.apply(lambda x: len(str(x)))\n\
+  </pre>\n    </div>\n   </div>\n   <div class=\"output_area\">\n    <div class=\"\
+  prompt output_prompt\">\n     Out[5]:\n    </div>\n    <div class=\"output_html\
+  \ rendered_html output_subarea output_execute_result\">\n     <div>\n      <style\
+  \ scoped=\"\">\n       .dataframe tbody tr th:only-of-type {\n        vertical-align:\
+  \ middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n\
+  \    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n      </style>\n\
+  \      <table border=\"1\" class=\"dataframe\">\n       <thead>\n        <tr style=\"\
+  text-align: right;\">\n         <th>\n         </th>\n         <th>\n          ZIP\n\
+  \         </th>\n         <th>\n          COUNTY\n         </th>\n         <th>\n\
+  \          RES_RATIO\n         </th>\n         <th>\n          BUS_RATIO\n     \
+  \    </th>\n         <th>\n          OTH_RATIO\n         </th>\n         <th>\n\
+  \          TOT_RATIO\n         </th>\n         <th>\n          length\n        \
+  \ </th>\n        </tr>\n       </thead>\n       <tbody>\n        <tr>\n        \
+  \ <th>\n          0\n         </th>\n         <td>\n          501\n         </td>\n\
+  \         <td>\n          36103\n         </td>\n         <td>\n          0.000000\n\
+  \         </td>\n         <td>\n          1.00000\n         </td>\n         <td>\n\
+  \          0.000000\n         </td>\n         <td>\n          1.000000\n       \
+  \  </td>\n         <td>\n          3\n         </td>\n        </tr>\n        <tr>\n\
+  \         <th>\n          2\n         </th>\n         <td>\n          601\n    \
+  \     </td>\n         <td>\n          72001\n         </td>\n         <td>\n   \
+  \       0.839276\n         </td>\n         <td>\n          0.79902\n         </td>\n\
+  \         <td>\n          0.871166\n         </td>\n         <td>\n          0.837500\n\
+  \         </td>\n         <td>\n          3\n         </td>\n        </tr>\n   \
+  \     <tr>\n         <th>\n          3\n         </th>\n         <td>\n        \
+  \  602\n         </td>\n         <td>\n          72003\n         </td>\n       \
+  \  <td>\n          1.000000\n         </td>\n         <td>\n          0.99880\n\
+  \         </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n\
+  \          0.999919\n         </td>\n         <td>\n          3\n         </td>\n\
+  \        </tr>\n        <tr>\n         <th>\n          5\n         </th>\n     \
+  \    <td>\n          603\n         </td>\n         <td>\n          72005\n     \
+  \    </td>\n         <td>\n          0.997152\n         </td>\n         <td>\n \
+  \         0.99816\n         </td>\n         <td>\n          1.000000\n         </td>\n\
+  \         <td>\n          0.997290\n         </td>\n         <td>\n          3\n\
+  \         </td>\n        </tr>\n        <tr>\n         <th>\n          8\n     \
+  \    </th>\n         <td>\n          604\n         </td>\n         <td>\n      \
+  \    72005\n         </td>\n         <td>\n          1.000000\n         </td>\n\
+  \         <td>\n          1.00000\n         </td>\n         <td>\n          1.000000\n\
+  \         </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n\
+  \          3\n         </td>\n        </tr>\n        <tr>\n         <th>\n     \
+  \     ...\n         </th>\n         <td>\n          ...\n         </td>\n      \
+  \   <td>\n          ...\n         </td>\n         <td>\n          ...\n        \
+  \ </td>\n         <td>\n          ...\n         </td>\n         <td>\n         \
+  \ ...\n         </td>\n         <td>\n          ...\n         </td>\n         <td>\n\
+  \          ...\n         </td>\n        </tr>\n        <tr>\n         <th>\n   \
+  \       54176\n         </th>\n         <td>\n          99925\n         </td>\n\
+  \         <td>\n          2198\n         </td>\n         <td>\n          0.000000\n\
+  \         </td>\n         <td>\n          0.00000\n         </td>\n         <td>\n\
+  \          1.000000\n         </td>\n         <td>\n          1.000000\n       \
+  \  </td>\n         <td>\n          5\n         </td>\n        </tr>\n        <tr>\n\
+  \         <th>\n          54177\n         </th>\n         <td>\n          99926\n\
+  \         </td>\n         <td>\n          2198\n         </td>\n         <td>\n\
+  \          0.000000\n         </td>\n         <td>\n          0.00000\n        \
+  \ </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n    \
+  \      1.000000\n         </td>\n         <td>\n          5\n         </td>\n  \
+  \      </tr>\n        <tr>\n         <th>\n          54178\n         </th>\n   \
+  \      <td>\n          99927\n         </td>\n         <td>\n          2198\n  \
+  \       </td>\n         <td>\n          0.000000\n         </td>\n         <td>\n\
+  \          0.00000\n         </td>\n         <td>\n          1.000000\n        \
+  \ </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n    \
+  \      5\n         </td>\n        </tr>\n        <tr>\n         <th>\n         \
+  \ 54179\n         </th>\n         <td>\n          99928\n         </td>\n      \
+  \   <td>\n          2130\n         </td>\n         <td>\n          0.000000\n  \
+  \       </td>\n         <td>\n          0.00000\n         </td>\n         <td>\n\
+  \          1.000000\n         </td>\n         <td>\n          1.000000\n       \
+  \  </td>\n         <td>\n          5\n         </td>\n        </tr>\n        <tr>\n\
+  \         <th>\n          54180\n         </th>\n         <td>\n          99929\n\
+  \         </td>\n         <td>\n          2275\n         </td>\n         <td>\n\
+  \          0.000000\n         </td>\n         <td>\n          0.00000\n        \
+  \ </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n    \
+  \      1.000000\n         </td>\n         <td>\n          5\n         </td>\n  \
+  \      </tr>\n       </tbody>\n      </table>\n      <p>\n       39467 rows \xD7\
+  \ 7 columns\n      </p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n\
+  </div>\n\n<div class=\"cell border-box-sizing code_cell rendered\">\n <div class=\"\
+  input\">\n  <div class=\"prompt input_prompt\">\n   In\_[6]:\n  </div>\n  <div class=\"\
+  inner_cell\">\n   <div class=\"input_area\">\n    <div class=\"highlight hl-ipython3\"\
+  >\n     <pre><span></span><span class=\"n\">zip_code_processed</span> \n</pre>\n\
+  \    </div>\n   </div>\n  </div>\n </div>\n <div class=\"output_wrapper\">\n  <div\
+  \ class=\"output\">\n   <div class=\"output_area\">\n    <div class=\"prompt output_prompt\"\
+  >\n     Out[6]:\n    </div>\n    <div class=\"output_html rendered_html output_subarea\
+  \ output_execute_result\">\n     <div>\n      <style scoped=\"\">\n       .dataframe\
+  \ tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe\
+  \ tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th\
+  \ {\n        text-align: right;\n    }\n      </style>\n      <table border=\"1\"\
+  \ class=\"dataframe\">\n       <thead>\n        <tr style=\"text-align: right;\"\
+  >\n         <th>\n         </th>\n         <th>\n          ZIP\n         </th>\n\
+  \         <th>\n          COUNTY\n         </th>\n         <th>\n          RES_RATIO\n\
+  \         </th>\n         <th>\n          BUS_RATIO\n         </th>\n         <th>\n\
+  \          OTH_RATIO\n         </th>\n         <th>\n          TOT_RATIO\n     \
+  \    </th>\n         <th>\n          length\n         </th>\n        </tr>\n   \
+  \    </thead>\n       <tbody>\n        <tr>\n         <th>\n          0\n      \
+  \   </th>\n         <td>\n          501\n         </td>\n         <td>\n       \
+  \   36103\n         </td>\n         <td>\n          0.000000\n         </td>\n \
+  \        <td>\n          1.00000\n         </td>\n         <td>\n          0.000000\n\
+  \         </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n\
+  \          3\n         </td>\n        </tr>\n        <tr>\n         <th>\n     \
+  \     2\n         </th>\n         <td>\n          601\n         </td>\n        \
+  \ <td>\n          72001\n         </td>\n         <td>\n          0.839276\n   \
+  \      </td>\n         <td>\n          0.79902\n         </td>\n         <td>\n\
+  \          0.871166\n         </td>\n         <td>\n          0.837500\n       \
+  \  </td>\n         <td>\n          3\n         </td>\n        </tr>\n        <tr>\n\
+  \         <th>\n          3\n         </th>\n         <td>\n          602\n    \
+  \     </td>\n         <td>\n          72003\n         </td>\n         <td>\n   \
+  \       1.000000\n         </td>\n         <td>\n          0.99880\n         </td>\n\
+  \         <td>\n          1.000000\n         </td>\n         <td>\n          0.999919\n\
+  \         </td>\n         <td>\n          3\n         </td>\n        </tr>\n   \
+  \     <tr>\n         <th>\n          5\n         </th>\n         <td>\n        \
+  \  603\n         </td>\n         <td>\n          72005\n         </td>\n       \
+  \  <td>\n          0.997152\n         </td>\n         <td>\n          0.99816\n\
+  \         </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n\
+  \          0.997290\n         </td>\n         <td>\n          3\n         </td>\n\
+  \        </tr>\n        <tr>\n         <th>\n          8\n         </th>\n     \
+  \    <td>\n          604\n         </td>\n         <td>\n          72005\n     \
+  \    </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n \
+  \         1.00000\n         </td>\n         <td>\n          1.000000\n         </td>\n\
+  \         <td>\n          1.000000\n         </td>\n         <td>\n          3\n\
+  \         </td>\n        </tr>\n        <tr>\n         <th>\n          ...\n   \
+  \      </th>\n         <td>\n          ...\n         </td>\n         <td>\n    \
+  \      ...\n         </td>\n         <td>\n          ...\n         </td>\n     \
+  \    <td>\n          ...\n         </td>\n         <td>\n          ...\n       \
+  \  </td>\n         <td>\n          ...\n         </td>\n         <td>\n        \
+  \  ...\n         </td>\n        </tr>\n        <tr>\n         <th>\n          54176\n\
+  \         </th>\n         <td>\n          99925\n         </td>\n         <td>\n\
+  \          2198\n         </td>\n         <td>\n          0.000000\n         </td>\n\
+  \         <td>\n          0.00000\n         </td>\n         <td>\n          1.000000\n\
+  \         </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n\
+  \          5\n         </td>\n        </tr>\n        <tr>\n         <th>\n     \
+  \     54177\n         </th>\n         <td>\n          99926\n         </td>\n  \
+  \       <td>\n          2198\n         </td>\n         <td>\n          0.000000\n\
+  \         </td>\n         <td>\n          0.00000\n         </td>\n         <td>\n\
+  \          1.000000\n         </td>\n         <td>\n          1.000000\n       \
+  \  </td>\n         <td>\n          5\n         </td>\n        </tr>\n        <tr>\n\
+  \         <th>\n          54178\n         </th>\n         <td>\n          99927\n\
+  \         </td>\n         <td>\n          2198\n         </td>\n         <td>\n\
+  \          0.000000\n         </td>\n         <td>\n          0.00000\n        \
+  \ </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n    \
+  \      1.000000\n         </td>\n         <td>\n          5\n         </td>\n  \
+  \      </tr>\n        <tr>\n         <th>\n          54179\n         </th>\n   \
+  \      <td>\n          99928\n         </td>\n         <td>\n          2130\n  \
+  \       </td>\n         <td>\n          0.000000\n         </td>\n         <td>\n\
+  \          0.00000\n         </td>\n         <td>\n          1.000000\n        \
+  \ </td>\n         <td>\n          1.000000\n         </td>\n         <td>\n    \
+  \      5\n         </td>\n        </tr>\n        <tr>\n         <th>\n         \
+  \ 54180\n         </th>\n         <td>\n          99929\n         </td>\n      \
+  \   <td>\n          2275\n         </td>\n         <td>\n          0.000000\n  \
+  \       </td>\n         <td>\n          0.00000\n         </td>\n         <td>\n\
+  \          1.000000\n         </td>\n         <td>\n          1.000000\n       \
+  \  </td>\n         <td>\n          5\n         </td>\n        </tr>\n       </tbody>\n\
+  \      </table>\n      <p>\n       39467 rows \xD7 7 columns\n      </p>\n     </div>\n\
+  \    </div>\n   </div>\n  </div>\n </div>\n</div>\n\n<div class=\"cell border-box-sizing\
+  \ text_cell rendered\">\n <div class=\"prompt input_prompt\">\n </div>\n <div class=\"\
+  inner_cell\">\n  <div class=\"text_cell_render border-box-sizing rendered_html\"\
+  >\n   <h3 id=\"2.-Process-FNY-Data\">\n    2. Process FNY Data\n    <a class=\"\
+  anchor-link\" href=\"#2.-Process-FNY-Data\">\n     \xB6\n    </a>\n   </h3>\n  </div>\n\
+  \ </div>\n</div>\n\n<div class=\"cell border-box-sizing code_cell rendered\">\n\
+  \ <div class=\"input\">\n  <div class=\"prompt input_prompt\">\n   In\_[7]:\n  </div>\n\
+  \  <div class=\"inner_cell\">\n   <div class=\"input_area\">\n    <div class=\"\
+  highlight hl-ipython3\">\n     <pre><span></span><span class=\"c1\">#fny_df</span>\n\
+  </pre>\n    </div>\n   </div>\n  </div>\n </div>\n</div>\n"
+snippet3: "\n<div class=\"cell border-box-sizing code_cell rendered\">\n <div class=\"\
+  input\">\n  <div class=\"prompt input_prompt\">\n   In\_[8]:\n  </div>\n  <div class=\"\
+  inner_cell\">\n   <div class=\"input_area\">\n    <div class=\"highlight hl-ipython3\"\
+  >\n     <pre><span></span><span class=\"n\">codebook</span> <span class=\"o\">=</span>\
+  \ <span class=\"p\">{}</span>\n</pre>\n    </div>\n   </div>\n  </div>\n </div>\n\
+  </div>\n\n<div class=\"cell border-box-sizing code_cell rendered\">\n <div class=\"\
+  input\">\n  <div class=\"prompt input_prompt\">\n   In\_[9]:\n  </div>\n  <div class=\"\
+  inner_cell\">\n   <div class=\"input_area\">\n    <div class=\"highlight hl-ipython3\"\
+  >\n     <pre><span></span><span class=\"k\">def</span> <span class=\"nf\">fill_columns</span><span\
+  \ class=\"p\">(</span><span class=\"n\">data</span><span class=\"p\">):</span>\n\
+  \    <span class=\"n\">codebook</span><span class=\"p\">[</span><span class=\"s1\"\
+  >'no_symptoms'</span><span class=\"p\">]</span> <span class=\"o\">=</span> <span\
+  \ class=\"s2\">\"0: False, 1: True\"</span>\n    <span class=\"n\">data</span><span\
+  \ class=\"p\">[</span><span class=\"s1\">'no_symptoms'</span><span class=\"p\">]</span>\
+  \ <span class=\"o\">=</span> <span class=\"n\">data</span><span class=\"p\">[</span><span\
+  \ class=\"s1\">'no_symptoms'</span><span class=\"p\">]</span><span class=\"o\">.</span><span\
+  \ class=\"n\">fillna</span><span class=\"p\">(</span><span class=\"mi\">0</span><span\
+  \ class=\"p\">)</span>\n    \n    <span class=\"k\">for</span> <span class=\"n\"\
+  >column</span> <span class=\"ow\">in</span> <span class=\"p\">[</span><span class=\"\
+  s1\">'fever'</span><span class=\"p\">,</span> <span class=\"s1\">'running_nose'</span><span\
+  \ class=\"p\">,</span>\n       <span class=\"s1\">'diarrhea'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">'chills'</span><span class=\"p\">,</span> <span\
+  \ class=\"s1\">'nausea'</span><span class=\"p\">,</span> <span class=\"s1\">'cough'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">'sorethroat'</span><span class=\"p\">,</span>\
+  \ <span class=\"s1\">'bodyache'</span><span class=\"p\">,</span>\n       <span class=\"\
+  s1\">'headache'</span><span class=\"p\">,</span> <span class=\"s1\">'fatigue'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">'breath'</span><span class=\"p\">]:</span>\n\
+  \        <span class=\"n\">codebook</span><span class=\"p\">[</span><span class=\"\
+  n\">column</span><span class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"\
+  s2\">\"0: False, 1: True\"</span>\n    <span class=\"n\">codebook</span><span class=\"\
+  p\">[</span><span class=\"s1\">'fever_f'</span><span class=\"p\">]</span> <span\
+  \ class=\"o\">=</span> <span class=\"s2\">\"0: Not Applicable, X: Temperature in\
+  \ Fahrenheit\"</span>\n    \n    \n    <span class=\"n\">data</span><span class=\"\
+  p\">[[</span><span class=\"s1\">'fever'</span><span class=\"p\">,</span> <span class=\"\
+  s1\">'fever_f'</span><span class=\"p\">,</span> <span class=\"s1\">'running_nose'</span><span\
+  \ class=\"p\">,</span>\n       <span class=\"s1\">'diarrhea'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">'chills'</span><span class=\"p\">,</span> <span\
+  \ class=\"s1\">'nausea'</span><span class=\"p\">,</span> <span class=\"s1\">'cough'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">'sorethroat'</span><span class=\"p\">,</span>\
+  \ <span class=\"s1\">'bodyache'</span><span class=\"p\">,</span>\n       <span class=\"\
+  s1\">'headache'</span><span class=\"p\">,</span> <span class=\"s1\">'fatigue'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">'breath'</span><span class=\"p\">]]</span>\
+  \ <span class=\"o\">=</span> <span class=\"n\">data</span><span class=\"p\">[[</span><span\
+  \ class=\"s1\">'fever'</span><span class=\"p\">,</span> <span class=\"s1\">'fever_f'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">'running_nose'</span><span class=\"p\"\
+  >,</span>\n       <span class=\"s1\">'diarrhea'</span><span class=\"p\">,</span>\
+  \ <span class=\"s1\">'chills'</span><span class=\"p\">,</span> <span class=\"s1\"\
+  >'nausea'</span><span class=\"p\">,</span> <span class=\"s1\">'cough'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">'sorethroat'</span><span class=\"p\">,</span>\
+  \ <span class=\"s1\">'bodyache'</span><span class=\"p\">,</span>\n       <span class=\"\
+  s1\">'headache'</span><span class=\"p\">,</span> <span class=\"s1\">'fatigue'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">'breath'</span><span class=\"p\">]]</span><span\
+  \ class=\"o\">.</span><span class=\"n\">fillna</span><span class=\"p\">(</span><span\
+  \ class=\"mi\">0</span><span class=\"p\">)</span>\n    \n    \n    <span class=\"\
+  n\">data</span><span class=\"o\">.</span><span class=\"n\">drop</span><span class=\"\
+  p\">([</span><span class=\"s1\">' flu_vaccine'</span><span class=\"p\">],</span>\
+  \ <span class=\"n\">axis</span><span class=\"o\">=</span><span class=\"mi\">1</span><span\
+  \ class=\"p\">)</span>\n    \n    <span class=\"k\">for</span> <span class=\"n\"\
+  >column</span> <span class=\"ow\">in</span> <span class=\"p\">[</span><span class=\"\
+  s1\">' diagnosis_influenza'</span><span class=\"p\">,</span> <span class=\"s1\"\
+  >' diagnosis_novel_coronavirus_2019'</span><span class=\"p\">,</span>\n       <span\
+  \ class=\"s1\">' diagnosis_pneumonia'</span><span class=\"p\">,</span> <span class=\"\
+  s1\">' diagnosis_bronchitis'</span><span class=\"p\">,</span>\n       <span class=\"\
+  s1\">' diagnosis_strep_throat'</span><span class=\"p\">,</span> <span class=\"s1\"\
+  >' diagnosis_upper_respiratory_infection'</span><span class=\"p\">,</span>\n   \
+  \    <span class=\"s1\">' diagnosis_lower_respiratory_infection'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">' diagnosis_common_cold'</span><span class=\"p\"\
+  >]:</span>\n        <span class=\"n\">codebook</span><span class=\"p\">[</span><span\
+  \ class=\"n\">column</span><span class=\"p\">]</span> <span class=\"o\">=</span>\
+  \ <span class=\"s2\">\"0: False, 1: True, 2: Not Applicable\"</span>\n    <span\
+  \ class=\"n\">data</span><span class=\"p\">[[</span><span class=\"s1\">' diagnosis_influenza'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">' diagnosis_novel_coronavirus_2019'</span><span\
+  \ class=\"p\">,</span>\n       <span class=\"s1\">' diagnosis_pneumonia'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">' diagnosis_bronchitis'</span><span class=\"\
+  p\">,</span>\n       <span class=\"s1\">' diagnosis_strep_throat'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">' diagnosis_upper_respiratory_infection'</span><span\
+  \ class=\"p\">,</span>\n       <span class=\"s1\">' diagnosis_lower_respiratory_infection'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">' diagnosis_common_cold'</span><span class=\"\
+  p\">]]</span> <span class=\"o\">=</span>  <span class=\"n\">data</span><span class=\"\
+  p\">[[</span><span class=\"s1\">' diagnosis_influenza'</span><span class=\"p\">,</span>\
+  \ <span class=\"s1\">' diagnosis_novel_coronavirus_2019'</span><span class=\"p\"\
+  >,</span>\n       <span class=\"s1\">' diagnosis_pneumonia'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">' diagnosis_bronchitis'</span><span class=\"p\"\
+  >,</span>\n       <span class=\"s1\">' diagnosis_strep_throat'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">' diagnosis_upper_respiratory_infection'</span><span\
+  \ class=\"p\">,</span>\n       <span class=\"s1\">' diagnosis_lower_respiratory_infection'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">' diagnosis_common_cold'</span><span class=\"\
+  p\">]]</span><span class=\"o\">.</span><span class=\"n\">fillna</span><span class=\"\
+  p\">(</span><span class=\"mi\">2</span><span class=\"p\">)</span>\n    \n    <span\
+  \ class=\"k\">for</span> <span class=\"n\">column</span> <span class=\"ow\">in</span>\
+  \ <span class=\"p\">[</span><span class=\"s1\">' diagnosis_other'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">' test_other'</span><span class=\"p\">,</span> <span\
+  \ class=\"s1\">' travel_location'</span><span class=\"p\">]:</span>\n        <span\
+  \ class=\"n\">codebook</span><span class=\"p\">[</span><span class=\"n\">column</span><span\
+  \ class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"s2\">\"NA: No Response;\
+  \ X: User-given reponse\"</span>\n    <span class=\"n\">data</span><span class=\"\
+  p\">[[</span><span class=\"s1\">' diagnosis_other'</span><span class=\"p\">,</span>\
+  \ <span class=\"s1\">' test_other'</span><span class=\"p\">,</span> <span class=\"\
+  s1\">' travel_location'</span><span class=\"p\">]]</span> <span class=\"o\">=</span>\
+  \ <span class=\"n\">data</span><span class=\"p\">[[</span><span class=\"s1\">' diagnosis_other'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">' test_other'</span><span class=\"p\"\
+  >,</span> <span class=\"s1\">' travel_location'</span><span class=\"p\">]]</span><span\
+  \ class=\"o\">.</span><span class=\"n\">fillna</span><span class=\"p\">(</span><span\
+  \ class=\"s1\">'NA'</span><span class=\"p\">)</span>\n    \n    \n    <span class=\"\
+  k\">for</span> <span class=\"n\">column</span> <span class=\"ow\">in</span> <span\
+  \ class=\"p\">[</span><span class=\"s1\">' diagnosis_dont_remember'</span><span\
+  \ class=\"p\">,</span>\n       <span class=\"s1\">' test_nose_throat_swab'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">' test_positive_flu'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">' test_negative_flu'</span><span class=\"p\">,</span>\n\
+  \       <span class=\"s1\">' test_positive_novel_coronavirus_2019'</span><span class=\"\
+  p\">,</span>\n       <span class=\"s1\">' test_negative_novel_coronavirus_2019'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">' test_other'</span><span class=\"p\"\
+  >,</span>\n       <span class=\"s1\">' test_dont_remember'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">' days_absent'</span><span class=\"p\">,</span>\
+  \ <span class=\"s1\">' travel'</span><span class=\"p\">]:</span>\n        <span\
+  \ class=\"n\">codebook</span><span class=\"p\">[</span><span class=\"n\">column</span><span\
+  \ class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"s2\">\"0: False,\
+  \ 1: True, 2: Not Applicable\"</span>\n        \n        <span class=\"n\">data</span><span\
+  \ class=\"p\">[[</span><span class=\"s1\">' diagnosis_dont_remember'</span><span\
+  \ class=\"p\">,</span>\n       <span class=\"s1\">' test_nose_throat_swab'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">' test_positive_flu'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">' test_negative_flu'</span><span class=\"p\">,</span>\n\
+  \       <span class=\"s1\">' test_positive_novel_coronavirus_2019'</span><span class=\"\
+  p\">,</span>\n       <span class=\"s1\">' test_negative_novel_coronavirus_2019'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">' test_other'</span><span class=\"p\"\
+  >,</span>\n       <span class=\"s1\">' test_dont_remember'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">' days_absent'</span><span class=\"p\">,</span>\
+  \ <span class=\"s1\">' travel'</span><span class=\"p\">]]</span> <span class=\"\
+  o\">=</span> <span class=\"n\">data</span><span class=\"p\">[[</span><span class=\"\
+  s1\">' diagnosis_dont_remember'</span><span class=\"p\">,</span>\n       <span class=\"\
+  s1\">' test_nose_throat_swab'</span><span class=\"p\">,</span> <span class=\"s1\"\
+  >' test_positive_flu'</span><span class=\"p\">,</span> <span class=\"s1\">' test_negative_flu'</span><span\
+  \ class=\"p\">,</span>\n       <span class=\"s1\">' test_positive_novel_coronavirus_2019'</span><span\
+  \ class=\"p\">,</span>\n       <span class=\"s1\">' test_negative_novel_coronavirus_2019'</span><span\
+  \ class=\"p\">,</span> <span class=\"s1\">' test_other'</span><span class=\"p\"\
+  >,</span>\n       <span class=\"s1\">' test_dont_remember'</span><span class=\"\
+  p\">,</span> <span class=\"s1\">' days_absent'</span><span class=\"p\">,</span>\
+  \ <span class=\"s1\">' travel'</span><span class=\"p\">]]</span><span class=\"o\"\
+  >.</span><span class=\"n\">fillna</span><span class=\"p\">(</span><span class=\"\
+  mi\">2</span><span class=\"p\">)</span>\n</pre>\n    </div>\n   </div>\n  </div>\n\
+  \ </div>\n</div>\n\n<div class=\"cell border-box-sizing code_cell rendered\">\n\
+  \ <div class=\"input\">\n  <div class=\"prompt input_prompt\">\n   In\_[10]:\n \
+  \ </div>\n  <div class=\"inner_cell\">\n   <div class=\"input_area\">\n    <div\
+  \ class=\"highlight hl-ipython3\">\n     <pre><span></span><span class=\"c1\">#\
+  \ For any zipcode that is less than 5 append a zero in front</span>\n<span class=\"\
+  n\">fny_df</span> <span class=\"o\">=</span> <span class=\"n\">fny_df</span><span\
+  \ class=\"o\">.</span><span class=\"n\">dropna</span><span class=\"p\">(</span><span\
+  \ class=\"n\">subset</span><span class=\"o\">=</span><span class=\"p\">[</span><span\
+  \ class=\"s1\">'zip'</span><span class=\"p\">])</span>\n<span class=\"n\">fny_df</span><span\
+  \ class=\"p\">[</span><span class=\"s1\">'length'</span><span class=\"p\">]</span>\
+  \ <span class=\"o\">=</span> <span class=\"n\">fny_df</span><span class=\"o\">.</span><span\
+  \ class=\"n\">zip</span><span class=\"o\">.</span><span class=\"n\">apply</span><span\
+  \ class=\"p\">(</span><span class=\"k\">lambda</span> <span class=\"n\">x</span><span\
+  \ class=\"p\">:</span> <span class=\"nb\">len</span><span class=\"p\">(</span><span\
+  \ class=\"nb\">str</span><span class=\"p\">(</span><span class=\"n\">x</span><span\
+  \ class=\"p\">)))</span>\n</pre>\n    </div>\n   </div>\n  </div>\n </div>\n</div>\n\
+  \n<div class=\"cell border-box-sizing code_cell rendered\">\n <div class=\"input\"\
+  >\n  <div class=\"prompt input_prompt\">\n   In\_[11]:\n  </div>\n  <div class=\"\
+  inner_cell\">\n   <div class=\"input_area\">\n    <div class=\"highlight hl-ipython3\"\
+  >\n     <pre><span></span><span class=\"k\">def</span> <span class=\"nf\">padWithZero</span><span\
+  \ class=\"p\">(</span><span class=\"n\">zipcode</span><span class=\"p\">,</span>\
+  \ <span class=\"n\">num_zeros</span><span class=\"p\">):</span>\n    <span class=\"\
+  k\">return</span> <span class=\"s1\">''</span><span class=\"o\">.</span><span class=\"\
+  n\">join</span><span class=\"p\">([</span><span class=\"s1\">''</span><span class=\"\
+  o\">.</span><span class=\"n\">join</span><span class=\"p\">(</span><span class=\"\
+  n\">itertools</span><span class=\"o\">.</span><span class=\"n\">repeat</span><span\
+  \ class=\"p\">(</span><span class=\"s1\">'0'</span><span class=\"p\">,</span> <span\
+  \ class=\"n\">num_zeros</span><span class=\"p\">)),</span> <span class=\"n\">zipcode</span><span\
+  \ class=\"p\">])</span>\n</pre>\n    </div>\n   </div>\n  </div>\n </div>\n</div>\n\
+  \n<div class=\"cell border-box-sizing code_cell rendered\">\n <div class=\"input\"\
+  >\n  <div class=\"prompt input_prompt\">\n   In\_[12]:\n  </div>\n  <div class=\"\
+  inner_cell\">\n   <div class=\"input_area\">\n    <div class=\"highlight hl-ipython3\"\
+  >\n     <pre><span></span><span class=\"n\">fny_df</span><span class=\"p\">[</span><span\
+  \ class=\"s1\">'zip'</span><span class=\"p\">]</span> <span class=\"o\">=</span>\
+  \ <span class=\"n\">fny_df</span><span class=\"o\">.</span><span class=\"n\">apply</span><span\
+  \ class=\"p\">(</span><span class=\"k\">lambda</span> <span class=\"n\">x</span><span\
+  \ class=\"p\">:</span> <span class=\"n\">padWithZero</span><span class=\"p\">(</span><span\
+  \ class=\"n\">x</span><span class=\"o\">.</span><span class=\"n\">zip</span><span\
+  \ class=\"p\">,</span> <span class=\"mi\">5</span> <span class=\"o\">-</span> <span\
+  \ class=\"n\">x</span><span class=\"o\">.</span><span class=\"n\">length</span><span\
+  \ class=\"p\">),</span> <span class=\"n\">axis</span><span class=\"o\">=</span><span\
+  \ class=\"mi\">1</span><span class=\"p\">)</span>\n</pre>\n    </div>\n   </div>\n\
+  \  </div>\n </div>\n</div>\n\n<div class=\"cell border-box-sizing code_cell rendered\"\
+  >\n <div class=\"input\">\n  <div class=\"prompt input_prompt\">\n   In\_[13]:\n\
+  \  </div>\n  <div class=\"inner_cell\">\n   <div class=\"input_area\">\n    <div\
+  \ class=\"highlight hl-ipython3\">\n     <pre><span></span><span class=\"n\">fill_columns</span><span\
+  \ class=\"p\">(</span><span class=\"n\">fny_df</span><span class=\"p\">)</span>\n\
+  </pre>\n    </div>\n   </div>\n  </div>\n </div>\n</div>\n"
