@@ -88,14 +88,16 @@ figure {
 }
 hr {
   box-sizing: content-box;
-  height: ;
-}
+  height: 0px;
+  /*sothing*/
+  }
 pre {
   overflow: auto;
 }
 code,
 kbd,
-pre,
+pr
+e,
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
