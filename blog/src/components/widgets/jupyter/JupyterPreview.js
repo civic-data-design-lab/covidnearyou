@@ -1,50 +1,80 @@
 import PropTypes from "prop-types";
-import React, { useState, useEffect } from "react";
+import React, { useReducer, useState, useEffect } from "react";
 import yaml from "js-yaml";
 import containerStyles from "./styles.css";
-import { css } from "@emotion/core";
-import { Accordion, Container, Icon } from "semantic-ui-react";
+import { css, cx } from "emotion";
+import { Accordion, Label, Container, Icon } from "semantic-ui-react";
 import styled from "@emotion/styled";
 import theme from "../../../gatsby-plugin-theme-ui";
 
-export default function JupyterPreviewWrapper(props) {
-  const [snippet, setSnippetState] = useState("");
-  const [colorMode, setColorMode] = useState(
-    window.localStorage.getItem("theme-ui-color-mode", "light")
-  );
-  const [colorState, setColorState] = useState(lightMode);
-  //const [store, setStore] = useLocalStorage("theme-ui-color-mode", "dark");
+const initialState = {
+  selectedSnippet: "",
+  colorMode: true
+    ? "light" !== window.localStorage.getItem("theme-ui-color-mode", "light")
+    : false,
+  colorState: lightMode,
+};
 
-  window.addEventListener("storage", (e) => {
-    e.preventDefault();
+function reducer(state, action) {
+  const { selectedSnippet, colorMode, colorState } = state;
+  if (action.type === "SET_STATE") {
+    return Object.assign({}, state, action.data);
+  } else if (action.type === "SNIPPET") {
+    return Object.assign({}, state, action.data);
+  } else if (action.type === "COLOR_MODE") {
+    return state;
+  } else if (action.type === "COLOR_STATE") {
+    return state;
+  } else {
+    throw new Error();
+  }
+}
+
+function JupyterPreviewWrapper(props) {
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  function mutateState() {
+    console.log("Mutating");
     console.log(window.localStorage.getItem("theme-ui-color-mode"));
-    let mode = window.localStorage.getItem("theme-ui-color-mode", "light");
-
-    setColorMode(mode);
+    const mode = window.localStorage.getItem("theme-ui-color-mode", "light");
     if (mode === "light") {
-      setColorState(selectMode("black"));
+      dispatch({
+        type: "SET_STATE",
+        data: {
+          colorMode: false,
+          colorState: selectMode("rgba(0, 0, 0, 0.2)"),
+        },
+      });
     } else {
-      setColorState(selectMode("white"));
+      dispatch({
+        type: "SET_STATE",
+        data: {
+          colorMode: true,
+          colorState: selectMode("rgba(255, 255, 255, 0.2)"),
+        },
+      });
     }
-  });
+  }
 
+  //const [store, setStore] = useLocalStorage("theme-ui-color-mode", "dark");
   useEffect(() => {
+    window.addEventListener("storage", mutateState);
+    return () => window.removeEventListener("storage", mutateState);
+  }, [dispatch]);
+
+  /*useEffect(() => {
     fetch(`/data/jupyter-snippet/${props.path}`)
       .then((response) => response.text())
       .then((data) => {
         const snippets = yaml.load(data);
-        return setSnippetState(snippets[`${props.snippet}`]);
+        dispatch({
+          type: "SNIPPET",
+          data: { selectedSnippet: snippets[`${props.snippet}`] },
+        });
       })
       .catch((error) => console.log(error));
-  });
-  return (
-    <JuptyerPreview
-      selectedSnippet={snippet}
-      colorMode={colorMode}
-      colorState={colorState}
-      {...props}
-    />
-  );
+  }, []);*/
+  return <JuptyerPreview state={state} {...props} />;
 }
 
 function useLocalStorage(key, initialValue) {
@@ -72,14 +102,39 @@ function useLocalStorage(key, initialValue) {
   return [storedValue, setValue];
 }
 
-function JuptyerPreview({
-  selectedSnippet,
-  snippet,
-  label,
-  colorMode,
-  colorState,
-}) {
+export default function JuptyerPreview({ label }) {
   const [accordionState, setAccordionState] = useState({ activeIndex: 0 });
+
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  function mutateState() {
+    console.log("Mutating");
+    console.log(window.localStorage.getItem("theme-ui-color-mode"));
+    const mode = window.localStorage.getItem("theme-ui-color-mode", "light");
+    if (mode === "light") {
+      dispatch({
+        type: "SET_STATE",
+        data: {
+          colorMode: false,
+          colorState: selectMode("rgba(0, 0, 0, 0.2)"),
+        },
+      });
+    } else {
+      dispatch({
+        type: "SET_STATE",
+        data: {
+          colorMode: true,
+          colorState: selectMode("rgba(255, 255, 255, 0.2)"),
+        },
+      });
+    }
+  }
+
+  //const [store, setStore] = useLocalStorage("theme-ui-color-mode", "dark");
+  useEffect(() => {
+    window.addEventListener("storage", mutateState);
+    return () => window.removeEventListener("storage", mutateState);
+  }, [dispatch]);
 
   const handleClick = (e, titleProps) => {
     const { index } = titleProps;
@@ -92,24 +147,22 @@ function JuptyerPreview({
 
   return (
     <Body className={"jupyter"}>
-      <Accordion
-        css={colorState}
-        fluid
-        inverted={true ? colorMode === "dark" : false}
-      >
+      <Accordion fluid inverted={state.colorMode}>
         <Accordion.Title
           active={accordionState.activeIndex === 0}
           index={0}
           onClick={handleClick}
         >
-          <Icon name="dropdown" />
-          {label}
+          <Container>
+            <Icon name="dropdown" />
+            {label}
+          </Container>
         </Accordion.Title>
         <Accordion.Content active={accordionState.activeIndex === 0}>
           <div
             className={containerStyles}
             dangerouslySetInnerHTML={{
-              __html: selectedSnippet,
+              __html: state.selectedSnippet,
             }}
           ></div>
         </Accordion.Content>
@@ -142,14 +195,19 @@ const darkMode = css`
 
 const lightMode = css`
   border: 1px solid black;
-  padding: 10px;
+  padding: 2px;
   border-radius: 4px;
+  color: rgba(0, 0, 0, 0.2);
 `;
 
 const selectMode = (p) => css`
-  border: 1px solid ${p};
-  padding: 10px;
+  border: 1px solid red;
+  padding: 2px;
+  color: rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  &:hover {
+    color: black;
+  }
 `;
 
 JuptyerPreview.propTypes = {

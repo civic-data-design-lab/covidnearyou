@@ -2,8 +2,7 @@ import React from "react";
 import CMS from "netlify-cms-app";
 import uploadcare from "netlify-cms-media-library-uploadcare";
 import IframePreview from "../components/widgets/iframe/IframePreview";
-import JupyterPreview from "../components/widgets/jupyter/JupyterPreview";
-
+import JupyterController from "../components/widgets/jupyter/JupyterController";
 //CMS.registerMediaLibrary(uploadcare);
 
 //CMS.registerWidget([IframeCMSWidget.Widget()]);
@@ -64,6 +63,6 @@ CMS.registerEditorComponent({
     return `<jupyter path="${obj.path}" snippet="${obj.snippet}" label="${obj.label}" />`;
   },
   toPreview: function(obj) {
-    return <JupyterPreview obj />;
+    return <JupyterController obj />;
   },
 });

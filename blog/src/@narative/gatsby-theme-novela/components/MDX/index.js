@@ -21,7 +21,7 @@ import Figcaption from "@narative/gatsby-theme-novela/src/components/Figcaption"
 
 import IframePreview from "../../../../components/widgets/iframe/IframePreview";
 
-import JupyterPreview from "../../../../components/widgets/jupyter/JupyterPreview";
+import JupyterController from "../../../../components/widgets/jupyter/JupyterController";
 
 const shortcodes = {
   img: ImageZoom,
@@ -45,7 +45,7 @@ const shortcodes = {
   td: Tables.Cell,
   figcaption: Figcaption,
   iframe: IframePreview,
-  jupyter: JupyterPreview,
+  jupyter: JupyterController,
 };
 
 export default function MDX(cos) {
