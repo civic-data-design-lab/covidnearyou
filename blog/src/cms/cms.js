@@ -4,8 +4,26 @@ import uploadcare from "netlify-cms-media-library-uploadcare";
 import IframePreview from "../components/widgets/iframe/IframePreview";
 import JupyterController from "../components/widgets/jupyter/JupyterController";
 //CMS.registerMediaLibrary(uploadcare);
-
+import HtmlPreview from "../components/widgets/html/HtmlPreview";
 //CMS.registerWidget([IframeCMSWidget.Widget()]);
+
+CMS.registerEditorComponent({
+  id: "htmlElem",
+  label: "Html Injector",
+  fields: [{ name: "html", label: "Html", widget: "string" }],
+  pattern: /^<htmlElem (\S+)$/,
+  fromBlock: function(match) {
+    return {
+      html: match[0].split("=")[1],
+    };
+  },
+  toBlock: function(obj) {
+    return `<htmlElem html="{$obj.html}" />`;
+  },
+  toPreview: function(obj) {
+    return <HtmlPreview obj />;
+  },
+});
 
 CMS.registerEditorComponent({
   id: "iframe",
