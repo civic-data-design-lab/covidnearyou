@@ -2,27 +2,13 @@
 title: My first post using Novela by Narative
 author: Innocent Ndubuisi-Obi Jr
 date: 2019-04-30T00:00:00.000Z
-excerpt: With the growing community interest in Gatsby, we hope to create more
-  resources that make it easier for anyone to grasp the power of this incredible
-  tool.
 tags:
-  - Covid
   - General
 hero: ./images/hero.jpg
 ---
 My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
 
 ## Headers
-
-
-
-
-<iframe id="https://www.youtube.com/embed/JtBmUxz4GsM" title="frame1" allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture" src="/img/hero.jpg"/>
-
-## Jupyer Code Snippet
-
-<jupyter path="test.yml" snippet="snippet3" label="Snippet 3"/>
-<jupyter path="test.yml" snippet="snippet1" label="Snippet 1"/>
 
 # H1
 
@@ -37,6 +23,15 @@ It is recommended to NOT use H1s as it is reserved for the article heading. Any 
 ##### H5
 
 ###### H6
+
+## Iframe
+
+<iframe id="https://www.youtube.com/embed/JtBmUxz4GsM" title="TinyDesk" allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture" src="/img/hero.jpg" />
+
+## Jupyter Snippets
+
+<jupyter path="test.yml" snippet="snippet0" label="Snippet 1: Setting up Headers" />
+<jupyter path="test.yml" snippet="snippet1" label="Snippet 2: Reading Files" />
 
 ## Emphasis
 
