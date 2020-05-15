@@ -38,7 +38,7 @@ Now observe the linear graph of cases per capita, captured on the same day from 
 
 Pouring one out for the Vatican City, apparently careening towards anarchy faster than any other nation, would be the incorrect conclusion to draw from these data. Here John Burn-Murdoch, whose graphs for the Financial Times have earned praise, makes his team’s case against using per-capita rates in graphs:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">And a chart showing why we&#39;re using absolute numbers rather than population-adjusted rates: <a href="https://t.co/YvJ8PA7kIt">https://t.co/YvJ8PA7kIt</a></p>&mdash; John Burn-Murdoch (@jburnmurdoch) <a href="https://twitter.com/jburnmurdoch/status/1249445458264698880?ref_src=twsrc%5Etfw">April 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">And a chart showing why we&#39;re using absolute numbers rather than population-adjusted rates: <a href="https://t.co/YvJ8PA7kIt">https://t.co/YvJ8PA7kIt</a></p>&mdash; John Burn-Murdoch (@jburnmurdoch) <a href="https://twitter.com/jburnmurdoch/status/1249445458264698880?ref_src=twsrc%5Etfw">April 12, 2020</a></blockquote>
 
 In this linked thread Carl T. Bergstrom of the University of Washington explains how per-capita rates can be responsibly compared between countries if the curves are left-aligned to starting positions of a given fractional infection rate. However, he also advises that per-capita comparisons between regions are preferable to those between countries.
 
