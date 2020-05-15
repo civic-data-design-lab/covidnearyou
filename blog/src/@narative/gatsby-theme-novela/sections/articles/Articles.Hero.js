@@ -26,7 +26,7 @@ const authorQuery = graphql`
   }
 `;
 
-export default (props) =>
+export default ({ authors }}) =>
 {
   const { gridLayout = "tiles", hasSetGridLayout, setGridLayout } = useContext(
     GridLayoutContext
@@ -35,14 +35,21 @@ export default (props) =>
   const results = useStaticQuery(authorQuery);
   const hero = results.site.edges[0].node.siteMetadata.hero;
   const tilesIsActive = hasSetGridLayout && gridLayout === "tiles";
+  const featuredAuthor = authors.find((author) => author.featured);
 
+  if (!featuredAuthor) {
+    throw new Error(`
+      No featured Author found.
+      Please ensure you have at least featured Author.
+  `);
+  }
 
   return <Section relative id="Articles__Hero">
     <HeadingContainer style={{ maxWidth: `${hero.maxWidth}px` }}>
       <HeroHeading dangerouslySetInnerHTML={{ __html: hero.heading }} />
     </HeadingContainer>
     <SubheadingContainer>
-      <Bio author={null} />
+      <Bio author={featuredAuthor} />
       <GridControlsContainer>
         <GridButton
           onClick={() => setGridLayout("tiles")}
