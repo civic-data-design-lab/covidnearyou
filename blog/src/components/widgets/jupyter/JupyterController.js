@@ -81,7 +81,7 @@ export default class JupyterController extends Component {
 
   mutateState(e) {
     console.log(`[MUTATING]`);
-    if ("theme" in e.data) {
+    try {if ("theme" in e.data) {
       const mode = e.data.theme;
       console.log(`[MUTATING]: ${mode}`);
       if (mode === "light") {
@@ -104,6 +104,9 @@ export default class JupyterController extends Component {
         });
       }
     }
+  } catch(e){
+    console.log(e);
+  }
   }
 
   render() {

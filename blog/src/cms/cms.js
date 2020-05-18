@@ -8,17 +8,17 @@ import HtmlPreview from "../components/widgets/html/HtmlPreview";
 //CMS.registerWidget([IframeCMSWidget.Widget()]);
 
 CMS.registerEditorComponent({
-  id: "htmlElem",
-  label: "Html Injector",
-  fields: [{ name: "html", label: "Html", widget: "string" }],
-  pattern: /^<htmlElem (\S+)$/,
+  id: "htmlinject",
+  label: "Html Inject",
+  fields: [{ name: "key_", label: "Key", widget: "string" }],
+  pattern: /^<htmlinject (\S+)$/,
   fromBlock: function(match) {
     return {
-      html: match[0].split("=")[1],
+      key_: match[0].split("=")[1],
     };
   },
   toBlock: function(obj) {
-    return `<htmlElem html="{$obj.html}" />`;
+    return `<htmlinject key_="${obj.key_}" />`;
   },
   toPreview: function(obj) {
     return <HtmlPreview obj />;

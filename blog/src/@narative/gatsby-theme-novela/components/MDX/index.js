@@ -9,7 +9,7 @@ import styled from "@emotion/styled";
 //import { useColorMode } from "theme-ui";
 
 import Anchor from "@narative/gatsby-theme-novela/src/components/Anchor";
-import Blockquote from "@narative/gatsby-theme-novela/src/components/Blockquote";
+//import Blockquote from "@narative/gatsby-theme-novela/src/components/Blockquote";
 import Code from "@narative/gatsby-theme-novela/src/components/Code";
 import Headings from "@narative/gatsby-theme-novela/src/components/Headings";
 import HorizontalRule from "@narative/gatsby-theme-novela/src/components/HorizontalRule";
@@ -22,11 +22,12 @@ import Figcaption from "@narative/gatsby-theme-novela/src/components/Figcaption"
 import IframePreview from "../../../../components/widgets/iframe/IframePreview";
 
 import JupyterController from "../../../../components/widgets/jupyter/JupyterController";
+import HtmlPreview from "../../../../components/widgets/html/HtmlPreview";
 
 const shortcodes = {
   img: ImageZoom,
   a: Anchor,
-  blockquote: Blockquote,
+  //blockquote: Blockquote,
   h1: Headings.h2, // h1 reserved article title
   h2: Headings.h2,
   h3: Headings.h3,
@@ -46,6 +47,7 @@ const shortcodes = {
   figcaption: Figcaption,
   iframe: IframePreview,
   jupyter: JupyterController,
+  htmlinject: HtmlPreview,
 };
 
 export default function MDX(cos) {
@@ -288,6 +290,14 @@ const JupyterCSS = css`
     margin: auto;
   }
 `;
+
+const HtmlCSS = css`
+.injector {
+  ${ARTICLE_WIDTH};
+  margin: auto;
+}
+`;
+
 const MDXBody = styled.div`
   position: relative;
   z-index: 10;
@@ -299,4 +309,5 @@ const MDXBody = styled.div`
    ${PrismCSS}
    ${IframeCSS}
    ${JupyterCSS}
+   ${HtmlCSS}
   `;

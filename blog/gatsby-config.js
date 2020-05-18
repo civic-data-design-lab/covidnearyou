@@ -1,3 +1,7 @@
+const narativeMdxConfig = require("@narative/gatsby-theme-novela/gatsby-config.js")(
+  {}
+).plugins.find(i => i.resolve == "gatsby-plugin-mdx")
+
 module.exports = {
   siteMetadata: {
     title: `Blog by MIT CDDL`,
@@ -33,6 +37,58 @@ module.exports = {
   },
   plugins: [
     `gatsby-transformer-yaml`,
+    /*{
+    resolve: `gatsby-plugin-mdx`,
+    options: {
+      ...narativeMdxConfig.options,
+      gatsbyRemarkPlugins: [
+           ...narativeMdxConfig.options.gatsbyRemarkPlugins,
+           {
+             resolve: '@raae/gatsby-remark-oembed',
+             options: {
+               // usePrefix defaults to false
+               // usePrefix: true is the same as ["oembed"]
+               usePrefix: false,
+               providers: {
+                 include: [
+           'Twitter',
+           'Instagram',
+         ],
+                 // Important to exclude providers
+                 // that adds js to the page.
+                 // If you do not need them.
+                 exclude: ["Reddit"]
+               }
+             }
+           }
+      ]
+    },
+  },*/
+    {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        {
+          resolve: "@raae/gatsby-remark-oembed",
+          options: {
+            // usePrefix defaults to false
+            // usePrefix: true is the same as ["oembed"]
+            usePrefix: false,
+            providers: {
+              include: [
+        'Twitter',
+        'Instagram',
+      ],
+              // Important to exclude providers
+              // that adds js to the page.
+              // If you do not need them.
+              exclude: ["Reddit"]
+            }
+          }
+        },
+      ]
+    }
+  },
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {
