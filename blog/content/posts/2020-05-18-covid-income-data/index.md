@@ -15,7 +15,9 @@ New York City was slow to respond to COVID-19.It took the city over a month to s
 
 ## Background
 
-Many recent reports are suggesting a widening divide between the rich and the poor in the American society brought by the Covid-19 pandemic. In the few states and cities that have released the breakdown of fatalities, we observe an clear uneven pattern - low income communities have been much harder hit by the disease than higher income communities. We also know that widespread testing is essential to both helping infected individuals and also containing the virus at a regional level. Several recent studies have attempted to analyze if testing follows the same patterns of inequality across income groups. . Borja (2020) and Schmitt-Grohé (2020) both began with a similar hypothesis: that testing resources prioritize high-income regions. Both studies used zip code level data in New York City, but the two studies had different conclusions. Borjas finds that people residing in poor neighborhoods were less likely to be tested than people residing in rich neighborhoods using data from April 5th, while Schmitt-Grohé finds that the distribution of Covid-19 tests was equal across income brackets with accumulated data from April 2nd to April 13th. It seems from a comparison of these two studies, that the key condition was ***time***.
+Many recent reports are suggesting a widening divide between the rich and the poor in the American society brought by the Covid-19 pandemic. In the few states and cities that have released the breakdown of fatalities, we observe an clear uneven pattern - low income communities have been much harder hit by the disease than higher income communities. We also know that widespread testing is essential to both helping infected individuals and also containing the virus at a regional level. Several recent studies have attempted to analyze if testing follows the same patterns of inequality across income groups.  Borjas, G. J. (2020) and Schmitt-Grohé (2020) both began with a similar hypothesis: that testing resources prioritize high-income regions. Both studies used zip code level data in New York City, but the two studies had different conclusions. Borjas finds that people residing in poor neighborhoods were less likely to be tested than people residing in rich neighborhoods using data from April 5th, while Schmitt-Grohé finds that the distribution of Covid-19 tests was equal across income brackets with accumulated data from April 2nd to April 13th. It seems from a comparison of these two studies, that the key condition was ***time***.
+
+
 
 ## Study Results
 
@@ -25,6 +27,17 @@ From here, we wanted to go one step further and understand and visualize the geo
 
 Again, if we plot positive per test rate by quantile against the test per capita by quantile (Graph 3.2), we see a series map with extremely red indicating highest positive per test return rate while still lacking test per capita. The lighter color indicates a very low positive per test rate but high test per capita rate. These maps uncover the fact that even with the trend reversing, we still have many zip codes that are left behind.
 
+
+
 ## Conclusion
 
 We don’t know what might have driven the testing resources to move towards lower income zip codes from April to May. Is our healthcare system simply responding to the number of confirmed cases? If so, what prolonged the process of distributing more resources to those zip codes that obviously suffered the most even at the very beginning? Working remotely is a convenience only afforded to high income populations; those who perform the city’s essential services—sanitation, food services and delivery, cab drivers, transit workers—predominantly live in lower income areas. Cities must be concerned foremost with the health of these essential workers, especially as cities are considering reopening in the coming months, to maintain a stable transition and avoid a second wave of the virus.
+
+
+
+## Reference:
+
+\
+\[1] Borjas, G. J. (2020).*Demographic determinants of testing incidence and COVID-19 infections in New York City neighborhoods*(No. w26952). National Bureau of Economic Research.
+
+\[2] Schmitt-Grohé, S., Teoh, K., & Uribe, M. (2020).*Covid-19: Testing Inequality in New York City*(No. w27019). National Bureau of Economic Research.
