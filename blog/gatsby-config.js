@@ -44,7 +44,7 @@ module.exports = {
       gatsbyRemarkPlugins: [
            ...narativeMdxConfig.options.gatsbyRemarkPlugins,
            {
-             resolve: '@raae/gatsby-remark-oembed',
+             resolve: require.resolve(`${__dirname}/plugins/gatsby-remark-oembed-innocent`),
              options: {
                // usePrefix defaults to false
                // usePrefix: true is the same as ["oembed"]
@@ -61,15 +61,35 @@ module.exports = {
                }
              }
            }
+      ],
+      plugins: [
+        {
+          resolve: require.resolve(`${__dirname}/plugins/gatsby-remark-oembed-innocent`),
+          options: {
+            // usePrefix defaults to false
+            // usePrefix: true is the same as ["oembed"]
+            usePrefix: false,
+            providers: {
+              include: [
+        'Twitter',
+        'Instagram',
+      ],
+              // Important to exclude providers
+              // that adds js to the page.
+              // If you do not need them.
+              exclude: ["Reddit"]
+            }
+          }
+        }
       ]
     },
-  },*/
+  },
     {
     resolve: `gatsby-transformer-remark`,
     options: {
       plugins: [
         {
-          resolve: "@raae/gatsby-remark-oembed",
+          resolve: require.resolve(`${__dirname}/plugins/gatsby-remark-oembed-innocent`),
           options: {
             // usePrefix defaults to false
             // usePrefix: true is the same as ["oembed"]
@@ -88,7 +108,7 @@ module.exports = {
         },
       ]
     }
-  },
+  },*/
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {

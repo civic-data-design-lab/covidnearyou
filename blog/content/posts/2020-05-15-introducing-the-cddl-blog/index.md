@@ -14,4 +14,4 @@ Our first post highlights how tricky it is to draw informed conclusions from COV
 
 As the situation with COVID-19 evolves, so will this blog. We hope to use this space to start conversations toward change and we look forward to the dialogues that come from it.
 
-https://twitter.com/HawkeyeUofIA/status/1261848654765338625
+<htmlinject key_="tweets0" />
