@@ -16,7 +16,7 @@ class HtmlPreview extends Component {
 }
 
   async fetchYamlFile(){
-    fetch(`/data/jupyter-snippet/parsedPost.yml`)
+    fetch(`/data/jupyter-snippet/${this.props.htmlid}`)
       .then((response) => response.text())
       .then((data) => {
         console.log(`${JSON.stringify(this.props)}`);
