@@ -35,9 +35,11 @@ From here, we wanted to go one step further and understand and visualize the geo
 
 Again, if we plot positive per test rate by quantile against the test per capita by quantile (Graph 4.2), we see a series map with extremely red indicating highest positive per test return rate while still lacking test per capita. The lighter color indicates a very low positive per test rate but high test per capita rate. These maps uncover the fact that even with the trend reversing, we still have many zip codes that are left behind.
 
+![](images/map1.png "Income + Testing Rate Score")
 
+![](images/map2.png "Positive per test rate vs. Test per capita")
 
-\[Maps]
+\[Maps, I could convert these to d3 for better performance]
 
 ## Conclusion
 
