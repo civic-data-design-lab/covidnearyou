@@ -12,21 +12,6 @@ const HtmlPreview = (props) => {
     selectedHtml: "",
   });
 
-  useEffect(() => {
-    if (document.getElementById("tweet-wjr") == null){
-    const script = document.createElement("script");
-    script.id = "tweet-wjr"
-    script.src = "https://platform.twitter.com/widgets.js";
-    script.async = false;
-
-    document.body.appendChild(script);
-  console.log("Component Effect");
-} else {
-  //window.location.reload();
-}
-  fetchYamlFile();
-}, [fetchYamlFile]);
-
   const fetchYamlFile =() => {
     fetch(`/data/jupyter-snippet/parsedPost.yml`)
       .then((response) => response.text())
@@ -42,6 +27,22 @@ const HtmlPreview = (props) => {
       })
       .catch((error) => console.log(error));
   }
+
+
+  useEffect(() => {
+    if (document.getElementById("tweet-wjr") == null){
+    const script = document.createElement("script");
+    script.id = "tweet-wjr"
+    script.src = "https://platform.twitter.com/widgets.js";
+    script.async = false;
+
+    document.body.appendChild(script);
+  console.log("Component Effect");
+} else {
+  //window.location.reload();
+}
+  fetchYamlFile();
+}, [ fetchYamlFile ]);
 
   /*componenetDidUpdate(){
 
