@@ -16,6 +16,7 @@
     "@mdx-js/react": "^1.6.1",
     "@narative/gatsby-theme-novela": "^0.15.6",
     "@raae/gatsby-remark-oembed": "^0.1.1",
+    "@weknow/gatsby-remark-twitter": "^0.2.3",
     "colors": "^1.4.0",
     "fs": "0.0.1-security",
     "gatsby": "^2.13.41",

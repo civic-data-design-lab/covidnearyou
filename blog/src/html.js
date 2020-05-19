@@ -22,19 +22,6 @@ export default function HTML(props) {
             ${props.body}` }}
         />
         {props.postBodyComponents}
-        <script
-  dangerouslySetInnerHTML={{
-    __html: `
-    const script = document.createElement("script");
-
-    script.src = "https://platform.twitter.com/widgets.js";
-    script.async = true;
-
-    document.body.appendChild(script);
-
-        `,
-  }}
-/>
       </body>
     </html>
   )

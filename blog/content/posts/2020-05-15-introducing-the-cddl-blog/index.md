@@ -13,3 +13,12 @@ We are starting this blog in order to share the work we’re doing with a larger
 Our first post highlights how tricky it is to draw informed conclusions from COVID-19 data. Upcoming posts will delve into the inequalities of the outbreak, particularly how testing opportunities relate to income levels across the country.
 
 As the situation with COVID-19 evolves, so will this blog. We hope to use this space to start conversations toward change and we look forward to the dialogues that come from it.
+
+
+<htmlinject keyid="tweets0" htmlid="" />
+
+https://twitter.com/Google/status/1262494462477025280
+
+[tweet https://twitter.com/twitterapi/status/133640144317198338]
+
+https://twitter.com/twitterapi/status/133640144317198338

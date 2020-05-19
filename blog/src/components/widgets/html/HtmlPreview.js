@@ -2,47 +2,53 @@ import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 import yaml from "js-yaml";
 
-import React, { useState, useEffect } from 'react';
+import React, { Component } from 'react';
 
-const HtmlPreview = (props) => {
-
-  const [state, setState] = useState({
+class HtmlPreview extends Component {
+  constructor(props){
+    super(props);
+  this.state = {
     mounted: false,
     htmls: null,
     selectedHtml: "",
-  });
+  };
+  this.fetchYamlFile = this.fetchYamlFile.bind(this);
+}
 
-  const fetchYamlFile =() => {
+  async fetchYamlFile(){
     fetch(`/data/jupyter-snippet/parsedPost.yml`)
       .then((response) => response.text())
       .then((data) => {
-        console.log(`${JSON.stringify(props)}`);
+        console.log(`${JSON.stringify(this.props)}`);
         const state = yaml.load(data);
         console.log("GEtting file");
-        setState({
+        this.setState({
           mounted: true,
           htmls: state,
-          selectedHtml: state[props.keyid],
+          selectedHtml: state[this.props.keyid],
         });
       })
       .catch((error) => console.log(error));
   }
 
 
-  useEffect(() => {
-    if (document.getElementById("tweet-wjr") == null){
+  componentDidMount(){
+    //if (document.getElementById("tweet-wjr") == null){
     const script = document.createElement("script");
     script.id = "tweet-wjr"
     script.src = "https://platform.twitter.com/widgets.js";
-    script.async = false;
-
+    script.async = true;
     document.body.appendChild(script);
-  console.log("Component Effect");
-} else {
+    console.log("Component Effect");
+    if (typeof window.twttr.widgets !== "undefined") {
+      window.twttr.widgets.load();
+      console.log("Twitter Loading");
+    } else {
+      console.log("Twitter Mounted");
+    }
+    this.fetchYamlFile();
   //window.location.reload();
 }
-  fetchYamlFile();
-}, [ fetchYamlFile ]);
 
   /*componenetDidUpdate(){
 
@@ -77,14 +83,16 @@ const HtmlPreview = (props) => {
       console.log("Twitter Mounted");
     }
   //this.fetchYamlFile();*/
-    return(
+    render(){
+      return(
       <Injector
         className={"injector"}
         key="injector"
         dangerouslySetInnerHTML={{
-          __html: state.selectedHtml,
+          __html: this.state.selectedHtml,
         }}
       />);
+    }
   }
 
 const Injector = styled.div``;
