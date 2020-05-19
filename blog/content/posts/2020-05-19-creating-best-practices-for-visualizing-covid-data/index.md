@@ -6,18 +6,9 @@ tags:
   - Covid
 hero: images/image2.jpg
 ---
-Following this evolving consensus on best practices, we can often observe improvements over time in some of the COVID data visualizations which have managed to reach a wider audience, and these revisions are instructive.
+   The global importance of the SARS-CoV-2/COVID-19 pandemic, and the salience of eye-catching data visualizations in these times, necessitate a profoundly judicious use of data variables and normalizations. Inappropriate choices in these respects can contribute to misconceptions about the magnitudes of various aspects of the crisis, either in comparison to each other or in comparison to other global issues. Unchecked misconceptions about quantitative data in public health have the potential to enable harm, a hazard which such tags as [\#datasaveslives ](https://twitter.com/hashtag/datasaveslives?lang=en)may have the effect of blanketing over.
 
-For example,[covidactnow.org](https://covidactnow.org/)has added models of the infection growth rate (with confidence intervals) and the positive test rate to its forecasts of state-by-state hospital capacity, which were more simplistic[in the site's first few weeks](https://web.archive.org/web/20200327060650/http:/www.covidactnow.org/state/NY).
-
-The[interactive COVID tool at 91-divoc.com](http://91-divoc.com/pages/covid-visualization/)was already making the best of multiple approaches upon its debut, showing gross and per-capita case counts by country and region, and allowing users to toggle between linear and logarithmic scales on the y-axis. Like other popular COVID tools, 91-divoc brackets the x-axes of its graphs around early quantitative thresholds such asdays since 100 cases, and by late April had shifted its default view from total cases to one-week trailing averages of new cases to better illustrate flattening growth. In mid-April the site added forecast trendlines for countries, but days later opted to truncate those forecasts to seven days forward so as to “avoid extreme extrapolation”. Peruse 91-divoc’s change log [here](http://91-divoc.com/pages/covid-visualization/changes.html).
-
-\
-The most important prevailing debates on best practices for COVID data visualization concern the proper selection of variables and denominators.
-
-The modeler’s choice between gross counts and per-capita normalizations depends on the purpose of their model. Gross counts accurately measure the growth of local outbreaks, whereas per-capita rates better depict the burden on a nation/region’s healthcare system and policymaking apparatus. Some sentiments in favor of per-capita normalizations are[quite inflexble](https://twitter.com/NateSilver538/status/1245132431818178561), but perhaps wrongly so. Observe the linear graph of cases by country captured on March 25 from 91-divoc’s tool:
-
-![](images/image2.jpg)
+Epidemiology in particular is wrought with terminology and dynamic relationships which are not immediately intuitive to understand. In the first weeks of COVID-19’s arrival to the English-speaking world, sage precautionary advice in this vein made its way through the data science Twitterverse:
 
 ![tweet0](images/screen-shot-2020-05-19-at-6.40.06-am.png "tweet0")
 
