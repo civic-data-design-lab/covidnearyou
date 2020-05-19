@@ -22,7 +22,7 @@ const HtmlPreview = (props) => {
         setState({
           mounted: true,
           htmls: state,
-          selectedHtml: state[props.key_],
+          selectedHtml: state[props.keyid],
         });
       })
       .catch((error) => console.log(error));
