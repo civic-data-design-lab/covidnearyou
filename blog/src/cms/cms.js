@@ -15,12 +15,12 @@ CMS.registerEditorComponent({
   pattern: /^<htmlinject (\S+)$/,
   fromBlock: function(match) {
     return {
-      key_: match[0].split("=")[1],
-      html_: match[1].split("=")[1],
+      keyid: match[0].split("=")[1],
+      htmlid: match[1].split("=")[1],
     };
   },
   toBlock: function(obj) {
-    return `<htmlinject keyid="${obj.key_}"" htmlid="${obj.html_}" />`;
+    return `<htmlinject keyid="${obj.key_}" htmlid="${obj.html_}" />`;
   },
   toPreview: function(obj) {
     return <HtmlPreview obj />;
