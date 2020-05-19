@@ -13,11 +13,17 @@ hero: images/image1.png
 
 *shows the changes of test per capita and percentage of positive tests returned. The size of the circle indicate the median household income*
 
+
+
+<htmlinject keyid="graph1" htmlid="htmlsParsed.yml" />
+
+
+
 ## Introduction
 
 [New York City was slow to respond to COVID-19.](https://www.newyorker.com/magazine/2020/05/04/seattles-leaders-let-scientists-take-the-lead-new-yorks-did-not) It took the city officials over a month to shift adequate testing resources to areas that were suffering most: New York's low-income and disproportionately minority neighborhoods and households.  `REMOVE: How can we do better?`
 
-Many journalists and civil society actors have begun to raise alarm at what is proving to be a economic and social disparity in our governments' response. For the few state and local governments that have released details data on COVID19 fatalities, we are beginning to observe a clear uneven pattern: low-income communities have been much harder hit by COVID19 than high-income communities.  **We also know that [*Who is the we?]*** widespread testing is essential to both helping infected individuals and also containing the virus at a regional level. However, income should not decide whether or not one has access to adequate testing and care.  
+Many journalists and civil society actors have begun to raise alarm at what is proving to be a economic and social disparity in our governments' response. For the few state and local governments that have released details data on COVID19 fatalities, we are beginning to observe a clear uneven pattern: low-income communities have been much harder hit by COVID19 than high-income communities.  **We also know that \[\*Who is the we?]\*** widespread testing is essential to both helping infected individuals and also containing the virus at a regional level. However, income should not decide whether or not one has access to adequate testing and care.  
 
 Several recent studies have attempted to analyze if state and local testing strategies are disbursed and utilized in more high-income than low-income regions.  Two studies, by Borjas, G. J. (2020) and Schmitt-Grohé (2020) respectively, used zip code level data in New York City. Their results? Using data from April 5th, Borjas finds that people residing in poor neighborhoods were less likely to be tested than people residing in rich neighborhoods. On the otherhand, with data from April 2nd to April 13th, Schmitt-Grohé finds that the distribution of Covid-19 tests was equal across income brackets. 
 
@@ -42,8 +48,6 @@ If we plot **positive per test rate\[the count of a zip codes(?) postive covid c
 ![](images/map2.png "Positive per test rate vs. Test per capita")
 
 \[Maps, I could convert these to d3 for better performance]
-
-
 
 There are potentially many factors that contributed to New York's decisions on where to allocation COVID19 resources. It could be because her healthcare system is just simply responding to the number of confirmed cases. Whatever the reason, we all have an obligation to understand and learn from these failings in order to better inform more equitable designs and plans. Many of us dont have the luxury of time. So it is left to our planners, policy-makers, and public health officials to ensure that we make the very best of it. To know and never doubt that income should never dictate the acquisition of something so priceless - a life well lived
 
