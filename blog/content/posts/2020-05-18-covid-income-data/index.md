@@ -13,11 +13,7 @@ hero: images/image1.png
 
 *shows the changes of test per capita and percentage of positive tests returned. The size of the circle indicate the median household income*
 
-
-
-<htmlinject keyid="graph1" htmlid="htmlsParsed.yml" />
-
-
+<htmlinject keyid="graph1" htmlid="htmlsparsed.yml" />
 
 ## Introduction
 
