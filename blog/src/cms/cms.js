@@ -10,15 +10,17 @@ import HtmlPreview from "../components/widgets/html/HtmlPreview";
 CMS.registerEditorComponent({
   id: "htmlinject",
   label: "Html Inject",
-  fields: [{ name: "key_", label: "Key", widget: "string" }],
+  fields: [{ name: "key_", label: "Key", widget: "string" },
+{ name: "html_", label: "Html", widget: "string" }],
   pattern: /^<htmlinject (\S+)$/,
   fromBlock: function(match) {
     return {
       key_: match[0].split("=")[1],
+      html_: match[1].split("=")[1],
     };
   },
   toBlock: function(obj) {
-    return `<htmlinject key_="${obj.key_}" />`;
+    return `<htmlinject key_="${obj.key_} html_="${obj.html_}" />`;
   },
   toPreview: function(obj) {
     return <HtmlPreview obj />;
