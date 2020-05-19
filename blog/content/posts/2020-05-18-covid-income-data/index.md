@@ -27,11 +27,15 @@ These confounding conclusions motivated our team to re-examine the relationship 
 
 ![](images/image2.png "New York City Median Household Income and % Positive Cases Per Test")
 
+![](images/image4.png "New York City Median Household Income and Test Per Capita ")
+
 \[Chart 2, 3 we could covert these all into interactive charts]
 
 From here, we wanted to go one step further and understand and visualize the geospatial distribution of testing and income. We divided the median household income and the testing rate per capita into quintiles. We assigned each quintile a score from 1 to 5, 1 representing the lowest quintile and 5 representing the highest quintile of each dataset. We then combined these scores and created a map that illuminates where this trend is happening. A score of 10 represents high incomes and high testing rates, while a score of 2 represents lowest income and lowest testing rates. In the map (Graph 4.1) we can see the extreme color of blue and red diminishing over time between early April and early May. However, there are still places that remain at score 2.
 
 Again, if we plot positive per test rate by quantile against the test per capita by quantile (Graph 4.2), we see a series map with extremely red indicating highest positive per test return rate while still lacking test per capita. The lighter color indicates a very low positive per test rate but high test per capita rate. These maps uncover the fact that even with the trend reversing, we still have many zip codes that are left behind.
+
+
 
 \[Maps]
 
