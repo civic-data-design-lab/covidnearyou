@@ -22,7 +22,7 @@ const HtmlPreview = (props) => {
     document.body.appendChild(script);
   console.log("Component Effect");
 } else {
-  window.location.reload();
+  //window.location.reload();
 }
   fetchYamlFile();
 }, [fetchYamlFile]);
