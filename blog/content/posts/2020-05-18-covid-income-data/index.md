@@ -39,9 +39,9 @@ Second, to go one step further we divided the median household income and the te
 
 If we plot **positive per test rate\[the count of a zip codes(?) postive covid cases]** by quantile against the test per capita by quantile (Graph 4.2), we see a **series map\[?]** with dark red indicating **the highest positive per test return rate while still lacking test per capita*\[reword this]***. The lighter color indicates a very low positive per test rate but high test per capita rate. These maps uncover the fact that even with the trend reversing, we still have many zip codes that are left behind. **\[If you can reference names, that would be helpful. Brooklyn or something..]**
 
-![](images/map1.png "Income + Testing Rate Score")
+![](images/mapforweb1.png "Income + Testing Rate Score")
 
-![](images/map2.png "Positive per test rate vs. Test per capita")
+![](images/mapforweb2.png "Positive per test rate vs. Test per capita")
 
 \[Maps, I could convert these to d3 for better performance]
 
