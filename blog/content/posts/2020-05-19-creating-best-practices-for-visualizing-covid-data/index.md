@@ -29,21 +29,15 @@ See the [thread below](https://twitter.com/ferrisjabr/status/1221145299084726273
 
 ![Tweet by Ferris Jabr: "Following numerous critiques, the most inaccurate tweet in the original viral thread disappeared/was probably deleted without explanation or follow-up correction. For transparency and posterity, this is what it looked like.  The info in the pictured tweet is unequivocally wrong" [image of tweet by Dr. Eric Feigl Ding: "SUMMARY: So what does this mean for the world??? We are now faced with the most virulent virus epidemic the world has ever seen. An R0=3.8 means that it exceeds SARS's modest 0.49 viral attack rate by 7.75x -- almost 8 fold! A virus that spreads 8 times faster than SARS..."]](images/screen-shot-2020-05-19-at-6.44.47-am.png "tweet4")
 
-
-
 Even among infectious disease experts, consensus on the best practices for modeling the incoming data would adapt over time ([thread](https://twitter.com/neil_ferguson/status/1243294815200124928)):
 
 ![Tweet by neil_ferguson: "1/4 - I think it would be helpful if I cleared up some confusion that has emerged in recent days. Some have interpreted my evidence to a UK parliamentary committee as indicating we have substantially revised our assessments of the potential mortality impact of COVID-19."](images/screen-shot-2020-05-19-at-6.45.02-am.png "tweet5")
-
-
 
 All these epistemological limitations fit under the umbrella of the [Dunning-Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect):
 
 ![Dunning-Kruger Effect. Diagram showing relationship between knowledge in field and confidence.](images/image1.jpg "Dunning-Kruger")
 
 *Original creator of this diagram unknown.*
-
-
 
 Following this evolving consensus on best practices, we can often observe improvements over time in some of the COVID data visualizations which have managed to reach a wider audience, and these revisions are instructive.
 
@@ -63,11 +57,11 @@ Now observe the linear graph of cases per capita, captured on the same day from 
 
 It would seem here that the Vatican City is careening towards anarchy at an unprecedented rate--an incorrect implication given by the choice of scale and normalization.
 
-Here John Burn-Murdoch, whose graphs for the *Financial Times* have earned praise, makes his team’s case against using per-capita rates in graphs [[link]](https://twitter.com/jburnmurdoch/status/1249445458264698880?ref_src=twsrc%5Etfw):
+Here John Burn-Murdoch, whose graphs for the *Financial Times* have earned praise, makes his team’s case against using per-capita rates in graphs [\[link]](https://twitter.com/jburnmurdoch/status/1249445458264698880?ref_src=twsrc%5Etfw):
 
 ![Tweets by John Burn-Murdoch: "Here’s a video where I explain why we’re using log scales, showing absolute numbers instead of per capita, and much more: [video link: 'Everything you need to know about that pink graph mapping coronavirus death rates by country by @jburnmurdoch'] And a chart showing why we're using absolute numbers rather than population-adjusted rates: [linked tweet: 'A quick chart for those who keep asking for per-capita adjustment:  Here’s population vs total death toll one week after 10th death.  No relationship.  As I’ve been saying, population does not affect pace of spread. All per-capita figures do is make smaller countries look worse.'] [scatter plot chart with trendline] "](images/screen-shot-2020-05-19-at-6.48.50-am.png "tweet05")
 
-In the [thread below](https://twitter.com/CT_Bergstrom/status/1249930293928030209), Carl T. Bergstrom of the University of Washington explains how per-capita rates **can** be responsibly compared between countries if the curves are left-aligned to starting positions of a given fractional infection rate. However, he also advises that per-capita comparisons between regions are preferable to those between countries.
+In the [thread below](https://twitter.com/CT_Bergstrom/status/1249930293928030209), Carl T. Bergstrom of the University of Washington explains how per-capita rates *can* be responsibly compared between countries if the curves are left-aligned to starting positions of a given fractional infection rate. However, he also advises that per-capita comparisons between regions are preferable to those between countries.
 
 ![Tweet by Carl T. Bergstrom: "1. When plotting epidemic curves or death totals, should we divide by population size? Here on twitter this question has generated a lot more heat than light.   The answer is a bit subtle and so while I’ve tweeted about this before I want to address it in more detail."](images/screen-shot-2020-05-19-at-6.50.42-am.png "tweet06")
 
@@ -75,15 +69,11 @@ There is also volatile disagreement on the proper selection of variables. Many s
 
 What are some general best practices and precautions for analyzing and visualizing COVID data? Here are some excellent sources addressing this question.
 
-* [10 considerations before you create another chart about COVID-19](https://www.tableau.com/about/blog/2020/3/ten-considerations-you-create-another-chart-about-covid-19) (03/13/20) by Amanda Makulec, Operations Director for the Data Visualization Societ[](http://news.mit.edu/2020/catherine-dignazio-visualizing-covid-19-data-0414)y
-
-  [3 Questions: Catherine D’Ignazio on visualizing COVID-19 data](http://news.mit.edu/2020/catherine-dignazio-visualizing-covid-19-data-0414) (04/13/20) profiling MIT assistant professor D’Ignazio;[](https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/)
-
-  [Mapping coronavirus, responsibly](https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/) (02/25/20) by Kenneth Field for ESRI;
-
-  [Why It’s So Freaking Hard to Make a Good COVID-19 Model](https://fivethirtyeight.com/features/why-its-so-freaking-hard-to-make-a-good-covid-19-model/) (03/31/20) by Maggie Koerth, Laura Bronner, and Jasmine Mithani for *FiveThirtyEight*;
-
-  Once again, [this Twitter thread](https://twitter.com/EvanMPeck/status/1235568532840120321) by Evan M. Peck of Bucknell University.
+* **[10 considerations before you create another chart about COVID-19](https://www.tableau.com/about/blog/2020/3/ten-considerations-you-create-another-chart-about-covid-19)** (03/13/20) by Amanda Makulec, Operations Director for the Data Visualization Societ[](http://news.mit.edu/2020/catherine-dignazio-visualizing-covid-19-data-0414)y
+* **[3 Questions: Catherine D’Ignazio on visualizing COVID-19 data](http://news.mit.edu/2020/catherine-dignazio-visualizing-covid-19-data-0414)** (04/13/20) profiling MIT assistant professor D’Ignazio;[](https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/)
+* **[Mapping coronavirus, responsibly](https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/)** (02/25/20) by Kenneth Field for ESRI;
+* **[Why It’s So Freaking Hard to Make a Good COVID-19 Model](https://fivethirtyeight.com/features/why-its-so-freaking-hard-to-make-a-good-covid-19-model/)** (03/31/20) by Maggie Koerth, Laura Bronner, and Jasmine Mithani for *FiveThirtyEight*;
+* Once again, [this Twitter thread](https://twitter.com/EvanMPeck/status/1235568532840120321) by Evan M. Peck of Bucknell University.
 
 For trustworthy visualizations, explore [these gems selected by Tableau](https://www.tableau.com/about/blog/2020/4/most-interesting-data-vizzes-covid-19-weve-seen-media-so-far) or the[ charts featured by Datawrapper](https://blog.datawrapper.de/coronaviruscharts/).
 
