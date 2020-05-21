@@ -54,7 +54,7 @@ Now observe the linear graph of cases per capita, captured on the same day from 
 
 ![COVID-19 Cases per Capita by Country from 91-divoc.com, captured on March 25, 2020.](images/image3.jpg "COVID-19 Cases per Capita by Country from 91-divoc.com, captured on March 25, 2020.")
 
-It would seem here that the Vatican City is careening towards anarchy at an unprecedented rate--an incorrect implication emerging from the choice of scale and normalization here.
+It would seem here that the Vatican City is careening towards anarchy at an unprecedented rate--an incorrect implication emerging from our choice of scale and normalization.
 
 Here John Burn-Murdoch, whose graphs for the *Financial Times* have earned praise, makes his team’s case against using per-capita rates in graphs ([link](https://twitter.com/jburnmurdoch/status/1249445458264698880?ref_src=twsrc%5Etfw)):
 
