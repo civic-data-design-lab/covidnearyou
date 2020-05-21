@@ -7,37 +7,35 @@ tags:
   - Covid
 hero: images/image1.png
 ---
-###### \[Chart 1. html, current image1 ]
 
-*Chart 1 Caption. Graph* 
 
-*shows the changes of test per capita and percentage of positive tests returned. The size of the circle indicate the median household income*
+*Chart 1 Caption. Graph shows the changes of test per capita and percentage of positive tests returned. The size of the circle indicate the median household income*
 
 <htmlinject keyid="graph1" htmlid="htmlsparsed.yml" />
 
 ## Introduction
 
-[New York City was slow to respond to COVID-19.](https://www.newyorker.com/magazine/2020/05/04/seattles-leaders-let-scientists-take-the-lead-new-yorks-did-not) It took the city officials over a month to shift adequate testing resources to areas that were suffering most: New York's low-income and disproportionately minority neighborhoods and households.  `REMOVE: How can we do better?`
+[New York City was slow to respond to COVID-19.](https://www.newyorker.com/magazine/2020/05/04/seattles-leaders-let-scientists-take-the-lead-new-yorks-did-not) It took the city officials over a month to shift adequate testing resources to areas that were suffering most: New York's low-income and disproportionately minority neighborhoods and households. 
 
-Many journalists and civil society actors have begun to raise alarm at what is proving to be a economic and social disparity in our governments' response. For the few state and local governments that have released details data on COVID19 fatalities, we are beginning to observe a clear uneven pattern: low-income communities have been much harder hit by COVID19 than high-income communities.  **We also know that \[\*Who is the we?]\*** widespread testing is essential to both helping infected individuals and also containing the virus at a regional level. However, income should not decide whether or not one has access to adequate testing and care.  
+Many journalists and civil society actors have begun to raise alarm at what is proving to be an economic and social disparity in our governments' response. For the few state and local governments that have released details data on COVID19 fatalities, we are beginning to observe a clear uneven pattern: low-income communities have been much harder hit by COVID19 than high-income communities.  **We also know that \[\*Who is the we?]\*** widespread testing is essential to both helping infected individuals and also containing the virus at a regional level. However, income should not decide whether or not one has access to adequate testing and care.  
 
-Several recent studies have attempted to analyze if state and local testing strategies are disbursed and utilized in more high-income than low-income regions.  Two studies, by Borjas, G. J. (2020) and Schmitt-Grohé (2020) respectively, used zip code level data in New York City. Their results? Using data from April 5th, Borjas finds that people residing in poor neighborhoods were less likely to be tested than people residing in rich neighborhoods. On the otherhand, with data from April 2nd to April 13th, Schmitt-Grohé finds that the distribution of Covid-19 tests was equal across income brackets. 
+Several recent studies have attempted to analyze if state and local testing strategies are disbursed and utilized in more high-income than low-income regions.  Two studies, by Borjas, G. J. (2020) and Schmitt-Grohé (2020) respectively, used zip code level data in New York City. Using data from April 5th, Borjas finds that people residing in poor neighborhoods were less likely to be tested than people residing in rich neighborhoods, while, with data from April 2nd to April 13th, Schmitt-Grohé finds that the distribution of Covid-19 tests was equal across income brackets. 
 
 'in comparing these two results, it become more evident that a key contributing factor in the differences is ***time***.
 
 ## Timing is everything.
 
-These confounding conclusions motivated us to explore the relationship of Covid-19 testing, income levels, and time. First, we compare the zip code level testing and confirmed cases data from April 1st to May 4th in New York City. ***The results comply with the previous mentioned two studies \[What do you mean by this]*.** Low-income zip codes show a higher fraction of positive testing results across time. Although the data from early April show a higher concentration of testing in high-income zip codes, this trend reversed itself over time in the last month.
+These confounding conclusions motivated researchers in our lab to explore the relationship of Covid-19 testing, income levels, and time. First, we compare the zip code level testing and confirmed cases data from April 1st to May 4th in New York City**.** Low-income zip codes show a higher fraction of positive testing results across time. Although the data from early April show a higher concentration of testing in high-income zip codes, this trend reversed itself over time in the last month.
 
 ![](images/image2.png "New York City Median Household Income and % Positive Cases Per Test")
 
 ![](images/image4.png "New York City Median Household Income and Test Per Capita ")
 
-\[Chart 2, 3 we could covert these all into interactive charts]
 
-Second, to go one step further we divided the median household income and the testing rate per capita into quintiles. We assigned each quintile a score from 1 to 5: 1 representing the lowest quintile and 5 representing the highest quintile ***of each dataset[of the dataset?*]**. We then combined these scores and created a map that illuminates where *this trend i*s happening***\[What trend?]***. A score of 10 represents the highest income and  testing rates, while a score of 2 represents lowest income and testing rates. In the map (Graph 4.1) we can see the extreme color of blue and red diminishing over time between early April and early May. However, there are still places that remain at score 2.
 
-If we plot **positive per test rate\[the count of a zip codes(?) postive covid cases]** by quantile against the test per capita by quantile (Graph 4.2), we see a **series map\[?]** with dark red indicating **the highest positive per test return rate while still lacking test per capita*\[reword this]***. The lighter color indicates a very low positive per test rate but high test per capita rate. These maps uncover the fact that even with the trend reversing, we still have many zip codes that are left behind. **\[If you can reference names, that would be helpful. Brooklyn or something..]**
+Second, to go one step further we divided the median household income and the testing rate per capita into quintiles. We assigned each quintile a score from 1 to 5: 1 representing the lowest quintile and 5 representing the highest quintile. We then add the testing rate per capita score with the household income score created a map that illuminates where there is disparity between income and testing. A score of 10 represents the highest income and  testing rates, while a score of 2 represents lowest income and testing rates. In the map (Graph 4.1) we can see the extreme color of blue and red diminishing between early April and early May. However, there are still places that remain at score 2.
+
+If we plot positive returns per test rate (at zipcode level) by quintile against the test per capita by quintile (Graph 4.2), we show a map with dark red indicating very high likelihood of getting a positive return per test but the overall tests per capita remain low. The blue color indicates the zip code has a very positive per test rate but high test per capita rate. These maps uncover the fact that even with the trend reversing, we still have many zip codes that are left behind. For example, as of May 4th, Flushing in Queens (11355) has a positive cases per test rate as high as 46.7% but their overall test per capita is less than 3%. On the contrary, Staten Island (10305) has a positive cases per test rate at 36.9% and its overall test per capita rate is around 7.2%. 
 
 ![](images/mapforweb1.png "Income + Testing Rate Score")
 
