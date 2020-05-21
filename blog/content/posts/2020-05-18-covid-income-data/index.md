@@ -41,11 +41,11 @@ If we plot positive returns per test rate (at zipcode level) by quintile against
 
 ![](images/mapforweb2.png "Positive per test rate vs. Test per capita")
 
-\[Maps, I could convert these to d3 for better performance]
 
-There are potentially many factors that contributed to New York's decisions on where to allocation COVID19 resources. It could be because her healthcare system is just simply responding to the number of confirmed cases. Whatever the reason, we all have an obligation to understand and learn from these failings in order to better inform more equitable designs and plans. Many of us dont have the luxury of time. So it is left to our planners, policy-makers, and public health officials to ensure that we make the very best of it. To know and never doubt that income should never dictate the acquisition of something so priceless - a life well lived
 
-**\[ Working remotely is a convenience only afforded to high income populations; those who perform the city’s essential services—sanitation, food services and delivery, cab drivers, transit workers—predominantly live in lower income areas. Cities must be concerned foremost with the health of these essential workers, especially as cities are considering reopening in the coming months, to maintain a stable transition and avoid a second wave of the virus.] *This seem tangential***
+There are potentially many factors that contributed to New York's decisions on where to allocation COVID19 resources. It could be because her healthcare system is just simply responding to the number of confirmed cases. Whatever the reason, we all have an obligation to understand and learn from these failings in order to better inform more equitable designs and plans. Many of us don't have the luxury of time. So it is left to our planners, policy-makers, and public health officials to ensure that we make the very best of it. To know and never doubt that income should never dictate the acquisition of something so priceless - a life well lived
+
+
 
 ## Reference:
 
