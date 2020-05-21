@@ -1,7 +1,7 @@
 ---
 title: Creating Best Practices for Visualizing Covid Data
 author: Griffin Kantz
-date: 2020-05-21T00:00:00.000Z
+date: 2020-05-21
 excerpt: The global importance of the SARS-CoV-2/COVID-19 pandemic, and the
   salience of eye-catching data visualizations in these times, necessitate a
   profoundly judicious use of data variables and normalizations. Here is a
