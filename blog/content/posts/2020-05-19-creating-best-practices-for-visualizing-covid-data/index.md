@@ -1,14 +1,14 @@
 ---
 title: Creating Best Practices for Visualizing Covid Data
 author: Griffin Kantz
-date: 2020-05-21
+date: 2020-05-21T00:00:00.000Z
 excerpt: The global importance of the SARS-CoV-2/COVID-19 pandemic, and the
   salience of eye-catching data visualizations in these times, necessitate a
   profoundly judicious use of data variables and normalizations. Here is a
   survey of professional guidance on this topic.
 tags:
   - Covid
-hero: images/image2.jpg
+hero: images/blog_griffin-k_responsible-covid-data-visualization_header.png
 ---
 The global importance of the SARS-CoV-2/COVID-19 pandemic, and the salience of eye-catching data visualizations in these times, necessitate a profoundly judicious use of data variables and normalizations. Inappropriate choices in these respects can contribute to misconceptions about the magnitudes of various aspects of the crisis, either in comparison to each other or in comparison to other global issues. Unchecked misconceptions about quantitative data in public health have the potential to enable harm, a hazard which such tags as [\#datasaveslives](https://twitter.com/hashtag/datasaveslives?lang=en) may have the effect of blanketing over.
 
