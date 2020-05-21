@@ -4,9 +4,8 @@ author: Griffin Kantz
 date: 2020-05-21
 excerpt: The global importance of the SARS-CoV-2/COVID-19 pandemic, and the
   salience of eye-catching data visualizations in these times, necessitate a
-  profoundly judicious use of data variables and normalizations. Inappropriate
-  choices in these respects can contribute to misconceptions about the
-  magnitudes of various aspects of the crisis.
+  profoundly judicious use of data variables and normalizations. Here is a
+  survey of professional guidance on this topic.
 tags:
   - Covid
 hero: images/image2.jpg
