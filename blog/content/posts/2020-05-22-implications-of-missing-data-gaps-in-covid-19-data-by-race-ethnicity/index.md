@@ -1,0 +1,25 @@
+---
+title: "Implications of Missing Data: Gaps in COVID-19 Data by Race & Ethnicity"
+author: Chenab Navalkha
+date: 2020-05-22
+tags:
+  - Covid
+  - Health
+  - Mapping
+hero: images/screen-shot-2020-05-22-at-10.08.27-am.png
+---
+The COVID-19 pandemic has highlighted the importance of collecting and reporting data on health outcomes across races and ethnicities. This conversation has been ongoing among those working toward [health equity](https://www.google.com/url?q=https://www.healthaffairs.org/do/10.1377/hblog20200507.469145/full/?utm_source%3DNewsletter%26utm_medium%3Demail%26utm_content%3DEye%2BOn%2BHealth%2BReform%253A%2BRisk%2BCorridors%252C%2BCOVID-19%252C%2BAnd%2BThe%2BACA%253B%2BCOVID-19%253A%2BFederal%2BFunding%2BFor%2BContact%2BTracing%253B%2BMedicaid%2BMCOs%2BAnd%2BPayment%2BReform%253B%2BInequity%26utm_campaign%3DHAT%2B5-11-20%26&sa=D&ust=1590158619227000&usg=AFQjCNGo8Ae6MN6_8xi21Iua4cbQU62_Yg) and to mitigate the negative impacts of the [“social determinants of health”](https://www.google.com/url?q=https://patientengagementhit.com/news/social-determinants-of-health-comorbidities-sway-covid-19-severity&sa=D&ust=1590158619229000&usg=AFQjCNHUbDqYt4PiAPAbP4WYpvXRBwCHVg) – or the place-based conditions that impact the health of individuals and communities.
+
+Over the last month or so, [more](https://www.google.com/url?q=https://www.theatlantic.com/ideas/archive/2020/04/stop-looking-away-race-covid-19-victims/609250/&sa=D&ust=1590158619231000&usg=AFQjCNGvZda446O1AMbKQ8ZIARTVGGXPNw) and more articles have been published discussing the disparate impact of COVID-19 on [African American](https://www.google.com/url?q=https://labblog.uofmhealth.org/rounds/racial-disparities-time-of-covid-19&sa=D&ust=1590158619228000&usg=AFQjCNHWT_KM3b_dszEG9VEUE-ItDnojJA), Indigenous, and [Latinx](https://www.google.com/url?q=https://www.nytimes.com/2020/05/07/us/coronavirus-latinos-disparity.html&sa=D&ust=1590158619219000&usg=AFQjCNGB63MElzGWkmKzA6k6VgNhgCAgtA) people. These articles bring to light the ways in which existing inequities – both in terms of access to resources and healthcare, and resulting from historic processes of discrimination such as redlining – are manifesting in COVID-19 infection and mortality rates.
+
+This burgeoning discussion also has brought into clear focus the inconsistencies in how data on race and ethnicity are collected and shared at the state level. Some states have robust data on COVID-19 testing results and death rates that include granular information by race and ethnicity and have made these data easily accessible to the public. Other states are lagging behind. One of the clear principles among those working to mitigate health disparities is the need to quantify the disparities in where and how the data are collected to begin with. In other words, we need to collect and report these data in order to understand how impacts are disparately falling before we can determine how to intervene in order to mitigate these inequities.
+
+Our lab decided to look into how states have been collecting and sharing data on COVID-19 testing and deaths by race. [The COVID Tracking Project](https://www.google.com/url?q=https://covidtracking.com/race&sa=D&ust=1590158619219000&usg=AFQjCNESMUbMb9qT-r1q-f8XRMbXnNj73g) recently teamed up with the Antiracist Research & Policy Center to aggregate race data by state and to highlight where the gaps are. [Check out their regularly updated racial data tracker [here](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTfUQPxkhP_CRcGmnnpUBihnTNZ9Z8pcizII4_sc2o2n3opOoAJdAM4CRTJBI339tou8LWnQrqbTMgH/pubhtml%23&sa=D&ust=1590158619220000&usg=AFQjCNEYWrNViMBob1DzXPfjotH7ablwGA).]
+
+Using their data, we created these maps that show the percent of missing data on race and ethnicity among those who have tested positive for COVID-19, by state.
+
+\[maps]
+
+It’s important to note, though, that even where testing data and outcomes are reported by race and ethnicity, an outstanding question remains of who is and isn’t being tested. Even the most “complete” datasets don’t answer this more fundamental question.
+
+Understanding where these data are missing is, of course, just one piece of the larger conversation about how the structural features of our society have left some communities more vulnerable to the pandemic than others. If you’re interested, [here](https://www.google.com/url?q=https://www.healthaffairs.org/do/10.1377/hblog20200507.469145/full/?utm_source%3DNewsletter%26utm_medium%3Demail%26utm_content%3DEye%2BOn%2BHealth%2BReform%253A%2BRisk%2BCorridors%252C%2BCOVID-19%252C%2BAnd%2BThe%2BACA%253B%2BCOVID-19%253A%2BFederal%2BFunding%2BFor%2BContact%2BTracing%253B%2BMedicaid%2BMCOs%2BAnd%2BPayment%2BReform%253B%2BInequity%26utm_campaign%3DHAT%2B5-11-20%26&sa=D&ust=1590158619230000&usg=AFQjCNE3I8JdtgTHBTX5Z4m1lHlh8LGnBQ) is a great piece that delves into how inequity is playing a role as a “pre-existing condition” in our current healthcare system.
