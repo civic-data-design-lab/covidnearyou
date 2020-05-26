@@ -7,7 +7,7 @@ tags:
   - Covid
 hero: images/image1-01.jpg
 ---
-*Chart 1 Caption. Graph shows the changes of test per capita and percentage of positive tests returned. The size of the circle indicate the median household income*
+*Chart 1. The graph above shows the changes of test per capita and percentage of positive tests returned. The size of the circle indicate the median household income*
 
 ## Introduction
 
