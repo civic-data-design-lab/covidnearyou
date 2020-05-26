@@ -39,7 +39,7 @@ There are potentially many factors that contributed to New York's decisions on w
 
 ## Reference:
 
-\
+
 \[1] Borjas, G. J. (2020).*Demographic determinants of testing incidence and COVID-19 infections in New York City neighborhoods*(No. w26952). National Bureau of Economic Research.
 
 \[2] Schmitt-Grohé, S., Teoh, K., & Uribe, M. (2020).*Covid-19: Testing Inequality in New York City*(No. w27019). National Bureau of Economic Research.
