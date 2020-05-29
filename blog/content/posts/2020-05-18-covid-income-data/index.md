@@ -1,7 +1,7 @@
 ---
 title: Covid-19 Tests and Inequality
 author: Zhuangyuan (Yuan) Fan
-date: 2020-05-18T00:00:00.000Z
+date: 2020-05-29
 tags:
   - General
   - Covid
