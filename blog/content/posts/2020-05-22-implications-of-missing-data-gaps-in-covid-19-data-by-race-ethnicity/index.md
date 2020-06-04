@@ -1,7 +1,7 @@
 ---
 title: "Implications of Missing Data: Gaps in COVID-19 Data by Race & Ethnicity"
 author: Chenab Navalkha
-date: 2020-05-22
+date: 2020-05-22T00:00:00.000Z
 tags:
   - Covid
   - Health
@@ -18,7 +18,7 @@ Our lab decided to look into how states have been collecting and sharing data on
 
 Using their data, we created these maps that show the percent of missing data on race and ethnicity among those who have tested positive for COVID-19, by state.
 
-\[maps]
+<iframe width="100%" height="520" frameborder="0" src="https://mit.carto.com/u/chenab/builder/760496a1-4886-40c3-be1c-73ae28cfb2b9/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 It’s important to note, though, that even where testing data and outcomes are reported by race and ethnicity, an outstanding question remains of who is and isn’t being tested. Even the most “complete” datasets don’t answer this more fundamental question.
 
