@@ -6,7 +6,7 @@ tags:
   - Covid
   - Health
   - Mapping
-hero: images/screen-shot-2020-05-22-at-10.08.27-am.png
+hero: images/iconblog.png
 ---
 The COVID-19 pandemic has highlighted the importance of collecting and reporting data on health outcomes by race and ethnicity in order to quantify the way in which the virus's impacts fall along existing lines of health and structural inequity. 
 
