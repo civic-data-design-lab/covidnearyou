@@ -1,7 +1,7 @@
 ---
 title: "Implications of Missing Data: Gaps in COVID-19 Data by Race & Ethnicity"
 author: Chenab Navalkha
-date: 2020-05-22T00:00:00.000Z
+date: 2020-06-05
 tags:
   - Covid
   - Health
