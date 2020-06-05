@@ -24,6 +24,10 @@ Using their data, we created these maps that show the percent of missing data on
 
 *(Data pulled June 4, 2020 from <https://covidtracking.com/race>)*
 
+<iframe id="carto" title="Carto Map" src="https://mit.carto.com/u/chenab/builder/03122e0c-35fb-4950-be0c-00af2281175c/embed" width="100%" height="520" allow="" /> 
+
+*(Data pulled June 4, 2020 from <https://covidtracking.com/race>)*
+
 It’s important to note, though, that even where testing data and outcomes are reported by race and ethnicity, an outstanding question remains of who is and isn’t being tested. Even the most “complete” datasets don’t answer this more fundamental question.
 
 Understanding where these data are missing is, of course, just one piece of the larger conversation about how the structural features of our society have left some communities more vulnerable to the pandemic than others. If you’re interested, [here](https://www.google.com/url?q=https://www.healthaffairs.org/do/10.1377/hblog20200507.469145/full/?utm_source%3DNewsletter%26utm_medium%3Demail%26utm_content%3DEye%2BOn%2BHealth%2BReform%253A%2BRisk%2BCorridors%252C%2BCOVID-19%252C%2BAnd%2BThe%2BACA%253B%2BCOVID-19%253A%2BFederal%2BFunding%2BFor%2BContact%2BTracing%253B%2BMedicaid%2BMCOs%2BAnd%2BPayment%2BReform%253B%2BInequity%26utm_campaign%3DHAT%2B5-11-20%26&sa=D&ust=1590158619230000&usg=AFQjCNE3I8JdtgTHBTX5Z4m1lHlh8LGnBQ) is a great piece that delves into how inequity is playing a role as a “pre-existing condition” in our current healthcare system.
