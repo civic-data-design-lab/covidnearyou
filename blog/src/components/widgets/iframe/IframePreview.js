@@ -1,14 +1,21 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-export default function IframePreview({ id, title, allow, src }) {
+export default function IframePreview({
+  id,
+  title,
+  allow,
+  width,
+  height,
+  src,
+}) {
   return (
     <iframe
       title={title}
       key="iframe"
-      src={id}
-      width="100%"
-      height="375"
+      src={src}
+      width={width}
+      height={height}
       allow={allow}
     />
   );

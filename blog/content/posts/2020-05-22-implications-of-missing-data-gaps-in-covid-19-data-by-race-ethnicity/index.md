@@ -20,7 +20,7 @@ Our lab decided to look into how states have been collecting and sharing data on
 
 Using their data, we created these maps that show the percent of missing data on race and ethnicity among those who have tested positive for COVID-19, by state. The darker colors indicate states in which there is a higher level of missingness of these data. 
 
-<iframe width="100%" height="520" frameborder="0" src="https://mit.carto.com/u/chenab/builder/760496a1-4886-40c3-be1c-73ae28cfb2b9/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe id="carto" title="Carto Map" src="https://mit.carto.com/u/chenab/builder/760496a1-4886-40c3-be1c-73ae28cfb2b9/embed" width="100%" height="520" allow="" /> 
 
 *(Data pulled June 4, 2020 from <https://covidtracking.com/race>)*
 

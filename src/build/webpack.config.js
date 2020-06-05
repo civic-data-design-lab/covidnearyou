@@ -19,6 +19,7 @@ module.exports = {
           "?prefix=font/&limit=10000&mimetype=application/font-woff&name=assets/[hash].[ext]",
       },
       { test: /\.tff/, use: "file-loader" },
+      { test: /\.csv/, use: "file-loader" },
       {
         test: /\.eot/,
         use:
