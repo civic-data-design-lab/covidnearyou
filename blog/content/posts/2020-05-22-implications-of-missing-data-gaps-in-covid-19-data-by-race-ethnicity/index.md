@@ -24,7 +24,7 @@ Using their data, we created these maps that show the percent of missing data on
 
 *(Data pulled June 4, 2020 from <https://covidtracking.com/race>)*
 
-<iframe id="carto" title="Carto Map" src="https://mit.carto.com/u/chenab/builder/03122e0c-35fb-4950-be0c-00af2281175c/embed" width="100%" height="520" allow="" /> 
+<iframe id="carto-2" title="Carto Map Ethnicity" src="https://mit.carto.com/u/chenab/builder/03122e0c-35fb-4950-be0c-00af2281175c/embed" width="100%" height="520" allow="" /> 
 
 *(Data pulled June 4, 2020 from <https://covidtracking.com/race>)*
 
