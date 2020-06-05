@@ -1,12 +1,12 @@
 ---
 title: "Implications of Missing Data: Gaps in COVID-19 Data by Race & Ethnicity"
 author: Chenab Navalkha
-date: 2020-05-22T00:00:00.000Z
+date: 2020-06-05T00:00:00.000Z
 tags:
   - Covid
   - Health
   - Mapping
-hero: images/iconblog.png
+hero: images/screen-shot-2020-05-22-at-10.08.27-am.png
 ---
 The COVID-19 pandemic has highlighted the importance of collecting and reporting data on health outcomes by race and ethnicity in order to quantify the way in which the virus's impacts fall along existing lines of health and structural inequity. 
 
@@ -16,11 +16,13 @@ Over the last month or so, [more](https://www.google.com/url?q=https://www.theat
 
 This burgeoning discussion also has brought into clear focus the inconsistencies in how data on race and ethnicity are collected and shared at the state level. Some states have robust data on COVID-19 testing results and death rates that include granular information by race and ethnicity and have made these data easily accessible to the public. Other states are lagging behind. One of the clear principles among those working to mitigate health disparities is the need to quantify the disparities in where and how the data are collected to begin with. In other words, we need to collect and report these data in order to understand how impacts are disparately falling before we can determine how to intervene in order to mitigate these inequities.
 
-Our lab decided to look into how states have been collecting and sharing data on COVID-19 testing and deaths by race. [The COVID Tracking Project](https://www.google.com/url?q=https://covidtracking.com/race&sa=D&ust=1590158619219000&usg=AFQjCNESMUbMb9qT-r1q-f8XRMbXnNj73g) recently teamed up with the Antiracist Research & Policy Center to aggregate race data by state and to highlight where the gaps are. [Check out their regularly updated racial data tracker [here](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTfUQPxkhP_CRcGmnnpUBihnTNZ9Z8pcizII4_sc2o2n3opOoAJdAM4CRTJBI339tou8LWnQrqbTMgH/pubhtml%23&sa=D&ust=1590158619220000&usg=AFQjCNEYWrNViMBob1DzXPfjotH7ablwGA).]
+Our lab decided to look into how states have been collecting and sharing data on COVID-19 testing and deaths by race. [The COVID Tracking Project](https://www.google.com/url?q=https://covidtracking.com/race&sa=D&ust=1590158619219000&usg=AFQjCNESMUbMb9qT-r1q-f8XRMbXnNj73g) recently teamed up with the Antiracist Research & Policy Center to aggregate race data by state and to highlight where the gaps are. (Check out their regularly updated racial data tracker [here](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTfUQPxkhP_CRcGmnnpUBihnTNZ9Z8pcizII4_sc2o2n3opOoAJdAM4CRTJBI339tou8LWnQrqbTMgH/pubhtml%23&sa=D&ust=1590158619220000&usg=AFQjCNEYWrNViMBob1DzXPfjotH7ablwGA).)
 
-Using their data, we created these maps that show the percent of missing data on race and ethnicity among those who have tested positive for COVID-19, by state.
+Using their data, we created these maps that show the percent of missing data on race and ethnicity among those who have tested positive for COVID-19, by state. The darker colors indicate states in which there is a higher level of missingness of these data. 
 
 <iframe width="100%" height="520" frameborder="0" src="https://mit.carto.com/u/chenab/builder/760496a1-4886-40c3-be1c-73ae28cfb2b9/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+*(Data pulled June 4, 2020 from <https://covidtracking.com/race>)*
 
 It’s important to note, though, that even where testing data and outcomes are reported by race and ethnicity, an outstanding question remains of who is and isn’t being tested. Even the most “complete” datasets don’t answer this more fundamental question.
 
