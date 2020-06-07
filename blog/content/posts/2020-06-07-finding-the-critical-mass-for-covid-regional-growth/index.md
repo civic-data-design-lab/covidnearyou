@@ -23,10 +23,12 @@ Here we examine the [Johns Hopkins CSSE time series dataset](https://github.com/
 
 First, we group U.S. county-level COVID death counts into the top 100 Census Bureau metropolitan statistical areas (MSAs), which adhere to county boundaries.
 
-Next, we shift the daily figures for each MSA to synchronize the two weeks before and two weeks after the day *X* total deaths were observed, where *X* = 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, and 2000. (Why these amounts? Contagions spread exponentially, and these numbers break the span from 1 to 2000 into roughly equal logarithmic intervals.)
+Next, we shift the daily figures for each MSA to synchronize the two weeks before and two weeks after the day *X* total deaths were observed, where *X* = 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, and 2000. (Why these amounts? Contagions spread exponentially, and these numbers break the span from 1 to 2000 into roughly equal logarithmic intervals. As of today, only two MSAs have reached 50,000 total deaths.)
 
 Then, for each level of *X*, we create linear regressions for the two weeks before and two weeks after, based on the logarithmic formulae below:
 
 ![Equations: log(deaths) = alpha + beta*days + epsilon. Deaths = lambda*e^(beta*days) + epsilon, lambda = e^alpha.](images/covid-19-critical-mass_equations.png)
 
-Here are interactive graphs for each level of *X*:
+Below, see interactive graphs for *X* = 1 and 2 deaths.
+
+The paths on the right side of these two graphs are extremely divergent, signifying that these small thresholds are too early in the spread of coronavirus to make a meaningful prediction or comparison of the future.
