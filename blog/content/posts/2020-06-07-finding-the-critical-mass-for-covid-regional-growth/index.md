@@ -31,15 +31,15 @@ Then, for each level of *X*, we create linear regressions for the two weeks befo
 
 ![Equations: log(deaths) = alpha + beta*days + epsilon. Deaths = lambda*e^(beta*days) + epsilon, lambda = e^alpha.](images/covid-19-critical-mass_equations.png)
 
-Below, see interactive graphs for *X* = 1 and 2 deaths.
+Below in Chart 1, see an interactive graph for *X* = 1 death.
 
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/3.embed"></iframe>
 
-*Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
+*Chart 1. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
 
-The paths on the right side of these two graphs are extremely divergent, signifying that these small thresholds are too early in the spread of coronavirus to make a meaningful prediction or comparison of trajectories. Additionally, the paths on the left side of the graphs are basically inscrutable, since zero values cannot be calculated logarithmically and must therefore be discarded.
+The data on the right side are extremely divergent, signifying that this threshold is too early in the spread of coronavirus to make a meaningful prediction or comparison of trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left side of the graph are inscrutable, since zero values cannot be calculated logarithmically and must therefore be discarded.
 
-Higher values of *X* are where we can make more useful comparisons between the weeks before and the weeks after.
+Higher values of *X* are where we can make more useful before/after comparisons. Below are the last six values of *X*, visualized.
 
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/5.embed"></iframe>
 
@@ -53,11 +53,15 @@ Higher values of *X* are where we can make more useful comparisons between the w
 
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/15.embed"></iframe>
 
+*Charts 2-7. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
+
 We can calculate the mean square error (MSE) of the *before* and *after* regression lines to the observed counts. A low MSE means that the observations fit well around the regression line, indicating some uniform predictability. For the first few values of *X*, the MSE is lower on the *before* (left) side than on the *after* (right) side. For larger *X*, the opposite is true: the MSE of *after* is lower.
 
 What happens at the point where the MSE of the *after* side becomes less than that of the *before* side? This means that the near future from *X* deaths is finally more predictable than the near past. Let’s see where that point occurs:
 
 <iframe width="500" height="500" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/17.embed"></iframe>
+
+*Chart 8. Mean square error and degrees of freedom.*
 
 In the bottom half of this graphic, we see how the *before* MSE surpasses the *after* MSE just shy of *X* = 50 deaths. This implies that the growth in the COVID fatality rate truly becomes comparable between urban regions after the 50th death. Measuring from the 100th or 200th death enables even more accuracy, but a longer starting delay may needlessly discard weeks of data that could otherwise be informative.
 
