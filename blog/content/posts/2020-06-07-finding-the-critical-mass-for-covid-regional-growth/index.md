@@ -17,7 +17,9 @@ To account for this early-stage uncertainty, while attempting to model the disea
 
 Different modelers will choose different thresholds. The *[Financial Times](https://ig.ft.com/coronavirus-chart/?areas=usa&areas=gbr&cumulative=0&logScale=1&perMillion=0&values=deaths)* measures new cases or deaths by country from the day 10 cases/day or 3 deaths/day is reached, and cumulative cases/deaths from the day of the 100th case/death. The [data visualization at 91-divoc.com](http://91-divoc.com/pages/covid-visualization/) measures cases by country from the day of the 100th case and deaths from the day of the 10th death; for regions, it uses 20 cases or 5 deaths, respectively; for *per capita* figures, it uses 1 case or death per 1 million people. These amounts correspond with the lower bound of the x-axis on time series graphs.
 
-## What critical mass threshold makes the most sense at a regional level?
+
+
+## What critical mass makes the most sense at a regional level?
 
 Here we examine the [Johns Hopkins CSSE time series dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) to determine for ourselves (using data up to 5/31/20). We choose to analyze counts of confirmed COVID fatalities, which are more reliable early-stage figures than confirmed COVID cases. (However, deaths are a lagging indicator, and the concept of *critical mass* really pertains to infections.)
 
