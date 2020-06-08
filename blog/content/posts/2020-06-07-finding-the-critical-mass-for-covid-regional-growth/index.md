@@ -31,7 +31,7 @@ Then, for each level of *X*, we create linear regressions for the two weeks befo
 
 Below, see interactive graphs for *X* = 1 and 2 deaths.
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/3.embed"></iframe>
+<iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/3.embed"></iframe>
 
 The paths on the right side of these two graphs are extremely divergent, signifying that these small thresholds are too early in the spread of coronavirus to make a meaningful prediction or comparison of trajectories. Additionally, the paths on the left side of the graphs are basically inscrutable, since zero values cannot be calculated logarithmically and must therefore be discarded.
 
