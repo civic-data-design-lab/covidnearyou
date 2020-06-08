@@ -43,6 +43,8 @@ Higher values of *X* are where we can make more useful comparisons between the w
 
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/7.embed"></iframe>
 
+<iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/9.embed"></iframe>
+
 We can calculate the mean square error (MSE) of the *before* and *after* regression lines to the observed counts. A low MSE means that the observations fit well around the regression line, indicating some uniform predictability. For the first few values of *X*, the MSE is lower on the *before* (left) side than on the *after* (right) side. For larger *X*, the opposite is true: the MSE of *after* is lower.
 
 What happens at the point where the MSE of the *after* side becomes less than that of the *before* side? This means that the near future from *X* deaths is finally more predictable than the near past. Let’s see where that point occurs:
