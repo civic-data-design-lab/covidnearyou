@@ -1,5 +1,5 @@
 ---
-title: Finding the City-Level Critical Mass for COVID
+title: Finding the Region-Level Critical Mass for COVID
 author: Griffin Kantz
 date: 2020-06-12T00:00:00.000Z
 excerpt: What's the best left bound? Synchronizing COVID death counts by U.S. MSA.
