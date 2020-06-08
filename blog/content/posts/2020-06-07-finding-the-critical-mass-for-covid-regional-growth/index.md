@@ -57,4 +57,4 @@ See how both MSE curves decrease sharply towards the right edge. This is an arti
 
 This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a consistent pace at some time around the 50th death. This is an important finding for comparisons between regions and future COVID time-series data visualizations.
 
-Download our data tables for this article here.
+Download our data tables for this article here. \[GitHub link]
