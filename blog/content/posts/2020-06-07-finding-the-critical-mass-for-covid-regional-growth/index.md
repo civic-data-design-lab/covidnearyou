@@ -35,6 +35,18 @@ Below, see interactive graphs for *X* = 1 and 2 deaths.
 
 The paths on the right side of these two graphs are extremely divergent, signifying that these small thresholds are too early in the spread of coronavirus to make a meaningful prediction or comparison of trajectories. Additionally, the paths on the left side of the graphs are basically inscrutable, since zero values cannot be calculated logarithmically and must therefore be discarded.
 
-Higher values of *X* are where we can make more useful comparisons between the weeks before and the weeks after. Here are the rest of the graphs.
+Higher values of *X* are where we can make more useful comparisons between the weeks before and the weeks after.
 
-We can calculate the mean square error of the regression lines to the observed
+<iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/5.embed"></iframe>
+
+We can calculate the mean square error (MSE) of the *before* and *after* regression lines to the observed counts. A low MSE means that the observations fit well around the regression line, indicating some uniform predictability. For the first few values of *X*, the MSE is lower on the *before* (left) side than on the *after* (right) side. For larger *X*, the opposite is true: the MSE of *after* is lower.
+
+What happens at the point where the MSE of the *after* side becomes less than that of the *before* side? This means that the near future from *X* deaths is finally more predictable than the near past. Let’s see where that point occurs:
+
+(MSE graph)
+
+In the bottom half of this graphic, we see how the *before* MSE surpasses the *after* MSE just shy of *X* = 50 deaths. This implies that the growth in the COVID fatality rate truly becomes comparable between urban regions after the 50th death. Measuring from the 100th or 200th death enables even more accuracy, but a longer starting delay may needlessly discard weeks of data that could otherwise be informative.
+
+See how both MSE curves decrease sharply towards the right edge. This is an artificial improvement in accuracy—reflected in the low degrees of freedom in the top graph—owing to the rarity of MSAs reaching those high death counts to date.
+
+## In conclusion
