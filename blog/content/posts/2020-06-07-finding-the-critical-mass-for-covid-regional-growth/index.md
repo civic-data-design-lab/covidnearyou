@@ -49,4 +49,10 @@ In the bottom half of this graphic, we see how the *before* MSE surpasses the *a
 
 See how both MSE curves decrease sharply towards the right edge. This is an artificial improvement in accuracy—reflected in the low degrees of freedom in the top graph—owing to the rarity of MSAs reaching those high death counts to date.
 
+
+
 ## In conclusion
+
+This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a consistent pace at some time around the 50th death. This is an important finding for comparisons between regions and future COVID time-series data visualizations.
+
+Download our data tables for this article here.
