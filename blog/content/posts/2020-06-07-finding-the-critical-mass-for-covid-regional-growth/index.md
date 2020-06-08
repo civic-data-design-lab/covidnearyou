@@ -61,7 +61,7 @@ What happens at the point where the MSE of the *after* side becomes less than th
 
 <iframe width="500" height="500" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/17.embed"></iframe>
 
-*Chart 8. Mean square error and degrees of freedom.*
+*Chart 8. Degrees of freedom (top) and mean square error (bottom) for each value of* X*.*
 
 In the bottom half of this graphic, we see how the *before* MSE surpasses the *after* MSE just shy of *X* = 50 deaths. This implies that the growth in the COVID fatality rate truly becomes comparable between urban regions after the 50th death. Measuring from the 100th or 200th death enables even more accuracy, but a longer starting delay may needlessly discard weeks of data that could otherwise be informative.
 
