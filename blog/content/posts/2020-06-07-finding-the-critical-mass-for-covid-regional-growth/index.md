@@ -63,8 +63,8 @@ See how both MSE curves decrease sharply on the far right side of the graph. Her
 
 ## What we can learn
 
-This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a "critical mass" and loses its early-stage variability at some time around the 50th death. Chart 5 implies that measuring from the 100th or 200th death could enable even more precision, but bear in mind the passage of time: a longer starting delay may needlessly discard weeks of data that could otherwise be informative.
+This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a "critical mass" and loses its early-stage variability at some time around the 50th death. Chart 5 implies that measuring from the 100th or 200th death could enable even more precision, but bear in mind the passage of time: a longer starting delay may needlessly discard weeks of data that could otherwise be informative. Comparison does, after all, include identifying differences.
 
-This is an important finding for comparative analysis and future COVID time-series data visualizations. Yet, we must caution against treating this 
+This is an important finding for comparative analysis and future COVID time-series data visualizations. Yet, we must caution against overstating the rigor of this analysis. We are not epidemiologists and this is not a professional epidemiological study. We have regressed over time but not over other variables 
 
 Download our data tables for this article here. \[GitHub link]
