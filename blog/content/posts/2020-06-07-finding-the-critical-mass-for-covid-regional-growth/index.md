@@ -39,7 +39,7 @@ Below in Chart 1, see an interactive graph for *X* = 1 death.
 
 The data on the right side are extremely divergent, signifying that this threshold is too early in the spread of coronavirus to make a meaningful comparison between trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left side of the graph are inscrutable, since zero values have an infinitesimal logarithmic value and must therefore be discarded.
 
-Higher values of *X* are where we can make more useful before/after comparisons. Below are some selected  values of *X*, visualized.
+Higher values of *X* are where we can make more useful before/after comparisons. Below are some selected values of *X*, visualized.
 
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/5.embed"></iframe>
 
@@ -47,22 +47,24 @@ Higher values of *X* are where we can make more useful before/after comparisons.
 
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/15.embed"></iframe>
 
-*Charts 2-7. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
+*Charts 2-4. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
 
-We can calculate the mean square error (MSE) of the *before* and *after* regression lines to the data. A low MSE means that the observations fit well around the regression line, indicating some uniformity. For the first few values of *X*, the MSE is lower on the *before* (left) side than on the *after* (right) side. For larger *X*, the opposite is true: the MSE of *after* is lower.
+The error of the regression lines is what draws our attention. We can calculate the mean square error (MSE) of the *before* and *after* regression lines to the data. A low MSE means that the observations fit well around the regression line, indicating some uniformity. For the first few values of *X*, the MSE is lower on the *before* (left) side than on the *after* (right) side. For larger *X*, the opposite is true: the MSE of *after* is lower.
 
 What happens at the point where the MSE of the *after* side becomes less than that of the *before* side? This means that the near future from *X* deaths is finally more consistent than the near past. Let’s see where that point occurs:
 
 <iframe width="500" height="500" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/17.embed"></iframe>
 
-*Chart 8. Degrees of freedom (top) and mean square error (bottom) for each value of* X*.*
+*Chart 5. Degrees of freedom (top) and mean square error (bottom) for each value of* X*.*
 
-In the bottom half of this graphic, we see how the *before* MSE surpasses the *after* MSE just shy of *X* = 50 deaths. This implies that the growth in the COVID fatality rate truly becomes comparable between urban regions after the 50th death. Measuring from the 100th or 200th death enables even more accuracy, but a longer starting delay may needlessly discard weeks of data that could otherwise be informative.
+In the bottom panel of this graphic, we see how the *before* MSE curve surpasses the *after* MSE curve just shy of *X* = 50 deaths. This implies that the fatality curves have lost most of their early-stage variability around the time of the 50th death. After this point, they behave more consistently—not totally in lockstep, in fact far from it, but more consistently than at any point before.
 
-See how both MSE curves decrease sharply towards the right edge. This is an artificial improvement in accuracy—reflected in the low degrees of freedom in the top graph—owing to the rarity of MSAs reaching those high death counts to date.
+See how both MSE curves decrease sharply on the far right side of the graph. Here, error is unexpectedly low. This is an exogenous improvement in the regression's precision owing to the rarity of cities reaching those high COVID death counts to date. The decreasing availability of data is reflected in the downward trend of the curves in the top panel, showing degrees of freedom. If more U.S. urban regions were suffering COVID death counts that severe, we would see the *before* MSE curve trend further and further upwards.
 
-## In conclusion
+## What we can learn
 
-This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a consistent pace at some time around the 50th death. This is an important finding for comparisons between regions and future COVID time-series data visualizations.
+This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a "critical mass" and loses its early-stage variability at some time around the 50th death. Chart 5 implies that measuring from the 100th or 200th death could enable even more precision, but bear in mind the passage of time: a longer starting delay may needlessly discard weeks of data that could otherwise be informative.
+
+This is an important finding for comparative analysis and future COVID time-series data visualizations. Yet, we must caution against treating this 
 
 Download our data tables for this article here. \[GitHub link]
