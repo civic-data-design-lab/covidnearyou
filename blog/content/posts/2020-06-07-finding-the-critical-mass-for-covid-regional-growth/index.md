@@ -10,9 +10,9 @@ tags:
   - Visualization
 hero: images/covid-19-critical-mass_graphic.png
 ---
-When comparing how different metropolitan areas have been affected by the coronavirus, it is often useful to compare the COVID-related death toll over time. Because COVID was introduced to each city at different times, we must define a starting point for equal comparison. Although one may think that the natural place to start is the city's first recorded death, defining the start at varying death totals allow for a more predictable spread due to the unreliable nature of testing at the beginning of the pandemic and the randomness of behavior of those who intially contracted the virus. 
+In tracking the regional spread of coronavirus, a modeler must define a starting point, when a certain early condition triggers the forward measurement of time. That starting point cannot be as simple as the first confirmed COVID case, firstly because testing in the early stage of an outbreak is relatively unreliable, and secondly because the progression of the first few infections is tied to the randomness of individuals’ daily interactions.
 
-In New York state, where COVID [may have arrived more than one month before the first confirmed case](https://www.cdc.gov/mmwr/volumes/69/wr/mm6922e1.htm?s_cid=mm6922e1_w) on March 1, 2020, confirmed fatalities soared from 1 to nearly 500 in two weeks. Conversely, the Norfolk-Newport News area of Virginia had still not witnessed ten deaths 30 days after its first.
+In New York state, coronavirus [may have arrived more than one month before the first confirmed case](https://www.cdc.gov/mmwr/volumes/69/wr/mm6922e1.htm?s_cid=mm6922e1_w) on March 1, 2020. There, confirmed fatalities soared from 1 to nearly 500 in two weeks. Conversely, the Norfolk-Newport News area of Virginia had still not witnessed ten deaths 30 days after its first.
 
 To account for this early-stage uncertainty, while attempting to model the disease's growth in later stages, COVID data analysts measure its growth from a defined threshold of initial cases (or deaths). These chosen thresholds reflect the notion that COVID proceeds to spread in a semi-predictable manner once a **critical mass** has been surpassed.
 
@@ -28,7 +28,7 @@ Next, we shift the daily figures for each MSA to synchronize the two weeks befor
 
 Then, for each level of *X*, we create regressions for the two weeks before and two weeks after the day of *X* deaths, based on the linear formula and its exponential transformation below:
 
-![Equations: log(deaths) = alpha + beta*days + epsilon. Deaths = lambda*e^(beta*days) + epsilon, lambda = e^alpha.]()
+![Equations: log(deaths) = alpha + beta*days + epsilon. Deaths = lambda*e^(beta*days) + epsilon, lambda = e^alpha.](images/covid-19-critical-mass_equations.png)
 
 (*What do these parameters mean?* α and β are the y-intercept and slope of the regression, whereas ε is the residual error. *What is a regression?* In short, an approximation of the data as a trendline plus error. The regressions are important for a later step.)
 
