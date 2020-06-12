@@ -54,7 +54,7 @@ The error of the regression lines is what draws our attention. We can calculate 
 
 What happens at the point where the MSE of the *after* side becomes less than that of the *before* side? This means that the near future from *X* deaths is finally more consistent than the near past. Let’s see where that point occurs:
 
-<iframe width="500" height="500" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/19.embed"></iframe>
+<iframe width="500" height="300" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/19.embed"></iframe>
 
 *Chart 5. Mean square error for each value of* X*.*
 
