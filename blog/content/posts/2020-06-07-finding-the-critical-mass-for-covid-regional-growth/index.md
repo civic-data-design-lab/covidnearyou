@@ -54,11 +54,11 @@ The error of the regression lines is what draws our attention. We can calculate 
 
 What happens at the point where the MSE of the *after* side becomes less than that of the *before* side? This means that the near future from *X* deaths is finally more consistent than the near past. Let’s see where that point occurs:
 
-<iframe width="500" height="500" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/17.embed"></iframe>
+<iframe width="500" height="500" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/19.embed"></iframe>
 
-*Chart 5. Degrees of freedom (top) and mean square error (bottom) for each value of* X*.*
+*Chart 5. Mean square error for each value of* X*.*
 
-In the bottom panel of this graphic, we see how the *before* MSE curve surpasses the *after* MSE curve just shy of *X* = 50 deaths. This implies that the fatality curves have lost most of their early-stage variability around the time of the 50th death. After this point, they behave more consistently—not totally in lockstep, in fact far from it, but more consistently than at any point before.
+In this graph, we see how the *before* MSE curve surpasses the *after* MSE curve just shy of *X* = 50 deaths. This implies that the fatality curves have lost most of their early-stage variability around the time of the 50th death. After this point, they behave more consistently—not totally in lockstep, in fact far from it, but more consistently than at any point before.
 
 See how both MSE curves decrease sharply on the far right side of the graph. Here, error is unexpectedly low. This is an exogenous improvement in the regression's precision owing to the rarity of cities reaching those high COVID death counts to date. The decreasing availability of data is reflected in the downward trend of the curves in the top panel, showing degrees of freedom. If more U.S. urban regions were suffering COVID death counts that severe, we would see the *before* MSE curve trend further and further upwards.
 
