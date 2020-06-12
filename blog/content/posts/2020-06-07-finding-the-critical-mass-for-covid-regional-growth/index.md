@@ -25,7 +25,7 @@ First, we grouped U.S. county-level COVID death counts into the top 100 most pop
 
 Next, we shifted the daily figures for each MSA to synchronize two weeks before and two weeks after the day *X* total deaths was reached, where *X* = 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, and 2000. (*Why these amounts?* Contagions spread exponentially , and these numbers break the span from 1 to 2,000 into roughly equal logarithmic intervals. As of today, only three MSAs have reached 5,000 total deaths. *And why two weeks?* That is roughly the duration of a COVID infection.)
 
-To determine the effectiveness of each threshold, we created regressions (line of best fit) for the two weeks before and after the starting point day of *X* deaths, based on the linear formula and its exponential transformation, which are described below:
+To determine the efficacy of each threshold of *X*, we created regressions (line of best fit) for the "before" and "after" weeks, based on the linear formula and its exponential transformation shown below:
 
 ![Equations: log(deaths) = alpha + beta*days + epsilon. Deaths = lambda*e^(beta*days) + epsilon, lambda = e^alpha.](images/covid-19-critical-mass_equations.png)
 
