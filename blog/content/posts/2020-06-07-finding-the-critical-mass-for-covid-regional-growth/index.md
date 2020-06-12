@@ -1,17 +1,15 @@
 ---
-title: When to Start Measuring COVID
+title: The Importance of the "Starting Point" in Tracking COVID
 author: Griffin Kantz
-date: 2020-06-12T00:00:00.000Z
+date: 2020-06-12
 excerpt: When are we able to determine the trajectory of COVID deaths for US
   metropolitan areas?
 tags:
   - Covid
   - Data
   - Visualization
-hero: images/screen-shot-2020-06-12-at-4.45.57-pm.png
+hero: images/covid-19-critical-mass_graphic.png
 ---
-### **The Importance of the Starting Point**
-
 When comparing how different metropolitan areas have been affected by the coronavirus, it is often useful to compare the COVID-related death toll over time. Because COVID was introduced to each city at different times, it is necessary to define a starting point in order to compare cities equally. Although one may think that the natural place to start is the city's first recorded death, it can be advantageous to define the starting point at varying death totals to allow COVID data analysts to model and predict the disease’s impact. Due to the unreliable nature of testing at the beginning of the pandemic and the random behavior of those who initially contracted the virus, varying the start point can allow for better predictability of future deaths.
 
 In New York state, where COVID [may have arrived more than one month before the first confirmed case](https://www.cdc.gov/mmwr/volumes/69/wr/mm6922e1.htm?s_cid=mm6922e1_w) on March 1, 2020, confirmed fatalities soared from 1 death to nearly 500 in just two weeks. Conversely, the Norfolk-Newport News area of Virginia had still not witnessed ten deaths one month after its first confirmed fatality. 
