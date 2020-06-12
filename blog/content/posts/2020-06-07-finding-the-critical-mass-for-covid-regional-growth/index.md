@@ -1,13 +1,14 @@
 ---
 title: Finding the Region-Level Critical Mass for COVID
 author: Griffin Kantz
-date: 2020-06-12
-excerpt: What's the best left bound? Synchronizing COVID death counts by U.S. MSA.
+date: 2020-06-12T00:00:00.000Z
+excerpt: When does the early phase end and the growth phase begin? Synchronizing
+  COVID death counts by U.S. MSA.
 tags:
   - Covid
   - Data
   - Visualization
-hero: images/placeholder.png
+hero: images/covid-19-critical-mass_graphic.png
 ---
 In tracking the regional spread of coronavirus, a modeler must define a starting point, when a certain early condition triggers the forward measurement of time. That starting point cannot be as simple as the first confirmed COVID case, firstly because testing in the early stage of an outbreak is relatively unreliable, and secondly because the progression of the first few infections is tied to the randomness of individuals’ daily interactions.
 
