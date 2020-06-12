@@ -37,7 +37,7 @@ Below in Chart 1, see an interactive graph for *X* = 1 death.
 
 *Chart 1. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
 
-The data on the right side are extremely divergent, signifying that this threshold is too early in the spread of coronavirus to make a meaningful comparison between trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left side of the graph are inscrutable, since zero values have an infinitesimal logarithmic value and must therefore be discarded.
+The data on the right side are extremely divergent, signifying that this threshold is too early in the spread of coronavirus to make a meaningful comparison between trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left side of the graph are inscrutable, since zero values have an infinitesimal logarithmic value and must therefore be discarded. [Some approaches in public health research](https://www.annualreviews.org/doi/full/10.1146/annurev-publhealth-040119-094437) use methods like synthetic minority oversampling to correct for such constraints, but these are not necessary for our purposes.
 
 Higher values of *X* are where we can make more useful before/after comparisons. Below are some selected values of *X*, visualized.
 
