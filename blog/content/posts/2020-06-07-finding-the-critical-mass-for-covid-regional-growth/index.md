@@ -10,7 +10,7 @@ tags:
   - Visualization
 hero: images/covid-19-critical-mass_graphic.png
 ---
-When comparing how different metropolitan areas have been affected by the coronavirus, it is often useful to compare the COVID-related death toll over time. Because COVID was introduced to each city at different times, we must define a starting point for equal comparison. Although one may think that the natural place to start is the city's first recorded death, defining the start at 5, 50, or even 500 deaths allows for a more predictable spread due to the unreliable nature of testing at the beginning of the pandemic and the randomness of behavior of those who intially contracted the virus. 
+When comparing how different metropolitan areas have been affected by the coronavirus, it is often useful to compare the COVID-related death toll over time. Because COVID was introduced to each city at different times, we must define a starting point for equal comparison. Although one may think that the natural place to start is the city's first recorded death, defining the start at varying death totals allow for a more predictable spread due to the unreliable nature of testing at the beginning of the pandemic and the randomness of behavior of those who intially contracted the virus. 
 
 In New York state, where COVID [may have arrived more than one month before the first confirmed case](https://www.cdc.gov/mmwr/volumes/69/wr/mm6922e1.htm?s_cid=mm6922e1_w) on March 1, 2020, confirmed fatalities soared from 1 to nearly 500 in two weeks. Conversely, the Norfolk-Newport News area of Virginia had still not witnessed ten deaths 30 days after its first.
 
