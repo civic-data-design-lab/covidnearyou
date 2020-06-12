@@ -28,7 +28,7 @@ Next, we shift the daily figures for each MSA to synchronize the two weeks befor
 
 Then, for each level of *X*, we create regressions for the two weeks before and two weeks after the day of *X* deaths, based on the linear formula and its exponential transformation below:
 
-![Equations: log(deaths) = alpha + beta*days + epsilon. Deaths = lambda*e^(beta*days) + epsilon, lambda = e^alpha.](images/covid-19-critical-mass_graphic.png)
+![Equations: log(deaths) = alpha + beta*days + epsilon. Deaths = lambda*e^(beta*days) + epsilon, lambda = e^alpha.](images/covid-19-critical-mass_equations.png)
 
 (*What do these parameters mean?* α and β are the y-intercept and slope of the regression, whereas ε is the residual error. *What is a regression?* In short, an approximation of the data as a trendline plus error. The regressions are important for a later step.)
 
