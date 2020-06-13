@@ -25,21 +25,21 @@ First, we grouped U.S. county-level COVID death counts into the top 100 most pop
 
 Next, we shifted the daily figures for each MSA to synchronize two weeks before and two weeks after the day *X* total deaths was reached, where *X* = 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, and 2000. (*Why these amounts?* Contagions spread exponentially , and these numbers break the span from 1 to 2,000 into roughly equal logarithmic intervals. As of today, only three MSAs have reached 5,000 total deaths. *And why two weeks?* That is roughly the duration of a COVID infection.)
 
-To determine the efficacy of each threshold of *X*, we created regressions (line of best fit) for the "before" and "after" weeks, based on the linear formula and its exponential transformation shown below:
+To determine the efficacy of each threshold of *X*, we created regressions (trendlines) for the "before" and "after" weeks, based on the linear formula and its exponential transformation shown below:
 
 ![Equations: log(deaths) = alpha + beta*days + epsilon. Deaths = lambda*e^(beta*days) + epsilon, lambda = e^alpha.](images/covid-19-critical-mass_equations.png)
 
-Here, α is the y-intercept, β the slope of the regression and ε the residual error. After calculating the line, we are able to determine the mean square error (MSE), which is a value that determines how different the actual data is from the calculated line. The lower the error, the better the line of best fit.
+(Here, α and β are the y-intercept and slope of the regression and ε is the residual error.)
 
-Below in Chart 1, see an interactive graph for *X* = 1 death.
+Below in Chart 1, see an interactive graph illustrating the data for *X* = 1 death (the day of the first recorded COVID death in each MSA).
 
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/3.embed"></iframe>
 
 *Chart 1. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
 
-When *X* = 1 (the day of the first death), the data on the right side diverge greatly, signifying that the death threshold occurs too early in time to meaningfully predict and compare death trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left side of the graph are inscrutable, since zero values have an infinitesimal logarithmic value and must therefore be discarded.
+When *X* = 1, the trajectories on the right side of the graph (representing the two weeks afterwards) diverge widely, signifying that this observation point occurs too early in the spread of the virus to meaningfully predict and compare trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left side of the graph are inscrutable, since zero values have an infinitesimal logarithmic value and must therefore be discarded.
 
-We found that when using higher starting point thresholds, we were able to make more useful comparisons between our data before and after the start point. In particular, we found that a starting point of 50 deaths began to show higher levels of regression, meaning that MSAs tend to follow the same trajectories after 50 deaths. Increasing our starting point even higher to 2000 deaths shows even greater regression, but limits the number of data points because few MSAs have reached 2000 deaths.  Below are the plots for *X* = 50, 200, and 2000. As the starting point threshold increases, fewer cities hit the minimum threshold. 
+When moving to higher thresholds of *X*, we were able to make more useful comparisons between the ". In particular, we found that a starting point of 50 deaths began to show higher levels of regression, meaning that MSAs tend to follow the same trajectories after 50 deaths. Increasing our starting point even higher to 2000 deaths shows even greater regression, but limits the number of data points because few MSAs have reached 2000 deaths.  Below are the plots for *X* = 50, 200, and 2000. As the starting point threshold increases, fewer cities hit the minimum threshold. 
 
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/5.embed"></iframe>
 
