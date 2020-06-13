@@ -19,7 +19,7 @@ Different modelers will choose different thresholds. The *[Financial Times](http
 
 ## What threshold makes the most sense?
 
-In our data analysis, we examined the [Johns Hopkins CSSE time series dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) (up to 5/31/20) to determine how varying the choice of starting point affects the precision of forecasts. We chose to analyze counts of confirmed COVID fatalities, which are more reliable early-stage figures than confirmed COVID cases. (However, deaths always lag cases by up to two weeks.)
+In our analysis, we examined the [Johns Hopkins CSSE time series dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) (up to 5/31/20) to determine how varying the choice of starting point affects the precision of forecasts. We chose to analyze counts of confirmed COVID fatalities, which are more reliable early-stage figures than confirmed COVID cases. (However, deaths always lag cases by up to two weeks.)
 
 First, we grouped U.S. county-level COVID death counts into the top 100 most populous Census metropolitan statistical areas (MSAs), which adhere to county boundaries. By population, the largest of these is New York-Newark-Jersey City and the smallest is Chattanooga.
 
