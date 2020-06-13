@@ -57,7 +57,7 @@ As *X* increases, the point at which the *after* MSE becomes less than the *befo
 
 *Chart 5. Mean square error for each value of* X*.*
 
-The data shown in this graphic imply that the fatality trajectories have lost most of their early-stage variability around the time of the 50th death. After reaching this threshold, the trajectories behave more consistently — not in total lockstep, but more consistently than at any point before.
+The data shown in this graphic imply that the fatality trajectories have lost most of their early-stage variability around the time of the 50th death. After reaching this threshold, the trajectories behave more consistently — not totally in lockstep, but more consistently than at any point before.
 
 The widening difference between the *before* and *after* MSE curves beyond *X* = 50 indicates that 100, 200, or 500 might be even better thresholds, but we must bear in mind the passage of time. The higher we set *X* as the starting point, the more precision we gain in modeling the future after then, but the more data we are willingly discarding. Each COVID fatality is a human death, and regions do experience different COVID trajectories even after reaching critical mass, so these mid-phase data are still informative.
 
