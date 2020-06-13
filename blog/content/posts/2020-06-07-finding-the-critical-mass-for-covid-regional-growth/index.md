@@ -37,9 +37,9 @@ Below in Chart 1, see an interactive graph illustrating the data for *X* = 1 dea
 
 *Chart 1. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
 
-When *X* = 1, the trajectories on the right side of the graph (representing the two weeks afterwards) diverge widely, signifying that this observation point occurs too early in the spread of the virus to meaningfully predict and compare trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left side of the graph are inscrutable, since zero values have an infinitesimal logarithmic value and must therefore be discarded.
+When *X* = 1, the trajectories on the right (*after*)side of the graph diverge widely, signifying that this observation point occurs too early in the spread of the virus to meaningfully predict and compare trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left (*before*) side of the graph are inscrutable, since zero values have an infinitesimal logarithmic value and must therefore be discarded.
 
-When moving to higher thresholds of *X*, we were able to make more useful comparisons between the ". In particular, we found that a starting point of 50 deaths began to show higher levels of regression, meaning that MSAs tend to follow the same trajectories after 50 deaths. Increasing our starting point even higher to 2000 deaths shows even greater regression, but limits the number of data points because few MSAs have reached 2000 deaths.  Below are the plots for *X* = 50, 200, and 2000. As the starting point threshold increases, fewer cities hit the minimum threshold. 
+When moving to higher thresholds of *X*, we are able to see the trajectories on the *after* side begin to coalesce and the data on the *before* side start to be more meaningful. Here are selected higher values of *X*, visualized:
 
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/5.embed"></iframe>
 
@@ -48,6 +48,8 @@ When moving to higher thresholds of *X*, we were able to make more useful compar
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/15.embed"></iframe>
 
 *Charts 2-4. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
+
+In particular, we found that a starting point of 50 deaths began to show higher levels of regression, meaning that MSAs tend to follow the same trajectories after 50 deaths. Increasing our starting point even higher to 2000 deaths shows even greater regression, but limits the number of data points because few MSAs have reached 2000 deaths.  Below are the plots for *X* = 50, 200, and 2000. As the starting point threshold increases, fewer cities hit the minimum threshold. 
 
 The mean square error value draws our attention because it allows us to understand how closely the observations fit around the regression line. We can calculate the MSE of the observations before and after the starting point in time by comparing to the lines of best fit. A low MSE implies that the observations fit the regression line well, indicating that the line is a good predictor of the data. For the first few values of *X*, the MSE is lower on the *before* (left) side than on the *after* (right) side. For larger *X*, the opposite is true: the MSE of *after* is lower.
 
