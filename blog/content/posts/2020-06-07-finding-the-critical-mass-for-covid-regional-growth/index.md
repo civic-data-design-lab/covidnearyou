@@ -49,17 +49,15 @@ When moving to higher thresholds of *X*, we are able to see the trajectories on 
 
 *Charts 2-4. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
 
-Across all these test values of *X*, the mean square error (MSE) of the observations to the *before* and *after* regression lines is what attracts our attention. The MSE allows us to understand how closely the trajectories coalesce around the regression line, and thus around each other. A low MSE implies that the observations fit well around the line, indicating better predictability.
+Across all these test values of *X*, the mean square error (MSE) of the observations to the *before* and *after* regression lines is what attracts our attention. The MSE allows us to understand how closely the trajectories coalesce around the regression line, and thus around each other. A low MSE implies that the observations fit well around the line, indicating better predictability. For the first few values of *X*, the MSE is lower on the *before* side than on the *after* side. For larger *X*, the opposite is true: the MSE of *after* is lower.
 
-For the first few values of *X*, the MSE is lower on the *before* side than on the *after* side. For larger *X*, the opposite is true: the MSE of *after* is lower. See this visualized in the graph below:
+As *X* increases, the point at which the *after* MSE becomes less than the *before* MSE is where the near future becomes more predictable than the near past. In our data, this point occurs just shy of *X* = 50, as visualized in the graph below:
 
 <iframe width="500" height="300" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/19.embed"></iframe>
 
 *Chart 5. Mean square error for each value of* X*.*
 
-As *X* increases, the point at which the *after* MSE becomes less than the *before* MSE is where the near future becomes more predictable than the near past. In our data, this point occurs just shy of *X* = 50, as shown in the above graphic.
-
-In particular, we found that a starting point of 50 deaths began to show higher levels of regression, meaning that MSAs tend to follow the same trajectories after 50 deaths. Increasing our starting point even higher to 2000 deaths shows even greater regression, but limits the number of data points because few MSAs have reached 2000 deaths.  Below are the plots for *X* = 50, 200, and 2000. As the starting point threshold increases, fewer cities hit the minimum threshold. 
+Increasing our starting point even higher to 2000 deaths shows even greater regression, but limits the number of data points because few MSAs have reached 2000 deaths.  Below are the plots for *X* = 50, 200, and 2000. As the starting point threshold increases, fewer cities hit the minimum threshold. 
 
 The data shown in this graphic imply that the fatality curves have lost most of their early-stage variability around the time of the 50th death. After this point, they behave more consistently —  not in total lockstep, but more consistently than at any point before. As the death threshold increases, the MSE continues to decrease, indicating that, as *X* increases, the future death toll is more predictable, regardless of the metropolitan area.
 
