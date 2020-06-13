@@ -39,7 +39,7 @@ Below in Chart 1, see an interactive graph illustrating the data for *X* = 1 dea
 
 When *X* = 1, the trajectories on the right (*after*)side of the graph diverge widely, signifying that this observation point occurs too early in the spread of the virus to meaningfully predict and compare trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left (*before*) side of the graph are inscrutable, since counts of zero deaths have an infinitesimal logarithmic value and must therefore be discarded.
 
-When moving to higher thresholds of *X*, we are able to see the trajectories on the *after* side begin to coalesce and the data on the *before* side start to grow. For the highest *X*, few MSAs have yet reached those points, so the trajectories on both sides of the graph are fewer in number. Here are selected values of *X*, visualized:
+When moving to higher thresholds of *X*, we are able to see the trajectories on the *after* side begin to coalesce and the data on the *before* side start to grow. For the highest *X*, few MSAs have yet reached those death counts, so the trajectories on both sides of the graph are much fewer in number. Here are selected values of *X*, visualized:
 
 <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~GriffinK/5.embed"></iframe>
 
@@ -49,7 +49,7 @@ When moving to higher thresholds of *X*, we are able to see the trajectories on 
 
 *Charts 2-4. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
 
-Across all these test values of *X*, the mean square error (MSE) of the observations to the *before* and *after* regression lines is what attracts our attention. The MSE allows us to understand how closely the trajectories coalesce around the regression line, and thus around each other. A low MSE implies that the observations fit well around the line, indicating better predictability. For the first few values of *X*, the MSE is lower on the *before* side than on the *after* side. For larger *X*, the opposite is true: the MSE of *after* is lower.
+Across all these test values of *X*, the mean square error (MSE) of the observations to the *before* and *after* regression lines is what attracts our attention, moreso than the regressions themselves. The MSE allows us to understand how closely the trajectories coalesce around the regression line, and thus around each other. A low MSE implies that the observations fit well around the line, indicating better predictability. For the first few values of *X*, the MSE is lower on the *before* side than on the *after* side. For larger *X*, the opposite is true: the *after* MSE is lower and the *before* MSE is higher.
 
 As *X* increases, the point at which the *after* MSE becomes less than the *before* MSE is where the near future becomes more predictable than the near past. In our data, this point occurs just shy of *X* = 50, as visualized in the graph below:
 
@@ -57,14 +57,16 @@ As *X* increases, the point at which the *after* MSE becomes less than the *befo
 
 *Chart 5. Mean square error for each value of* X*.*
 
-Increasing our starting point even higher to 2000 deaths shows even greater regression, but limits the number of data points because few MSAs have reached 2000 deaths.  Below are the plots for *X* = 50, 200, and 2000. As the starting point threshold increases, fewer cities hit the minimum threshold. 
+The data shown in this graphic imply that the fatality trajectories have lost most of their early-stage variability around the time of the 50th death. After reaching this threshold, the trajectories behave more consistently — not in total lockstep, but more consistently than at any point before.
 
-The data shown in this graphic imply that the fatality curves have lost most of their early-stage variability around the time of the 50th death. After this point, they behave more consistently —  not in total lockstep, but more consistently than at any point before. As the death threshold increases, the MSE continues to decrease, indicating that, as *X* increases, the future death toll is more predictable, regardless of the metropolitan area.
+The widening difference between the *before* and *after* MSE curves beyond *X* = 50 indicates that 100, 200, or 500 might be even better thresholds, but we must bear in mind the passage of time. The higher we set *X* as the starting point, the more precision we gain in modeling the future after then, but the more data we are willingly discarding. Each COVID fatality is a human death, and regions do experience different COVID trajectories even after reaching critical mass, so these mid-phase data are still informative.
+
+The steep decline in both MSE curves at *X* = 1,000 and 2,000 is an artifact of the rarity of those high death counts as of this month (June); data is simply too scarce for these *X*. If more regions were suffering COVID fatality rates that severe, we could expect to see the *before* MSE curve trend further and further upwards.
 
 ## What we can learn
 
-This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a "critical mass" and loses its early-stage variability at some time around the 50th death. The MSE chart implies that increasing the starting death threshold enables even more precision, but comes at a price: a longer starting delay may needlessly discard weeks of data that could otherwise be informative.
+This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a "critical mass" and loses its early-stage variability at some time around the 50th death. Graphing MSE shows that setting a higher starting point for measurements enables greater precision, but comes with the price of discarding informative data.
 
-This is an important finding for comparative analysis and future COVID time-series data visualizations. Yet, we must caution against overstating the rigor of this analysis. We are not epidemiologists and this is not a professional epidemiological study. We have regressed over the variable of time but not over variables of human behavior or systems factors. The way we use the term "critical mass" is different from the way it is used elsewhere. Hopefully this analysis, albeit rough, can impart some mathematical basis to the assumptions underlying future analysis.
+This is an important finding for comparative analysis and future COVID time-series data visualizations. Yet, we must caution against overstating the rigor of this analysis. We are not epidemiologists and this is not a professional epidemiological study. We have regressed over the variable of time but not over variables of human behavior or systems factors. Hopefully this analysis, albeit rough, can impart some mathematical basis to the assumptions underlying future analysis.
 
 Download our data tables for this post [here](https://github.mit.edu/kantz/COVID-critical-mass).
