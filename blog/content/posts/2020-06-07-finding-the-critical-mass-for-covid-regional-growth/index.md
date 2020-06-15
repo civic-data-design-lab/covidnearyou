@@ -39,7 +39,7 @@ Below in Chart 1, see an interactive graph illustrating the data for *X* = 1 dea
 
 *Chart 1. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
 
-When *X* = 1, the trajectories on the right (*after*) side of the graph diverge widely, signifying that this observation point occurs too early in the spread of the virus to meaningfully predict and compare trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left (*before*) side of the graph are inscrutable, since counts of zero deaths have an infinitesimal logarithmic value and must therefore be discarded.
+When *X* = 1, the trajectories on the right (*after*) side of the graph diverge widely, signifying that this observation point occurs too early in the spread of the virus to meaningfully predict or compare trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left (*before*) side of the graph are inscrutable, since counts of zero deaths have an infinitesimal logarithmic value and must therefore be discarded.
 
 When moving to higher thresholds of *X*, we are able to see the trajectories on the *after* side begin to coalesce and the data on the *before* side start to grow. For the highest *X*, few MSAs have yet reached those death counts, so the trajectories on both sides of the graph are much fewer in number. Here are selected values of *X*, visualized:
 
@@ -67,7 +67,7 @@ The steep decline in both MSE curves at *X* = 1,000 and 2,000 is an artifact of 
 
 ## What we can learn
 
-This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a "critical mass" and loses its early-stage variability at some time around the 50th death. Graphing MSE shows that setting a higher starting point for measurements enables greater precision, but comes with the price of discarding informative data.
+This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a "critical mass" and loses its early-stage variability at some time around the 50th death. Graphing MSE shows that setting a higher starting point for measurements enables greater precision, but this comes with the price of discarding informative data.
 
 This is an important finding for comparative analysis and future COVID time-series data visualizations. Yet, we must caution against overstating the rigor of this analysis. We are not epidemiologists and this is not a professional epidemiological study. We have regressed over the variable of time but not over variables of human behavior or system factors. Hopefully this analysis, albeit rough, can impart some mathematical basis to the assumptions underlying future analysis.
 
