@@ -1,7 +1,7 @@
 ---
 title: The Importance of the "Starting Point" in Tracking COVID
 author: Griffin Kantz
-date: 2020-06-12
+date: 2020-06-15
 excerpt: ""
 tags:
   - Covid
@@ -9,11 +9,11 @@ tags:
   - Visualization
 hero: images/covid-19-critical-mass_graphic.png
 ---
-When comparing how different regions have been impacted by the coronavirus over time, it is important to define a "starting point" in the spread of the virus from which future observations can be measured. Although one may think that the natural place to start is the timepoint of a region's first recorded COVID case or fatality, this can lead to improper or uninformative region-to-region comparisons. Testing at the beginning of a local COVID outbreak can be seriously unreliable, and the spread of the disease from the first handful of cases to the next is tied to the [idiosyncrasy of people's daily behaviors](https://www.cdc.gov/mmwr/volumes/69/wr/mm6915e1.htm).
+When comparing how different regions have been impacted by the coronavirus over time, it is important to define a "starting point": an early timepoint in the spread of the virus from which the timepoints of future observations can be measured. Although one may think that the natural place to start would be a region's first recorded COVID case or the first COVID fatality, this can lead to improper or uninformative region-to-region comparisons. Testing at the beginning of a local COVID outbreak can be seriously unreliable, and the spread of the disease from the first handful of cases to the next is tied to the [idiosyncrasy of people's daily behaviors](https://www.cdc.gov/mmwr/volumes/69/wr/mm6915e1.htm).
 
-In New York state, where COVID [may have arrived more than one month before the first confirmed case](https://www.cdc.gov/mmwr/volumes/69/wr/mm6922e1.htm?s_cid=mm6922e1_w) on March 1, 2020, confirmed fatalities soared from 1 death to nearly 500 in just two weeks. Conversely, the Norfolk-Newport News area of Virginia had still not witnessed ten deaths one month after its first confirmed death. 
+In New York state, where COVID [may have arrived more than one month before the first confirmed case](https://www.cdc.gov/mmwr/volumes/69/wr/mm6922e1.htm?s_cid=mm6922e1_w) on March 1, 2020, confirmed fatalities soared from 1 death to nearly 500 in just two weeks. Conversely, the Norfolk-Newport News area of Virginia had still not witnessed ten deaths one month after its first. 
 
-COVID metrics between different afflicted regions appear to begin behaving in a predictable manner once the disease has reached a critical mass and begun spreading widely. To account for early-stage uncertainty, COVID data analysts measure the disease's spread from a defined threshold (or starting point). 
+COVID metrics between different afflicted regions appear to begin behaving in a more predictable manner once the disease has reached a critical mass and begun spreading widely. COVID data analysts try to set the starting point for their measurements at some level where this critical mass has likely been reached and the initial random variation has dissipated.
 
 Different modelers will choose different thresholds. The *[Financial Times](https://ig.ft.com/coronavirus-chart/?areas=usa&areas=gbr&cumulative=0&logScale=1&perMillion=0&values=deaths)* measures new cases or deaths by country from the day 10 cases/day or 3 deaths/day was reached, and cumulative cases/deaths from the day of the 100th case or death. The [data visualization at 91-divoc.com](http://91-divoc.com/pages/covid-visualization/) measures from the day of the 100th case or the 10th death; for regions, it starts at 20 cases or 5 deaths.
 
@@ -23,11 +23,11 @@ In our analysis, we examined the [Johns Hopkins CSSE time series dataset](https:
 
 First, we grouped U.S. county-level COVID death counts into the top 100 most populous Census metropolitan statistical areas (MSAs), which adhere to county boundaries. By population, the largest of these is New York-Newark-Jersey City and the smallest is Chattanooga.
 
-Next, we shifted the daily figures for each MSA to synchronize two weeks before and two weeks after the day *X* total deaths was reached, where *X* = 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, and 2000.
+Next, we shifted the daily figures for each MSA to synchronize two weeks before and two weeks after the day *X* total deaths was reached, where *X* = 1, 2, 5, 10, 20, 50, 100, 200, 500, 1,000, and 2,000.
 
-* (*Why these amounts?* Contagions spread exponentially , and these numbers break the span from 1 to 2,000 into roughly equal logarithmic intervals. As of today, only three MSAs have reached 5,000 total deaths. *And why two weeks?* That is roughly the duration of a COVID infection.)
+*(Why these amounts? Contagions spread exponentially , and these numbers break the span from 1 to 2,000 into roughly equal logarithmic intervals. As of today, only three MSAs have reached 5,000 total deaths. And why two weeks? That is roughly the duration of a COVID infection.)*
 
-To determine the efficacy of each threshold of *X*, we created regressions (trendlines) for the "before" and "after" weeks, based on the linear formula and its exponential transformation shown below:
+To determine the efficacy of each threshold of *X*, we created regressions for the "before" and "after" weeks, based on the linear formula and its exponential transformation shown below:
 
 ![Equations: log(deaths) = alpha + beta*days + epsilon. Deaths = lambda*e^(beta*days) + epsilon, lambda = e^alpha.](images/covid-19-critical-mass_equations.png)
 
