@@ -31,7 +31,7 @@ To determine the efficacy of each threshold of *X*, we created regressions for t
 
 ![Equations: log(deaths) = alpha + beta*days + epsilon. Deaths = lambda*e^(beta*days) + epsilon, lambda = e^alpha.](images/covid-19-critical-mass_equations.png)
 
-*(Here, α and β are the y-intercept and slope of the regression and ε is the residual error.)*
+*(Here,* α *and* β *are the y-intercept and slope of the regression and* ε *is the residual error.)*
 
 Below in Chart 1, see an interactive graph illustrating the data for *X* = 1 death (the day of the first recorded COVID death in each MSA).
 
