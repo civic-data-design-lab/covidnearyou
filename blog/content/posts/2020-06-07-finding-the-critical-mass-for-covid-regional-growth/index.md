@@ -1,5 +1,5 @@
 ---
-title: The Importance of the "Starting Point" in Tracking COVID
+title: The Importance of the "Starting Point" in Tracking COVID by Region
 author: Griffin Kantz
 date: 2020-06-15
 excerpt: ""
