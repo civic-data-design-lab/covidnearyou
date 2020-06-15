@@ -23,7 +23,7 @@ In our analysis, we examined the [Johns Hopkins CSSE time series dataset](https:
 
 First, we grouped U.S. county-level COVID death counts into the top 100 most populous Census metropolitan statistical areas (MSAs), which adhere to county boundaries. By population, the largest of these is New York-Newark-Jersey City and the smallest is Chattanooga.
 
-Next, we shifted the daily figures for each MSA to synchronize two weeks before and two weeks after the day *X* total deaths was reached, where *X* = 1, 2, 5, 10, 20, 50, 100, 200, 500, 1,000, and 2,000.
+Next, we shifted the daily figures for the MSAs to synchronize the two weeks before and two weeks after the day *X* total deaths was reached, where *X* = 1, 2, 5, 10, 20, 50, 100, 200, 500, 1,000, and 2,000.
 
 *(Why these amounts? Contagions spread exponentially , and these numbers break the span from 1 to 2,000 into roughly equal logarithmic intervals. As of today, only three MSAs have reached 5,000 total deaths. And why two weeks? That is roughly the duration of a COVID infection.)*
 
