@@ -39,7 +39,7 @@ Below in Chart 1, see an interactive graph illustrating the data for *X* = 1 dea
 
 *Chart 1. Rendered in R, ggplot2, and Plotly. Hover over points to see more information.*
 
-When *X* = 1, the trajectories on the right (*after*)side of the graph diverge widely, signifying that this observation point occurs too early in the spread of the virus to meaningfully predict and compare trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left (*before*) side of the graph are inscrutable, since counts of zero deaths have an infinitesimal logarithmic value and must therefore be discarded.
+When *X* = 1, the trajectories on the right (*after*) side of the graph diverge widely, signifying that this observation point occurs too early in the spread of the virus to meaningfully predict and compare trajectories. Additionally, for this and the next few values of *X*, any data that would appear on the left (*before*) side of the graph are inscrutable, since counts of zero deaths have an infinitesimal logarithmic value and must therefore be discarded.
 
 When moving to higher thresholds of *X*, we are able to see the trajectories on the *after* side begin to coalesce and the data on the *before* side start to grow. For the highest *X*, few MSAs have yet reached those death counts, so the trajectories on both sides of the graph are much fewer in number. Here are selected values of *X*, visualized:
 
