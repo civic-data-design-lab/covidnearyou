@@ -63,12 +63,12 @@ The data shown in this graphic imply that the fatality trajectories have lost mo
 
 The widening difference between the *before* and *after* MSE curves beyond *X* = 50 indicates that 100, 200, or 500 might be even better thresholds, but we must bear in mind the passage of time. The higher we set *X* as the starting point, the more precision we gain in modeling the future, but the more data we are willingly discarding. We should not choose a starting point so late in the outbreak that we end up ignoring weeks of mid-phase growth in the fatality count for the sake of a more precise model.
 
-The steep decline in both MSE curves at *X* = 1,000 and 2,000 is an artifact of the rarity of those high death counts as of this month (June); data is simply too scarce for these *X*. If more regions were suffering COVID fatality rates that severe, we could expect to see the *before* MSE curve trend further and further upwards.
+The steep decline in both MSE curves at *X* = 1,000 and 2,000 is an artifact of the rarity of those high death counts as of this month (June); data is simply too scarce for these *X*. If more regions across the U.S. were suffering COVID fatality rates that severe, we could expect to see the *before* MSE curve trend further and further upwards.
 
 ## What we can learn
 
 This analysis shows how the growth in COVID fatalities in U.S. urban regions reaches a "critical mass" and loses its early-stage variability at some time around the 50th death. Graphing MSE shows that setting a higher starting point for measurements enables greater precision, but comes with the price of discarding informative data.
 
-This is an important finding for comparative analysis and future COVID time-series data visualizations. Yet, we must caution against overstating the rigor of this analysis. We are not epidemiologists and this is not a professional epidemiological study. We have regressed over the variable of time but not over variables of human behavior or systems factors. Hopefully this analysis, albeit rough, can impart some mathematical basis to the assumptions underlying future analysis.
+This is an important finding for comparative analysis and future COVID time-series data visualizations. Yet, we must caution against overstating the rigor of this analysis. We are not epidemiologists and this is not a professional epidemiological study. We have regressed over the variable of time but not over variables of human behavior or system factors. Hopefully this analysis, albeit rough, can impart some mathematical basis to the assumptions underlying future analysis.
 
 Download our data tables for this post [here](https://github.mit.edu/kantz/COVID-critical-mass).
