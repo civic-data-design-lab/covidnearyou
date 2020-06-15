@@ -1,7 +1,7 @@
 ---
 title: The Importance of the "Starting Point" in Tracking COVID by Region
 author: Griffin Kantz
-date: 2020-06-15
+date: 2020-06-15T00:00:00.000Z
 excerpt: ""
 tags:
   - Covid
@@ -15,7 +15,7 @@ In New York state, where COVID [may have arrived more than one month before the 
 
 COVID metrics between different afflicted regions appear to begin behaving in a more predictable manner once the disease has reached a critical mass and begun spreading widely. COVID data analysts try to set the starting point for their measurements at some level where this critical mass has likely been reached and the initial random variation has dissipated.
 
-Different modelers will choose different thresholds. The *[Financial Times](https://ig.ft.com/coronavirus-chart/?areas=usa&areas=gbr&cumulative=0&logScale=1&perMillion=0&values=deaths)* measures new cases or deaths by country from the day 10 cases/day or 3 deaths/day was reached, and cumulative cases/deaths from the day of the 100th case or death. The [data visualization at 91-divoc.com](http://91-divoc.com/pages/covid-visualization/) measures from the day of the 100th case or the 10th death; for regions, it starts at 20 cases or 5 deaths.
+Different modelers will choose different thresholds. The *[Financial Times](https://ig.ft.com/coronavirus-chart/?areas=usa&areas=gbr&cumulative=0&logScale=1&perMillion=0&values=deaths)* measures new cases or deaths by country from the day 10 cases/day or 3 deaths/day was reached, and cumulative cases/deaths from the day of the 100th case or death. The [data visualization at 91-divoc.com](http://91-divoc.com/pages/covid-visualization/) measures by nation from the day of the 100th case or the 10th death; for regions, it starts at 20 cases or 5 deaths.
 
 ## What threshold makes the most sense?
 
