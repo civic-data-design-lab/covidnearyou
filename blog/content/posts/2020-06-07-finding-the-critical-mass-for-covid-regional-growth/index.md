@@ -9,7 +9,7 @@ tags:
   - Visualization
 hero: images/covid-19-critical-mass_graphic.png
 ---
-When comparing how different regions have been impacted by the coronavirus over time, it is important to define a "starting point": an early timepoint in the spread of the virus from which the timepoints of future observations can be measured. Although one may think that the natural place to start would be a region's first recorded COVID case or the first COVID fatality, this can lead to improper or uninformative region-to-region comparisons. Testing at the beginning of a local COVID outbreak can be seriously unreliable, and the spread of the disease from the first handful of cases to the next is tied to the [idiosyncrasy of people's daily behaviors](https://www.cdc.gov/mmwr/volumes/69/wr/mm6915e1.htm).
+When comparing how different regions have been impacted by the coronavirus over time, it is important to define a "starting point": an early timepoint in the spread of the virus from which the timepoints of future observations can be measured. Although one may think that the natural place to start would be a region's first recorded COVID case or the first COVID fatality, this can lead to improper or uninformative region-to-region comparisons. Testing at the beginning of a local COVID outbreak can be seriously unreliable, and the spread of the disease from the first handful of cases to the next is tied to the [idiosyncrasies of people's daily behaviors](https://www.cdc.gov/mmwr/volumes/69/wr/mm6915e1.htm).
 
 In New York state, where COVID [may have arrived more than one month before the first confirmed case](https://www.cdc.gov/mmwr/volumes/69/wr/mm6922e1.htm?s_cid=mm6922e1_w) on March 1, 2020, confirmed fatalities soared from 1 death to nearly 500 in just two weeks. Conversely, the Norfolk-Newport News area of Virginia had still not witnessed ten deaths one month after its first. 
 
@@ -71,4 +71,4 @@ This analysis shows how the growth in COVID fatalities in U.S. urban regions rea
 
 This is an important finding for comparative analysis and future COVID time-series data visualizations. Yet, we must caution against overstating the rigor of this analysis. We are not epidemiologists and this is not a professional epidemiological study. We have regressed over the variable of time but not over variables of human behavior or system factors. Hopefully this analysis, albeit rough, can impart some mathematical basis to the assumptions underlying future analysis.
 
-Download our data tables for this post [here](https://github.mit.edu/kantz/COVID-critical-mass).
+Download our data tables for this post [here](https://github.com/civic-data-design-lab/COVID-critical-mass).
