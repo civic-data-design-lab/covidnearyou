@@ -1,7 +1,7 @@
 ---
 title: Unpacking COVID-19 publication research themes and urban indications (Part I)
 author: Yuan Lai
-date: 2020-06-19T00:00:00.000Z
+date: 2020-06-19
 tags:
   - Covid
   - Data
