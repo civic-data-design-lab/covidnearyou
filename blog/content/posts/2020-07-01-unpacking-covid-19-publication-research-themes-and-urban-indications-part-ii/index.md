@@ -1,7 +1,7 @@
 ---
 title: Unpacking COVID-19 publication research themes and urban indications (Part II)
 author: Yuan Lai
-date: 2020-07-01
+date: 2020-07-01T00:00:00.000Z
 tags:
   - Covid
   - Visualization
@@ -34,6 +34,10 @@ The graph with 100% completeness reveals broader racial disparities and racism d
 While the goal of this study was to unpack the complex research landscape, there are limitations when considering data sources as a collection of scientific research manuscripts. This partially explains why we see relatively weak links among the terms representing social, economic, demographic, and political factors. To some extent, we suspect that broader social science studies on COVID-19 may be underrepresented in the original pool of manuscripts and preprints. Novel information mining, data analytics, and knowledge discovery methods are needed for more in-depth investigation for more comprehensive understandings in this pandemic.
 
 In conclusion, this project used Natural Language Processing and topic modeling to identify the underlying thematic structure based on approximate 47,731 manuscripts. Network analysis and visualization of keywords further revealed the intertwined virological, clinical, and epidemiological complexities involving the spread, infection, and mortality of this infectious disease. Using text mining and graph theory, we built a network of critical terms that are relevant to both this pandemic and urban science. During this pandemic, while different groups of people may face different hardships and threats, the underlying network structure and patterns of academic manuscripts reveal prevalent inequalities and injustice that contribute to disease vulnerability and exposure risks.
+
+
+
+
 
 **References**
 
