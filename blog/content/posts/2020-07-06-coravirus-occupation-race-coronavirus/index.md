@@ -1,5 +1,5 @@
 ---
-title: Coravirus, Occupation, Race, & Coronavirus
+title: Coronavirus, Occupation, Race, & Coronavirus
 author: Griffin Kantz
 date: 2020-07-10T00:00:00.000Z
 tags:
