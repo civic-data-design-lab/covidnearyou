@@ -17,7 +17,7 @@ Here are two striking animated maps illustrating this asymmetrical relationship.
 
 Here it was important to represent cases in the vertical dimension as well as choropleth fill to highlight counties both large and small.
 
-This second animated map portrays the unemployment rate by county from Feb. 1, 2020 to June 1, 2020. The Bureau of Labor Statistics releases unemployment figures for each month, which we assign to the first day of the following month and approximate linearly for all other days. Preliminary figures for May were released last week. Figures for Puerto Rico are not available for April or May, so the territory was not included here.
+This second animated map displays the unemployment rate by county from Feb. 1, 2020 to June 1, 2020. The Bureau of Labor Statistics releases unemployment figures for each month, which we assign to the first day of the following month and approximate linearly for all other days. Preliminary figures for May were released last week. Figures for Puerto Rico are not available for April or May, so the territory was not included here.
 
 ![Animated map of unemployment in the U.S.](images/unemployment.gif)
 
