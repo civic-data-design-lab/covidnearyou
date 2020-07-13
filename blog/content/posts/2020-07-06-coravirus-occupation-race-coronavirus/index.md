@@ -1,7 +1,7 @@
 ---
 title: Coronavirus, Occupation, Race, & Coronavirus
 author: Griffin Kantz
-date: 2020-07-12
+date: 2020-07-12T00:00:00.000Z
 tags:
   - Covid
   - Mapping
@@ -37,7 +37,7 @@ Why do we witness these regional differences, if coronavirus is the clear precur
 
 *Map 3. Percent non-white population, United States, U.S. Census Bureau. Produced with QGIS.*
 
-Race appears to correlate significantly with the areas experiencing the largest coronavirus surges. The [Black Belt](https://en.wikipedia.org/wiki/Black_Belt_in_the_American_South) in the South and the expansive cluster of Native American reservations in the Four Corners region appear to be sites of large outbreaks. Counties along the U.S.-Mexico land border, where many migrant laborers work often without being reflected in Census figures, have also been sites of outbreaks. Structural inequities in healthcare, workplace conditions/protections, infrastructure, and crisis preparedness almost certainly contributed to the case severity in these regions. These vectors of vulnerability have also contributed to disparities in unemployment, although it is difficult to observe this at the county level. The chart below is from a recent [report](https://www.epi.org/publication/black-workers-covid/) by the Economic Policy Institute covering "two of the most lethal preexisting conditions for coronavirus--racism and economic inquality".
+Race appears to correlate significantly with the areas experiencing the largest coronavirus surges. The [Black Belt](https://en.wikipedia.org/wiki/Black_Belt_in_the_American_South) in the South and the expansive cluster of Native American reservations in the Four Corners region appear to be sites of large outbreaks. Counties along the U.S.-Mexico land border, where many migrant laborers work often without being reflected in Census figures, have also been sites of outbreaks. Structural inequities in healthcare, workplace conditions/protections, infrastructure, and crisis preparedness almost certainly contributed to the case severity in these regions. These vectors of vulnerability have also contributed to disparities in unemployment, although it is difficult to observe this at the county level. The chart below is from a recent [report](https://www.epi.org/publication/black-workers-covid/) by the Economic Policy Institute covering "two of the most lethal preexisting conditions for coronavirus--racism and economic inequality".
 
 <iframe width="100%" height="460" src="https://www.epi.org?p=197235&view=embed&embed_template=charts_v2013_08_21&embed_date=20200712&onp=193246&utm_source=epi_press&utm_medium=chart_embed&utm_campaign=charts_v2" frameborder="0"></iframe>
 
@@ -51,6 +51,6 @@ Intertwined with race, differences in occupation type also serve to distort the 
 
 Lastly, the extreme per-capita spikes appearing in rural [Arkansas](https://wreg.com/news/small-arkansas-county-dealing-with-rise-in-covid-19-cases/), [Ohio](https://www.marionstar.com/story/news/local/2020/04/25/marion-prison-ohio-coronavirus-outbreak-seeping-into-larger-community/3026133001/), and [Tennessee](https://www.wkrn.com/community/health/coronavirus/trousdale-county-leads-us-in-virus-cases-per-capita-due-to-prison/) in the first animated map happen to be in counties home to large prisons. Coronavirus has posed a profound threat to the incarcerated.
 
-This is only an abbreviated overview of the relationships at play here, and each of them could be the subject of countless studies. Together, they create an impression of a self-sustaining crisis with intricate internal dynamics. The diagram below summarizes our Lab's thoughts on how these pandemic vectors are interdependent. In it we also attempt to show the difficulties in reconciling data of phenomena occuring at different spatial scales: regional and local.
+This is only an abbreviated overview of the relationships at play here, and each of them could be the subject of countless studies. Together, they create an impression of a self-sustaining crisis with intricate internal dynamics. The diagram below summarizes our Lab's thoughts on how these pandemic vectors are interdependent. In it we also attempt to show the difficulties in reconciling data of phenomena occurring at different spatial scales: regional and local.
 
-\[framework graphic]
+![Diagram of relationships between coronavirus, occupation type, new unemployment, and race/income.](images/covid-19-theoretical-framework_20200624.png)
