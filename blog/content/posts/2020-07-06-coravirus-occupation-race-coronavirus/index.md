@@ -31,8 +31,26 @@ Coronavirus cases per capita first peaked in a handful of urban hot-spots (New Y
 
 Unemployment, meanwhile, demonstrated a ubiquitous surge across the entire country, with Las Vegas, NV, and the entirety of Hawai'i and Michigan particularly impacted.
 
-Why do we witness these regional differences, if coronavirus is the clear precursor to the economic crisis? Beginning our inquiry from these maps leads directly to some initial hypotheses.
+Why do we witness these regional differences, if coronavirus is the clear precursor to the economic crisis? Why do these differences seem to transcend political juridictions? Beginning our inquiry from these maps leads directly to some initial hypotheses.
 
+### Race
 
+\[third map] Caption: percent non-white population, United States, U.S. Census Bureau
+
+Race appears to correlate significantly with the areas experiencing the largest coronavirus surges. The Black Belt in the South and the expansive cluster of Native American reservations in the Four Corners region appear to be sites of large outbreaks. Counties along the U.S.-Mexico land border, where many migrant laborers work often without being reflected in Census figures, have also been sites of outbreaks. Structural inequities in healthcare, workplace conditions/protections, infrastructure, and crisis preparedness almost certainly contributed to the case severity in these regions. These vectors of vulnerability have also contributed to disparities in unemployment, although it is difficult to observe this at the county level. The chart below is from a recent report by the Economic Policy Institute covering "two of the most lethal preexisting conditions for coronavirus--racism and economic inquality".\[link]
 
 <iframe width="100%" height="460" src="https://www.epi.org?p=197235&view=embed&embed_template=charts_v2013_08_21&embed_date=20200712&onp=193246&utm_source=epi_press&utm_medium=chart_embed&utm_campaign=charts_v2" frameborder="0"></iframe>
+
+### Occupation Type
+
+Intertwined with race, differences in occupation type also serve to distort the economic burden of coronavirus. Manufacturing and front-line service jobs are more exposed to infection, as well as more susceptible to layoffs (due the combination of the shutdowns, thinner profit margins, and looser workplace protections). These dynamics are suspected to be responsible for the unemployment surges in Hawai'i, Michigan, and Nevada.\[links] Differences in occupation type correlate strongly with race, and the same Economic Policy Institute report mentioned above covers how Black workers disproportionately serve in vulnerable industries.
+
+<iframe width="100%" height="460" src="https://www.epi.org?p=193254&view=embed&embed_template=charts_v2013_08_21&embed_date=20200712&onp=193246&utm_source=epi_press&utm_medium=chart_embed&utm_campaign=charts_v2" frameborder="0"></iframe>
+
+### Incarceration
+
+Lastly, the extreme per-capita spikes appearing in rural Arkansas, Iowa, Indiana, Nebraska, Ohio, and Tennessee in the first animated map happen to be in counties home to large prisons.\[links] Coronavirus has posed a profound threat to the incarcerated.
+
+This is only an abbreviated overview of the relationships at play here, and each of them could be the subject of countless studies. Together, they create an impression of a self-sustaining crisis with intricate internal dynamics. The diagram below summarizes our Lab's thoughts on how these pandemic vectors are interdependent. In it we also attempt to show the difficulties in reconciling data of phenomena occuring at different spatial scales: regional and local.
+
+\[framework graphic]
