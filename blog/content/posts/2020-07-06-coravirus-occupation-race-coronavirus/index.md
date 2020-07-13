@@ -23,7 +23,7 @@ This second animated map displays the unemployment rate by county from Feb. 1, 2
 
 *Map 2. Unemployment rate, United States, 2/1/2020-6/1/2020. Produced with QGIS and Photoshop.*
 
-Scrutinize these two maps in close comparison with each other. Their timeframes are off by one month, but they cover the recent surges in each variable. Notice the incredible differences in the regions most affected by coronavirus (and in what order) versus those affected by high unemployment.
+Scrutinize these two maps in close comparison with each other. Their timeframes are offset by one month, but they cover the recent surges in each variable. Notice the incredible differences in the regions most affected by coronavirus (and in what order) versus those affected by high unemployment.
 
 Coronavirus cases per capita first peaked in a handful of urban hot-spots (New York, NY; New Orleans, LA; Detroit, MI; Cincinnati, OH; Albany, GA), then spread to an entirely different set of rural hot-spots (the Oklahoma panhandle; Iowa and Southern Minnesota; Northeast Arizona; and several extreme spikes in the Midwest and South), and finally experienced a surge across the entire Sun Belt which is still ongoing.
 
