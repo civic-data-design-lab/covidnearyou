@@ -35,9 +35,11 @@ Why do we witness these regional differences, if coronavirus is the clear precur
 
 ### Race
 
-\[third map] Caption: percent non-white population, United States, U.S. Census Bureau
+![](images/race.png "Map of percent non-white population, United States.")
 
-Race appears to correlate significantly with the areas experiencing the largest coronavirus surges. The Black Belt in the South and the expansive cluster of Native American reservations in the Four Corners region appear to be sites of large outbreaks. Counties along the U.S.-Mexico land border, where many migrant laborers work often without being reflected in Census figures, have also been sites of outbreaks. Structural inequities in healthcare, workplace conditions/protections, infrastructure, and crisis preparedness almost certainly contributed to the case severity in these regions. These vectors of vulnerability have also contributed to disparities in unemployment, although it is difficult to observe this at the county level. The chart below is from a recent report by the Economic Policy Institute covering "two of the most lethal preexisting conditions for coronavirus--racism and economic inquality".\[link]
+*Map 3. Percent non-white population, United States, U.S. Census Bureau. Produced with QGIS.*
+
+Race appears to correlate significantly with the areas experiencing the largest coronavirus surges. The [Black Belt](https://en.wikipedia.org/wiki/Black_Belt_in_the_American_South) in the South and the expansive cluster of Native American reservations in the Four Corners region appear to be sites of large outbreaks. Counties along the U.S.-Mexico land border, where many migrant laborers work often without being reflected in Census figures, have also been sites of outbreaks. Structural inequities in healthcare, workplace conditions/protections, infrastructure, and crisis preparedness almost certainly contributed to the case severity in these regions. These vectors of vulnerability have also contributed to disparities in unemployment, although it is difficult to observe this at the county level. The chart below is from a recent [report](https://www.epi.org/publication/black-workers-covid/) by the Economic Policy Institute covering "two of the most lethal preexisting conditions for coronavirus--racism and economic inquality".
 
 <iframe width="100%" height="460" src="https://www.epi.org?p=197235&view=embed&embed_template=charts_v2013_08_21&embed_date=20200712&onp=193246&utm_source=epi_press&utm_medium=chart_embed&utm_campaign=charts_v2" frameborder="0"></iframe>
 
