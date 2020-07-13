@@ -1,21 +1,17 @@
 ---
 title: Coronavirus, Occupation, Race, & Coronavirus
 author: Griffin Kantz
-date: 2020-07-10T00:00:00.000Z
+date: 2020-07-12
 tags:
   - Covid
   - Mapping
 hero: images/casespercapita_20200703.png
 ---
-(add tag: Economy)
-
 The connection between COVID-19 and the health of the economy is obvious. But, the direct cause & effect relationship is an intricate thing to measure, because it is neither one-dimensional nor unidirectional. The influence of one on the other is distorted with each pass through America's heterogeneous social fabric, like light passing from air to water.
 
 Here are two striking animated maps illustrating this asymmetrical relationship. First is a map representing daily new confirmed coronavirus cases per capita in the U.S. by county from March 1, 2020 to July 6, 2020 (a one-week trailing average to account for regular fluctuations).
 
 ![Animated map of new coronavirus cases per capita in the U.S. (seven-day rolling average).](images/casespercapita.gif)
-
-
 
 *Map 1. Daily new confirmed coronavirus cases per capita (one-week trailing average), United States, 3/1/2020-7/6/2020. Produced with QGIS and Photoshop.*
 
