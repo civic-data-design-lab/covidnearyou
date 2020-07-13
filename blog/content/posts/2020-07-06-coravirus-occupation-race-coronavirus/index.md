@@ -15,6 +15,8 @@ Here are two striking animated maps illustrating this asymmetrical relationship.
 
 ![Animated map of new coronavirus cases per capita in the U.S. (seven-day rolling average).](images/casespercapita.gif)
 
+
+
 *Map 1. Daily new confirmed coronavirus cases per capita (one-week trailing average), United States, 3/1/2020-7/6/2020. Produced with QGIS and Photoshop.*
 
 Here it was important to represent cases in the vertical dimension as well as choropleth fill to highlight counties both large and small.
