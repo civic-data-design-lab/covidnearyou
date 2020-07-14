@@ -2,6 +2,10 @@
 title: Coronavirus, Occupation, Race, & Coronavirus
 author: Griffin Kantz
 date: 2020-07-13
+excerpt: The connection between COVID-19 and the health of the economy is
+  obvious. Yet, the direct cause & effect relationship between the two is
+  intricate to measure, because it is neither one-dimensional nor
+  unidirectional.
 tags:
   - Covid
   - Mapping
@@ -50,6 +54,8 @@ Intertwined with race, differences in occupation type also serve to distort the 
 ### Incarceration
 
 Lastly, the extreme per-capita spikes appearing in rural [Arkansas](https://wreg.com/news/small-arkansas-county-dealing-with-rise-in-covid-19-cases/), [Ohio](https://www.marionstar.com/story/news/local/2020/04/25/marion-prison-ohio-coronavirus-outbreak-seeping-into-larger-community/3026133001/), and [Tennessee](https://www.wkrn.com/community/health/coronavirus/trousdale-county-leads-us-in-virus-cases-per-capita-due-to-prison/) in the first map happen to be in counties home to large prisons. Coronavirus has posed a profound threat to the incarcerated, a threat which [some policy officials](https://www.prisonpolicy.org/virus/virusresponse.html) are taking steps to counteract. Hear & read the statements from the inmates of one Maryland jail afflicted by coronavirus [here](https://www.gaspingforjustice.org/).
+
+~
 
 This is only an abbreviated overview of the dynamics at play here, and each of them could be the subject of countless studies. Together, they create an image of a self-sustaining crisis with intricate cause-&-effect relationships. The diagram below summarizes our Lab's thoughts on how these pandemic vectors are interdependent. In it we also attempt to show the difficulties in reconciling data of phenomena occurring at different spatial scales: regional and local.
 
