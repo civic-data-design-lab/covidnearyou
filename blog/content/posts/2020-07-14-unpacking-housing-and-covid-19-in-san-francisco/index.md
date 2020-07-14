@@ -1,7 +1,7 @@
 ---
-title: Unpacking Housing and COVID-19 in San Francisco
+title: Housing and COVID-19 in San Francisco
 author: Joyce Zhao
-date: 2020-07-14
+date: 2020-07-14T00:00:00.000Z
 tags:
   - Covid
 hero: images/2019-eviction-notices-and-covid-rates.png
