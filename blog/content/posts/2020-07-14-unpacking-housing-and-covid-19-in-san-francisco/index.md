@@ -14,7 +14,6 @@ Neighborhoods in San Francisco experiencing historically higher rates of evictio
 
 ![2019 Eviction Notices and COVID Rates by Neighborhood, San Francisco](images/2019-eviction-notices-and-covid-rates.png)
 
-\
 In particular, 10% of all eviction notices filed in 2019 took place in the Mission (highlighted in pink below), a neighborhood with historically higher rates of eviction. The Mission also currently has one of the highest COVID rates in San Francisco.
 
 ![2019 Eviction Notice by Neighborhood, San Francisco](images/eviction-count-by-nhood.png)
