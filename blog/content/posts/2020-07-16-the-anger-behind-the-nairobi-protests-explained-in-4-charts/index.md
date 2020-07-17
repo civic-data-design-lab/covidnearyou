@@ -1,10 +1,10 @@
 ---
 title: The anger behind the Nairobi protests, explained in 4 charts
 author: Sofia Gulaid
-date: 2020-07-17
+date: 2020-07-17T00:00:00.000Z
 tags:
   - Visualization
-hero: images/cddl_blogpost_0713-03.png
+hero: images/cddl_blogpost_sg_allgraphics.jpg
 ---
 On the first of June, Vox released an article called “The anger behind the protests, explained in 4 charts”.In the article, Sean Collins uses data visualizations to explain the landscape of police violence in the United States, a structural issue that has come to the surface most recently due to the murder of George Floyd on the 25th of May. In the article, the author states “protests have continued night after night because they are not just about that single killing but what it represents: rampant police brutality that seems to have no consequences” (Collins 2020). Reading this article got me thinking about the parallels in one of my homes, Nairobi, Kenya, where recent protests have mirrored those happening in the United States.
 
