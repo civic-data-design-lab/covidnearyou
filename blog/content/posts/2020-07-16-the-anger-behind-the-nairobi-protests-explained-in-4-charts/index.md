@@ -1,7 +1,7 @@
 ---
 title: The anger behind the Nairobi protests, explained in 4 charts
 author: Sofia Gulaid
-date: 2020-07-17T00:00:00.000Z
+date: 2020-07-17
 tags:
   - Visualization
 hero: images/cddl_blogpost_0713-03.png
