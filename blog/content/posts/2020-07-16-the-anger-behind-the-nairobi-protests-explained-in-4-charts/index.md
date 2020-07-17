@@ -6,8 +6,6 @@ tags:
   - Visualization
 hero: images/cddl_blogpost_0713-03.png
 ---
-*The author of this post chose to remain anonymous.* 
-
 On the first of June, Vox released an article called “The anger behind the protests, explained in 4 charts”. In the article, Sean Collins uses data visualizations to explain the landscape of police violence in the United States, a structural issue that has come to the surface most recently due to the murder of George Floyd on the 25th of May. The author states “protests have continued night after night because they are not just about that single killing but what it represents: rampant police brutality that seems to have no consequences” (Collins 2020). Reading this article got me thinking about the parallels in Nairobi, Kenya, where recent protests have mirrored those happening in the United States.
 
 This article explores the anger behind the protests in Nairobi, looking into some of the dynamics of police violence through four charts. You will notice that this story looks quite a bit different to the sleek digital visualizations that we create at the CDDL. I have always been amazed by data humanism, particularly the hand-drawn visualizations of Mona Chalabi and Giorgia Lupi, and my hope is that the hand drawn charts convey both the urgency of the situation and its deeply human impact.
