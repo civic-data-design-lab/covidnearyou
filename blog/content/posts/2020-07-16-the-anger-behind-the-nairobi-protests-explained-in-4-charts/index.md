@@ -6,13 +6,11 @@ tags:
   - Visualization
 hero: images/cddl_blogpost_sg_allgraphics.jpg
 ---
-On the first of June, Vox released an article called “The anger behind the protests, explained in 4 charts”.In the article, Sean Collins uses data visualizations to explain the landscape of police violence in the United States, a structural issue that has come to the surface most recently due to the murder of George Floyd on the 25th of May. In the article, the author states “protests have continued night after night because they are not just about that single killing but what it represents: rampant police brutality that seems to have no consequences” (Collins 2020). Reading this article got me thinking about the parallels in one of my homes, Nairobi, Kenya, where recent protests have mirrored those happening in the United States.
+On the first of June, Vox released an article called “The anger behind the protests, explained in 4 charts”. In the article, Sean Collins uses data visualizations to explain the landscape of police violence in the United States, a structural issue that has come to the surface most recently due to the murder of George Floyd on the 25th of May. In the article, the author states “protests have continued night after night because they are not just about that single killing but what it represents: rampant police brutality that seems to have no consequences” (Collins 2020). Reading this article got me thinking about the parallels in one of my homes, Nairobi, Kenya, where recent protests have mirrored those happening in the United States.
 
 This article explores the anger behind the protests in Nairobi, looking into some of the dynamics of police violence through four charts. You will notice that this story looks quite a bit different to the sleek digital visualizations that we create at the CDDL. I have always been amazed by data humanism, particularly the hand-drawn visualizations of Mona Chalabi and Giorgia Lupi, and my hope is that the hand drawn charts convey both the urgency of the situation and its deeply human impact.
 
 On the 8th of June in Mathare, one of Nairobi’s informal settlements, over 200 protesters marched with signs reading “Stop Killer Cops” and “Our Lives Matter”, and images of mothers of victims of police violence kneeling in front of Mathare Social Justice Centre draw scary parallels to what is going on in the United States. While many people in the United States see the coronavirus and police violence protests as separate crises, in Nairobi the two crises and their responses have been deeply entwined.
-
-
 
 **Where Coronavirus and Police Violence Collide**
 
@@ -22,8 +20,6 @@ The Kenyan government was quick to respond to the Coronavirus outbreak, implemen
 
 Tear gas was employed to dispel crowds and protesters both in Nairobi and Mombasa. In addition, state actors carrying out forced evictions in Kariobangi settlement have left 5,000 citizens newly homeless and at higher risk for contracting COVID-19 (Bhalla 2020). Then, we began to hear how citizens accused of breaking curfew were beaten and killed. Over 15 people were murdered by police since the start of the curfew, including 13-year-old boy Yassin Hussein Moyo, who was shot by a police bullet while standing on his apartment balcony in late March. As the Nation reports, “the indiscriminate violence on men, women and children was shocking in its brutality and complete disregard for liberties” (Daily Nation 2020). #NoJusticeNoPeace and #ICan’tBreathe were themes that arose in Nairobi too, and activist groups including the Mathare Social Justice Centre have led protests to bring these issues to a national and global view.
 
-
-
 **The Graphics**
 
 One
@@ -31,8 +27,6 @@ One
 ![](images/cddl_blogpost_0713-01.png)
 
 “They have killed us more than corona,” a protester from the 8th June in Mathare, said simply. This straightforward quote inspired the first graphic. As of the end of May, the statistics showed that 101 people had been killed by police and 71 people killed by COVID-19. As we move past the initial curfew, the COVID-19 cases have risen rapidly to overtake this number, however police murder persists.
-
-
 
 Two
 
@@ -46,15 +40,11 @@ Three
 
 According to GAN Business Anti-Corruption portal, three out of four Kenyans consider most or all police officers as corrupt (GCB 2015). This graphic points to larger issues with police conduct in Nairobi: these include ubiquitous bribery, extortion especially of Somalis, and brutality toward often innocent citizens. Corrupt police officers are rarely arrested or prosecuted for corruption crimes (HRR 2016).
 
-
-
 Four
 
 ![](images/cddl_blogpost_0713-04.png)
 
 Police conduct goes further than the reach of their hand. This last visualization is a result of my inner urban planner. Something that we often forget about is how the use of teargas can have a magnified effect on high-density residential areas including informal communities like Kibera settlement in Nairobi. If teargas is released in Kibera, its 300m radius means that the teargas could reach more than 300 buildings, compromising the health of countless residents of the areas surrounding the location where the teargas was released.
-
-
 
 **What This Means**
 
@@ -74,8 +64,6 @@ You can read more about police brutality in Kenya at Mathare Social Justice Cent
 * The Nation Team Kenyans Brace Brutality as Police Enforce Curfew.”Daily Nation, 30 Mar. 2020,[www.nation.co.ke/kenya/news/kenyans-brace-brutality-as-police-enforce-curfew-282826](http://www.nation.co.ke/kenya/news/kenyans-brace-brutality-as-police-enforce-curfew-282826).
 * United Nations High Commissioner for Refugees. “Kenya: Information on the July 1990 Riots.”Refworld,[www.refworld.org/docid/3ae6aac02c.html](http://www.refworld.org/docid/3ae6aac02c.html).
 * Wambui, Mary. “Police Disrupt Saba Saba Protests in the City.”Daily Nation, 7 July 2020,[www.nation.co.ke/kenya/news/politics/police-disrupt-saba-saba-protests-in-the-city-1446314](http://www.nation.co.ke/kenya/news/politics/police-disrupt-saba-saba-protests-in-the-city-1446314).
-
-
 
 **Update from the 7th of July 2020**
 
