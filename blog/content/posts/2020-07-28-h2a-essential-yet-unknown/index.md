@@ -51,9 +51,7 @@ Additionally, while the number of farms participating in H2A increased by 28%, t
 
 The use and expense of the H2A program have been steadily increasing, yet most Americans are completely unaware of its existence. Our food is the foundation of our health as individuals and, by extension, our society. Without an understanding of the farm to table process, the American food supply chain and agricultural economy at large becomes less resilient to obstacles… like a pandemic.
 
-Thus, this post is the first of many CDDL posts which will explore the H2A visa program, its value in America’s supply chain, and its[pitfalls](http://www.ruralneighborhoods.org/wp-content/uploads/2014/03/no-way-to-treat-a-guest.pdf)through both data visualizations and extensive interviews to bring our readers and Americans at large a little bit closer to the food they eat.
-
-
+Thus, this post is the first of many CDDL posts which will explore the H2A visa program, its value in America’s supply chain, and its [pitfalls](http://www.ruralneighborhoods.org/wp-content/uploads/2014/03/no-way-to-treat-a-guest.pdf) through both data visualizations and extensive interviews to bring our readers and Americans at large a little bit closer to the food they eat.
 
 ## H2A, Visually
 
