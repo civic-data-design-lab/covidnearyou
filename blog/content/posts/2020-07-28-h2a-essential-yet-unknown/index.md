@@ -53,6 +53,8 @@ The use and expense of the H2A program have been steadily increasing, yet most A
 
 Thus, this post is the first of many CDDL posts which will explore the H2A visa program, its value in America’s supply chain, and its [pitfalls](http://www.ruralneighborhoods.org/wp-content/uploads/2014/03/no-way-to-treat-a-guest.pdf) through both data visualizations and extensive interviews to bring our readers and Americans at large a little bit closer to the food they eat.
 
+
+
 ## H2A, Visually
 
 This [visualization](https://public.tableau.com/profile/evan.denmark#!/vizhome/TheImpactofH2A/Story1?publish=yes) is a Tableau storyboard that highlights some of the basics about the H2A program: where workers are employed by county, which states use the H2A program, and which crops are most affected by H2A.
@@ -66,8 +68,6 @@ The map,Where do H2A visa workers go?, shows where H2A jobs are being taken in e
 The second visualization,Which states use H2A?, shows the amount of H2A labor required in each state in 2019. Each visa application contains the job start and end date as well as the expected number of hours worked per week, so this was used to calculate the total number of person-hours required for each state. Interestingly, the top five states - North Carolina, Washington, Florida, California, and Georgia - make up 51% of the entire labor in the country.
 
 Lastly, inWhich crops are affected by H2A?, the size of each bubble corresponds to the number of person-hours spent on a given crop in each state. By default, the visualization shows data for the entire country but the state can be adjusted in the dropdown. On each visa application, a farmer must specify the job function or primary crop for the job. Many farmers often put “General Farm Worker.” However, the most popular crop for H2A visa holders is tobacco, a crop that supports a large industry but also requires intensive manual labor. It is interesting to see that other crops like corn - America’s largest crop by total production - require much less H2A labor because harvesting is aided by machinery and, thus, requires fewer person-hours. Therefore, the number of person-hours dedicated to a particular crop is a function of the size of the industryandhow much individual attention is required for crop production.
-
-
 
 Sources
 
