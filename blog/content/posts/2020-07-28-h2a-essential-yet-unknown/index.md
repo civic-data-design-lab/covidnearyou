@@ -11,7 +11,7 @@ tags:
   - Economy
 hero: images/screen-shot-2020-07-28-at-10.16.52-am.png
 ---
-The Mississippi sweet potato planting season recently came to a close. Mike Williamson, a farmer of Williamson Family Farms in Water Valley, Mississippi, only hopes that all he’ll have the workforce to harvest those crops come October.
+The Mississippi sweet potato planting season recently came to a close. Mike Williamson, a farmer of Williamson Family Farms in Water Valley, Mississippi, only hopes that all he’ll have the workforce to harvest those crops come October. 
 
 “I’m not one hundred percent sure that my amigos will be here in the fall. If not, I’ll be out of business,” Williamson said.
 
