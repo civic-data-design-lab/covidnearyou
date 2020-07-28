@@ -1,7 +1,7 @@
 ---
 title: "H2A: Essential yet Unknown"
 author: Evan Denmark
-date: 2020-07-31T00:00:00.000Z
+date: 2020-07-31
 tags:
   - Covid
   - Visualization
