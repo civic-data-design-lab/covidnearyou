@@ -92,23 +92,23 @@ This is a red flag category and some concern should be shown toward data managem
 
 *Category: Constant - Neutral*
 
-California (CA), Guam (GU), Kansas (KS), Kentucky (KY), Northern Mariana Islands (MP), North Dakota (ND), New Mexico (NM), **New York (NY)**, Ohio (OH), Puerto Rico (PR), South Dakota (SD), Tennessee (TN), Virgin Islands (VI), Wisconsin (WI), and West Virginia (WV) fall into this category.
+**California (CA)**, Guam (GU), Kansas (KS), Kentucky (KY), Northern Mariana Islands (MP), North Dakota (ND), New Mexico (NM), **New York (NY)**, Ohio (OH), Puerto Rico (PR), South Dakota (SD), Tennessee (TN), Virgin Islands (VI), Wisconsin (WI), and West Virginia (WV) fall into this category.
 
-Notably, North Dakota, New York, and Puerto Rico do not reportanyrace data for their reported cases. This is alarming, and better data reporting should exist.
+Notably, North Dakota, New York, and Puerto Rico do not report **any** race data for their reported cases. This is alarming, and better data reporting should exist.
 
 \[insert US Map here]
 
-Interview Insights
+**Interview Insights**
 
 To get a more qualitative explanation of what is happening in the data, I sought experts and health officials to help me understand why so much race data could be missing and where in the process - from patient arrival to lab collection to data reporting - the missing link could occur. Additionally, I wanted to understand what the process of race designation is and how it is reported accurately.
 
-First, I consulted with MIT Medical Associate Medical Director & Chief of Student Health Shawn Ferullo. He explained that policies and procedures could vary greatly not only from state to state but from institution to institution. For example, Massachusetts General Hospital may have a completely different reporting protocol than MIT Medical, associated with a higher education institution, which has a much more rigidly defined community. But at the end of the day, Ferullo says, “what is being reported is what the State mandates to be reported.” Let’s keep this in mind.
+First, I consulted with MIT Medical Associate Medical Director & Chief of Student Health Shawn Ferullo. He explained that policies and procedures could vary greatly not only from state to state but from institution to institution. For example, Massachusetts General Hospital may have a completely different reporting protocol than MIT Medical, associated with a higher education institution, which has a much more rigidly defined community. But at the end of the day, Ferullo says, “**what is being reported is what the State mandates to be reported.**” Let’s keep this in mind.
 
 From what I gathered, this is the testing methodology at MIT Medical, broken down into three key areas:
 
 1. Clinical Testing: Someone is sick or has symptoms and needs to be monitored, typically done in the office
 2. Contact Tracing Testing: a separate waiting area for people who may have been potentially exposed to COVID-19 but may still be healthy
-3. Asymptomatic Testing:Outside testing booths for people who don’t have symptoms but want testing, low-risk large volume testing is performed here, most similar to the concept ofdrive-thrutesting (4)
+3. **Asymptomatic Testing:** Outside testing booths for people who don’t have symptoms but want testing, low-risk large volume testing is performed here, most similar to the concept of *drive-thru* testing (4)
 
 I’m most interested in how demographic data is being organized at these pop-up sites.
 
@@ -118,13 +118,13 @@ He leaves this closing remark:
 
 “As a clinician, so much of the day to day work is so patient-focused, as you can imagine... The lab has whatever requirements it has to submit, so a lot of clinicians on the front lines may not even know what data is reported... because they’re tasked with seeing the patient, collecting the test, and all of that. More of these bigger, drive up, population-based testing sites, I wonder how many are scrambling, quite honestly, if some states are just scrambling to get testing that they’re not as thoughtful with how they are setting up their systems \[for data collecting]. I hate to think about how many states just don’t want to know or are intentionally not asking the question” \[about race].
 
-Next, an excerpt from an interview with Sarita Shah, who is an epidemiologist at Emory University, studying racial disparities in areas with high rates of COVID-19 and volunteering with Fulton County’s health department. Notably, Shah sees the data collection problem firsthand. After doing nasal swabs at a drive-up testing site, she later calls those who test positive to fill in personal information, including race.\[self-identification]However, even after multiple attempts, the team reaches only about half of these people. Shah says she’d love to note a person’s race when they’re sitting in front of her at the test site, but so far, the forms provided by labs that process the samples don’t have a place to note it. “I wish it was something more complex than that,” she says, “but it’s not.” \[the researcher also lacks an opportunity to identify patients and race data is lost] 4.
+Next, an excerpt from an interview with Sarita Shah, who is an epidemiologist at Emory University, studying racial disparities in areas with high rates of COVID-19 and volunteering with Fulton County’s health department. Notably, Shah sees the data collection problem firsthand. After doing nasal swabs at a drive-up testing site, she later calls those who test positive to fill in personal information, including race. **\[self-identification]** However, even after multiple attempts, the team reaches only about half of these people. Shah says she’d love to note a person’s race when they’re sitting in front of her at the test site, but so far, the forms provided by labs that process the samples don’t have a place to note it. “I wish it was something more complex than that,” she says, “but it’s not.” **\[the researcher also lacks an opportunity to identify patients and race data is lost]** \[4]
 
 Her experience is not in isolation. Shortly after the interview with Ferullo, I followed up with MIT Medical Lab Director Jonathan Pelletier who confirmed that the template form used at MIT Medical to report testing results - sent directly from the Massachusetts Department of Public Health - has no column or option for reporting race designations. This is especially confusing because the previous data suggests Massachusetts is one of the leading states in which race data is being reported. It raises the question of how this is even possible? And where are they getting their data from if it’s not required, as Massachusetts historically has done a good job with their race data reporting. But these questions and many more, I do not have the answers to and as I leave them unexplored, I assume other laboratories across the nation are facing similar data issues.
 
 But maybe there’s hope; an amendment to the Coronavirus Aid, Relief, and Economic Security (CARES) Act passed back on June 4th will require laboratories to include relevant demographic data, such as age and race, on every test. 6. However, this is scheduled to go into effect on August 1st, leaving many passionate researchers and relief organizations in the dark about this crucial piece of metadata. I guess we’ll have to wait and see if this makes a difference in the data.
 
-Conclusions
+**Conclusions**
 
 I believe the lack of normalized and uniform systems of reporting demographic data at the local level - individual laboratories, medical institutions, testing locations, communities, and counties - results in these large discrepancies that we see at the state and national level when researchers try to draw conclusions from data aggregates. This needs to change, and fast.
 
@@ -134,17 +134,17 @@ Lastly, accurate information on race is critical in making policy decisions, par
 
 As the country begins to reopen its doors, access to clear and accurate data is essential to communities and leadership as they make data-driven decisions for a phased reopening. For individuals, access to clear representations of real-world data improves feelings of safety, security, and awareness, and empowers them to take action to support themselves, their families, and their communities. I hope we are able to see real change soon.
 
-Project Notes - Methodology
+**Project Notes - Methodology**
 
-1. On some days, a state’s percentages may add up to more than 100%, we understand these to be inaccuracies in the original data set of which the visualization was made. This could be attributed to either compiling errors or reporting errors from the individual medical institutions \[labs].
+(1) On some days, a state’s percentages may add up to more than 100%, we understand these to be inaccuracies in the original data set of which the visualization was made. This could be attributed to either compiling errors or reporting errors from the individual medical institutions \[labs].
 
-(2)For the purposes of this project, we considered the race designationOtherto be functionally the same asUnknownand therefore we included all cases reported having a race ofOtheras unknown. We carry over this adjustment in all calculations made for unknown visualizations.
+(2) For the purposes of this project, we considered the race designation *Other* to be functionally the same asUnknownand therefore we included all cases reported having a race ofOtheras unknown. We carry over this adjustment in all calculations made for unknown visualizations.
 
 This first suggestion came about after some manually screening of the CSV file used to generate the visualizations showed some interesting patterns in data management which in shorter words, looked like some cases originally designated asUnknownwere swapped over to theOthercategory. As the running totals continued in the spreadsheet, it seemed suspicious and we think this is a better way to account for that uncertainty.
 
 For instance, on May 13th in Iowa, 2878 cases are reported asUnknownand 232 asOther, then on May 17th, 3144 cases are now reported asOtherand 0 asUnknown, and from this moment forward, case numbers increase in theOthercategory but remain stagnant in theUnknowncategory until June 17th. This is only noticeable because of how large a change it is but would be virtually undetectable if an individual laboratory chose to reinterpret data in this way. This seems more like a shift in data management rather than real testing results, and it’s these shifts that are most interesting to us as we try to interpret the gaps in the data.
 
-(3)What does testing per capita mean?
+(3) What does testing per capita mean?
 
 After much deliberation, we choose to map the “known percentages” - the percent of positive cases in which race data exists - to testing per capita instead of positive tests because of some confounding variables. Testing per capita represents the total amount of tests performed in that state by the date specified divided by the state’s population. In short, we were looking for a good way to visualize magnitudes of uncertainty as states increase their number of tests. Do testing strategies change (per state, per district, per county?) as testing density increases, especially looking at race and ethnicity data?
 
@@ -152,19 +152,26 @@ Generally speaking, the rate of infection of a disease multiplied by the total n
 
 And by using raw positive tests as an axis label, we would be assuming that increases in testing density are the only cause of increases in positive tests, when this may not be valid; the rate of infection also matters. There are many social regulations and restrictions in states, such as mask mandates or general climate patterns, which can impact the rate of infection. Especially considering the timing of this legislation varies greatly from state to state. Therefore, we thought testing per capita would be a more normalized metric off which to make conclusions.
 
-(4)Drive-thru refers to making tests more available in communities in an easier way, which would increase the volume of testing. With drive-thru testing, it is easier to keep patients social distancing by staying in their vehicles and to preserve clinician PPE.
+(4) Drive-thru refers to making tests more available in communities in an easier way, which would increase the volume of testing. With drive-thru testing, it is easier to keep patients social distancing by staying in their vehicles and to preserve clinician PPE.
 
-Sources
+**Sources**
+
+*Non-Data*
+
+\[1] [About Race](https://www.census.gov/topics/population/race/about.html)
+
+
+
+*Data*
 
 1. [The COVID Tracking Project | The COVID Tracking Project](https://covidtracking.com/)
 
-* For raw data and CSVs
+* For raw data and CSV
 
-2. [About Race](https://www.census.gov/topics/population/race/about.html)
-3. [Race, Ethnicity Data To Be Required With Coronavirus Tests In U.S.](https://www.npr.org/sections/coronavirus-live-updates/2020/06/04/869815033/race-ethnicity-data-to-be-required-with-coronavirus-tests-in-u-s)
-4. [‘Huge hole’ in COVID-19 testing data makes it harder to study racial disparities](https://www.sciencemag.org/news/2020/07/huge-hole-covid-19-testing-data-makes-it-harder-study-racial-disparities)
-5. [The Fullest Look Yet at the Racial Inequity of Coronavirus](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html)
-6. <https://www.hhs.gov/sites/default/files/covid-19-laboratory-data-reporting-guidance.pdf>
+2. [Race, Ethnicity Data To Be Required With Coronavirus Tests In U.S.](https://www.npr.org/sections/coronavirus-live-updates/2020/06/04/869815033/race-ethnicity-data-to-be-required-with-coronavirus-tests-in-u-s)
+3. [‘Huge hole’ in COVID-19 testing data makes it harder to study racial disparities](https://www.sciencemag.org/news/2020/07/huge-hole-covid-19-testing-data-makes-it-harder-study-racial-disparities)
+4. [The Fullest Look Yet at the Racial Inequity of Coronavirus](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html)
+5. <https://www.hhs.gov/sites/default/files/covid-19-laboratory-data-reporting-guidance.pdf>
 
 For State populations
 
