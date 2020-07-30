@@ -1,7 +1,7 @@
 ---
 title: Missing Racial Data in COVID-19 Reporting
 author: Brian Williams
-date: 2020-07-31
+date: 2020-07-31T00:00:00.000Z
 tags:
   - Covid
   - Health
@@ -22,7 +22,7 @@ As a part of the CDDL’s Missing Data Project, this investigation tries to tack
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
-\[insert bar graph]
+<iframe id="<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~brianwilliams2022/13.embed"></iframe>" title="undefined" src="undefined" width="undefined" height="undefined" allow="undefined" />
 
 **Notes:** 
 
