@@ -52,7 +52,7 @@ The size of each state bubble represents its total positive tests. So a state wi
 
 **Categories**
 
-\[Increasing, Decreasing, and Constant]
+*\[Highly Impacted States, Increasing, Decreasing, and Constant]*
 
 States are categorized by whether this “known percentage” factor has increased, decreased, or remained relatively constant from the first time data is available for that state to the latest data available. In order for a state to be considered “increasing,” it would need to increase by 5 or more percentage points. Similarly, “decreasing” states are those that decreased by 5 or more percentage points. “Constant” states are those that lie in the middle.
 
