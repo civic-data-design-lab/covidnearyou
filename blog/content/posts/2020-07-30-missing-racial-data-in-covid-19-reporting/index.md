@@ -160,11 +160,13 @@ And by using raw positive tests as an axis label, we would be assuming that incr
 
 \[1] [About Race](https://www.census.gov/topics/population/race/about.html)
 
+\[2] [Race, Ethnicity Data To Be Required With Coronavirus Tests In U.S.](https://www.npr.org/sections/coronavirus-live-updates/2020/06/04/869815033/race-ethnicity-data-to-be-required-with-coronavirus-tests-in-u-s)
 
+\[3] [‘Huge hole’ in COVID-19 testing data makes it harder to study racial disparities](https://www.sciencemag.org/news/2020/07/huge-hole-covid-19-testing-data-makes-it-harder-study-racial-disparities)
 
 *Data*
 
-1. [The COVID Tracking Project | The COVID Tracking Project](https://covidtracking.com/)
+[The COVID Tracking Project | The COVID Tracking Project](https://covidtracking.com/)
 
 * For raw data and CSV
 
@@ -173,11 +175,9 @@ And by using raw positive tests as an axis label, we would be assuming that incr
 4. [The Fullest Look Yet at the Racial Inequity of Coronavirus](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html)
 5. <https://www.hhs.gov/sites/default/files/covid-19-laboratory-data-reporting-guidance.pdf>
 
-For State populations
+For region populations
 
 7. [2019 National and State Population Estimates](https://www.census.gov/newsroom/press-kits/2019/national-state-estimates.html)
 8. [Islands We Serve | US Department of the Interior](https://www.doi.gov/oia/islands)
 
 American Samoa, Guam, Northern Mariana Islands, Virgin Islands
-
-<!--EndFragment-->
