@@ -12,7 +12,7 @@ hero: images/newplot.png
 ---
 **Missing Racial Data in COVID-19 Reporting**
 
-In the past six months, hospitals, clinics, and medical institutions across the United States have conducted millions of COVID-19 tests. The data from the tests has been made publicly available through multiple avenues for public use. [The Covid Tracking Project](https://covidtracking.com/), a volunteer organization launched fromThe Atlantic, has collected and published metadata to accompany the testing data. One such piece of metadata: race.
+In the past six months, hospitals, clinics, and medical institutions across the United States have conducted millions of COVID-19 tests. The data from the tests has been made publicly available through multiple avenues for public use. [The Covid Tracking Project](https://covidtracking.com/), a volunteer organization launched from *The Atlantic*, has collected and published metadata to accompany the testing data. One such piece of metadata: race.
 
 When analyzing the reported race data, I’ve noticed that some states report race data much more consistently and thoroughly than others. This prompted me to dig into why this is, why a testing center does or does not report race, and how the state, county, municipal, and lab policies vary with regards to collecting and reporting race information.
 
