@@ -158,7 +158,7 @@ And by using raw positive tests as an axis label, we would be assuming that incr
 
 *Non-Data*
 
-\[1] [About Race](https://www.census.gov/topics/population/race/about.html)
+\[1] [US Census - About Race](https://www.census.gov/topics/population/race/about.html)
 
 \[2] [Race, Ethnicity Data To Be Required With Coronavirus Tests In U.S.](https://www.npr.org/sections/coronavirus-live-updates/2020/06/04/869815033/race-ethnicity-data-to-be-required-with-coronavirus-tests-in-u-s)
 
