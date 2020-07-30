@@ -10,7 +10,7 @@ tags:
   - Data
 hero: images/newplot.png
 ---
-Missing Racial Data in COVID-19 Reporting
+**Missing Racial Data in COVID-19 Reporting**
 
 In the past six months, hospitals, clinics, and medical institutions across the United States have conducted millions of COVID-19 tests. The data from the tests has been made publicly available through multiple avenues for public use. [The Covid Tracking Project](https://covidtracking.com/), a volunteer organization launched fromThe Atlantic, has collected and published metadata to accompany the testing data. One such piece of metadata: race.
 
@@ -94,7 +94,7 @@ This is a red flag category and some concern should be shown toward data managem
 
 **California (CA)**, Guam (GU), Kansas (KS), Kentucky (KY), Northern Mariana Islands (MP), North Dakota (ND), New Mexico (NM), **New York (NY)**, Ohio (OH), Puerto Rico (PR), South Dakota (SD), Tennessee (TN), Virgin Islands (VI), Wisconsin (WI), and West Virginia (WV) fall into this category.
 
-Notably, North Dakota, New York, and Puerto Rico do not report **any** race data for their reported cases. This is alarming, and better data reporting should exist.
+Notably, North Dakota, New York, and Puerto Rico do not report **any** race data for their reported cases. This is alarming, and we need better data from these regions.
 
 \[insert US Map here]
 
@@ -164,20 +164,20 @@ And by using raw positive tests as an axis label, we would be assuming that incr
 
 \[3] [‘Huge hole’ in COVID-19 testing data makes it harder to study racial disparities](https://www.sciencemag.org/news/2020/07/huge-hole-covid-19-testing-data-makes-it-harder-study-racial-disparities)
 
+\[4] [The Fullest Look Yet at the Racial Inequity of Coronavirus](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html)
+
+\[5] [CARES Act Section 18115](https://www.hhs.gov/sites/default/files/covid-19-laboratory-data-reporting-guidance.pdf)
+
 *Data*
 
-[The COVID Tracking Project | The COVID Tracking Project](https://covidtracking.com/)
+\[6] [The COVID Tracking Project | The COVID Tracking Project](https://covidtracking.com/)
 
-* For raw data and CSV
+* For raw case data.
 
-2. [Race, Ethnicity Data To Be Required With Coronavirus Tests In U.S.](https://www.npr.org/sections/coronavirus-live-updates/2020/06/04/869815033/race-ethnicity-data-to-be-required-with-coronavirus-tests-in-u-s)
-3. [‘Huge hole’ in COVID-19 testing data makes it harder to study racial disparities](https://www.sciencemag.org/news/2020/07/huge-hole-covid-19-testing-data-makes-it-harder-study-racial-disparities)
-4. [The Fullest Look Yet at the Racial Inequity of Coronavirus](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html)
-5. <https://www.hhs.gov/sites/default/files/covid-19-laboratory-data-reporting-guidance.pdf>
+*For region populations*
 
-For region populations
+\[7] [2019 National and State Population Estimates](https://www.census.gov/newsroom/press-kits/2019/national-state-estimates.html)
 
-7. [2019 National and State Population Estimates](https://www.census.gov/newsroom/press-kits/2019/national-state-estimates.html)
-8. [Islands We Serve | US Department of the Interior](https://www.doi.gov/oia/islands)
+\[8] [Islands We Serve | US Department of the Interior](https://www.doi.gov/oia/islands)
 
-American Samoa, Guam, Northern Mariana Islands, Virgin Islands
+* American Samoa, Guam, Northern Mariana Islands, Virgin Islands.
