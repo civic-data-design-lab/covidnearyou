@@ -55,9 +55,7 @@ Thus, this post is the first of many CDDL posts which will explore the H2A visa 
 
 ## H2A, Visually
 
-
-
-https://public.tableau.com/shared/8YXPTJFYZ?:display_count=y&:origin=viz_share_link
+<iframe src="https://public.tableau.com/shared/8YXPTJFYZ?:display_count=y&:origin=viz_share_link:showVizHome=no&:embed=true" width="100%" height="600" allowfullscreen></iframe>
 
 This [visualization](https://public.tableau.com/views/TheCurrentStateofH2A/Story1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link) is a Tableau storyboard that highlights some of the basics about the H2A program: where workers are employed by county, which states use the H2A program, and which crops are most affected by H2A.
 
