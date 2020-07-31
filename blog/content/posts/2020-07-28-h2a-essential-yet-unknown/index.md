@@ -41,13 +41,13 @@ Without an American agriculture workforce, the demand for visa-issued foreign wo
 
 Despite the expense, the program has seen a steady rise in the past decade. One decade ago, the US Department of Labor would consistently issue fewer than 75,000 visas each year. Today, that number has nearly tripled with more than 205,000 visas issued in 2019.
 
-![](images/screen-shot-2020-07-27-at-2.36.51-pm.png)
+![The H2A program has dramatically increased during both Obama and Trump's tenure in the White House. Source: U.S. Department of State, Bureau of Consular Affairs, “Nonimmigrant Visa Statistics"Source: ](images/screen-shot-2020-07-27-at-2.36.51-pm.png)
 
 Since 2016 (the year when the US DOL began producing data with consistent formatting), the labor costs of the H2A program have increased by 66% due to a rise in the amount of labor being performed and significant increases in the [adverse wage](http://www.mobilefarmware.com/support/wams/aewr/) - a state-by-state minimum wage to ensure that guest worker wages will not depress the wages of domestic workers in similar occupations. In some states, like Washington, the adverse wage has increased by 24% since 2016.
 
 Additionally, while the number of farms participating in H2A increased by 28%, the total person-hours done by H2A workers increased by 43% and the number of certified jobs by 45%, indicating both that new farms began participating in the program and that returning farms required more farm labor.
 
-![](images/2016v2020.png)
+![Source:  U.S. Department of Labor, Employment and Training Administration, “H2A Disclosure Data” for years 2016-2019](images/2016v2020.png)
 
 The use and expense of the H2A program have been steadily increasing, yet most Americans are completely unaware of its existence. Our food is the foundation of our health as individuals and, by extension, our society. Without an understanding of the farm to table process, the American food supply chain and agricultural economy at large becomes less resilient to obstacles… like a pandemic.
 
