@@ -22,11 +22,7 @@ As a part of the CDDL’s Missing Data Project, this investigation tries to tack
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
-
-
 <iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="//plotly.com/~brianwilliams2022/13.embed?link=false "></iframe>
-
-
 
 **Notes:** 
 
@@ -46,11 +42,7 @@ From various [sources](https://www.nytimes.com/interactive/2020/07/05/us/coronav
 
 In the below visualization, the known percentages of cases with reported race are plotted against each state’s testing per capita. (3) The plot is animated to show how each state has progressed over time.
 
-
-
 <iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plotly.com/~brianwilliams2022/11.embed?link=false"></iframe>
-
-
 
 **Notes:**
 
@@ -106,11 +98,7 @@ Notably, North Dakota, New York, and Puerto Rico do not report **any** race data
 
 Here's a clear visualization of what these categories look like on a map. 
 
-
-
 <iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plotly.com/~brianwilliams2022/15.embed?link=false"></iframe>
-
-
 
 **Interview Insights**
 
@@ -136,15 +124,15 @@ Next, an excerpt from an interview with Sarita Shah, who is an epidemiologist at
 
 Her experience is not in isolation. Shortly after the interview with Ferullo, I followed up with MIT Medical Lab Director Jonathan Pelletier who confirmed that the template form used at MIT Medical to report testing results - sent directly from the Massachusetts Department of Public Health - has no column or option for reporting race designations. This is especially confusing because the previous data suggests Massachusetts is one of the leading states in which race data is being reported. It raises the question of how this is even possible? And where are they getting their data from if it’s not required, as Massachusetts historically has done a good job with their race data reporting. But these questions and many more, I do not have the answers to and as I leave them unexplored, I assume other laboratories across the nation are facing similar data issues.
 
-But maybe there’s hope; an amendment to the Coronavirus Aid, Relief, and Economic Security (CARES) Act passed back on June 4th will require laboratories to include relevant demographic data, such as age and race, on every test. 6. However, this is scheduled to go into effect on August 1st, leaving many passionate researchers and relief organizations in the dark about this crucial piece of metadata. I guess we’ll have to wait and see if this makes a difference in the data.
+But maybe there’s hope; an amendment to the Coronavirus Aid, Relief, and Economic Security (CARES) Act passed back on June 4th will require laboratories to include relevant demographic data, such as age and race, on every test. \[5] However, this is scheduled to go into effect on August 1st, leaving many passionate researchers and relief organizations in the dark about this crucial piece of metadata. I guess we’ll have to wait and see if this makes a difference in the data.
 
 **Conclusions**
 
 I believe the lack of normalized and uniform systems of reporting demographic data at the local level - individual laboratories, medical institutions, testing locations, communities, and counties - results in these large discrepancies that we see at the state and national level when researchers try to draw conclusions from data aggregates. This needs to change, and fast.
 
-"One problem that epidemiologists, in particular, have seen with all of this new lab testing sites data (pharmacies, drive-throughs, non-traditional lab settings) is incomplete data," Scott Becker of the Association of Public Health Laboratories wrote in an email to NPR. And public health experts say what's been needed are detailed breakdowns on how the virus is affecting Black and other marginalized communities. These groups have been hit especially hard, suffering higher case numbers per capita, serious illness, hospitalizations, and death.” 3.
+"One problem that epidemiologists, in particular, have seen with all of this new lab testing sites data (pharmacies, drive-throughs, non-traditional lab settings) is incomplete data," Scott Becker of the Association of Public Health Laboratories wrote in an email to NPR. And public health experts say what's been needed are detailed breakdowns on how the virus is affecting Black and other marginalized communities. These groups have been hit especially hard, suffering higher case numbers per capita, serious illness, hospitalizations, and death.” \[2]
 
-Lastly, accurate information on race is critical in making policy decisions, particularly for civil rights and federal programs like unemployment stimulus packages and eviction moratoriums. Race data is also used to promote equal employment opportunities and to assess racial disparities in health and environmental risks. 2. And in this case, laboratory testing data, in conjunction with case reports and other demographic data, provide vital guidance for mitigation and control activities, as well as properly allocating resources for relief. 6.
+Lastly, accurate information on race is critical in making policy decisions, particularly for civil rights and federal programs like unemployment stimulus packages and eviction moratoriums. Race data is also used to promote equal employment opportunities and to assess racial disparities in health and environmental risks. \[1] And in this case, laboratory testing data, in conjunction with case reports and other demographic data, provide vital guidance for mitigation and control activities, as well as properly allocating resources for relief. \[5]
 
 As the country begins to reopen its doors, access to clear and accurate data is essential to communities and leadership as they make data-driven decisions for a phased reopening. For individuals, access to clear representations of real-world data improves feelings of safety, security, and awareness, and empowers them to take action to support themselves, their families, and their communities. I hope we are able to see real change soon.
 
