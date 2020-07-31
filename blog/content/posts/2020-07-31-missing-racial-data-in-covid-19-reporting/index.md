@@ -25,6 +25,10 @@ As a part of the CDDL’s Missing Data Project, this investigation tries to tack
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
+<iframe width="900" height="600" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" 
+
+src="//plotly.com/~brianwilliams2022/13.embed?link=false"></iframe>
+
 **Notes:**
 
 It’s an [interactive visualization](http://www.plotly.com/~brianwilliams2022/13.embed?link=false)! *Please click the link to view in proper dimensions.* (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature!
@@ -96,6 +100,10 @@ This is a red flag category and some concern should be shown toward data managem
 Notably, North Dakota, New York, and Puerto Rico do not report **any** race data for their reported cases. This is alarming, and we need better data from these regions.
 
 Here’s a clear [visualization](http://www.plotly.com/~brianwilliams2022/15.embed?link=false) of what these categories look like on a map. *Please click the link to view in proper dimensions.*
+
+<iframe width="900" height="600" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" 
+
+src="//plotly.com/~brianwilliams2022/15.embed?link=false"></iframe>
 
 ### **Interview Insights**
 
