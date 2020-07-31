@@ -137,7 +137,7 @@ I believe the lack of normalized and uniform systems of reporting demographic da
 
 Lastly, accurate information on race is critical in making policy decisions, particularly for civil rights and federal programs like unemployment stimulus packages and eviction moratoriums. Race data is also used to promote equal employment opportunities and to assess racial disparities in health and environmental risks. \[1] And in this case, laboratory testing data, in conjunction with case reports and other demographic data, provide vital guidance for mitigation and control activities, as well as properly allocating resources for relief. \[5]
 
-As the country begins to reopen its doors, access to clear and accurate data is essential to communities and leadership as they make data-driven decisions for a phased reopening. For individuals, access to clear representations of real-world data improves feelings of safety, security, and awareness, and empowers them to take action to support themselves, their families, and their communities. I hope we are able to see real change soon.
+As the country begins to reopen its doors, access to clear and accurate data is essential to communities and leadership as they make data-driven decisions for a phased reopening. For individuals, access to clear representations of real-world data improves feelings of safety, security, and awareness, and even empowers them to take action to support themselves, their families, and their communities. I hope we are able to see real change soon.
 
 **Project Notes - Methodology**
 
