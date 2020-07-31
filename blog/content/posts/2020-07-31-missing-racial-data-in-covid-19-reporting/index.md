@@ -137,11 +137,11 @@ As the country begins to reopen its doors, access to clear and accurate data is 
 
 (1) On some days, a state’s percentages may add up to more than 100%, we understand these to be inaccuracies in the original data set of which the visualization was made. This could be attributed to either compiling errors or reporting errors from the individual medical institutions\[labs].
 
-(2) For the purposes of this project, we considered the race designation *Other* to be functionally the same as*Unknown*and therefore we included all cases reported having a race of*Other*as unknown. We carry over this adjustment in all calculations made for unknown visualizations.
+(2) For the purposes of this project, we considered the race designation *Other* to be functionally the same as *Unknown* and therefore we included all cases reported having a race of *Other* as unknown. We carry over this adjustment in all calculations made for unknown visualizations.
 
-This first suggestion came about after some manually screening of the CSV file used to generate the visualizations showed some interesting patterns in data management which in shorter words, looked like some cases originally designated as*Unknown*were swapped over to the*Other*category. As the running totals continued in the spreadsheet, it seemed suspicious and we think this is a better way to account for that uncertainty.
+This first suggestion came about after some manually screening of the CSV file used to generate the visualizations showed some interesting patterns in data management which in shorter words, looked like some cases originally designated as *Unknown* were swapped over to the *Other* category. As the running totals continued in the spreadsheet, it seemed suspicious and we think this is a better way to account for that uncertainty.
 
-For instance, on May 13th in Iowa, 2878 cases are reported as*Unknown*and 232 cases as Other, then on May 17th, 3144 cases are now reported as*Other*and 0 cases as*Unknown*, and from this moment forward, case numbers increase in the*Other*category but remain stagnant in the*Unknown*category until June 17th. This is only noticeable because of how large a change it is but would be virtually undetectable if an individual laboratory chose to reinterpret data in this way. This seems more like a shift in data management rather than real testing results, and it’s these shifts that are most interesting to us as we try to interpret the gaps in the data.
+For instance, on May 13th in Iowa, 2878 cases are reported as*Unknown*and 232 cases as Other, then on May 17th, 3144 cases are now reported as*Other*and 0 cases as*Unknown*, and from this moment forward, case numbers increase in the *Other* category but remain stagnant in the *Unknown* category until June 17th. This is only noticeable because of how large a change it is but would be virtually undetectable if an individual laboratory chose to reinterpret data in this way. This seems more like a shift in data management rather than real testing results, and it’s these shifts that are most interesting to us as we try to interpret the gaps in the data.
 
 (3) What does testing per capita mean?
 
@@ -157,26 +157,26 @@ And by using raw positive tests as an axis label, we would be assuming that incr
 
 *Non-Data*
 
-\[1][US Census - About Race](https://www.census.gov/topics/population/race/about.html)
+\[1] [US Census - About Race](https://www.census.gov/topics/population/race/about.html)
 
-\[2][Race, Ethnicity Data To Be Required With Coronavirus Tests In U.S.](https://www.npr.org/sections/coronavirus-live-updates/2020/06/04/869815033/race-ethnicity-data-to-be-required-with-coronavirus-tests-in-u-s)
+\[2] [Race, Ethnicity Data To Be Required With Coronavirus Tests In U.S.](https://www.npr.org/sections/coronavirus-live-updates/2020/06/04/869815033/race-ethnicity-data-to-be-required-with-coronavirus-tests-in-u-s)
 
-\[3][‘Huge hole’ in COVID-19 testing data makes it harder to study racial disparities](https://www.sciencemag.org/news/2020/07/huge-hole-covid-19-testing-data-makes-it-harder-study-racial-disparities)
+\[3] [‘Huge hole’ in COVID-19 testing data makes it harder to study racial disparities](https://www.sciencemag.org/news/2020/07/huge-hole-covid-19-testing-data-makes-it-harder-study-racial-disparities)
 
-\[4][The Fullest Look Yet at the Racial Inequity of Coronavirus](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html)
+\[4] [The Fullest Look Yet at the Racial Inequity of Coronavirus](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html)
 
-\[5][CARES Act Section 18115](https://www.hhs.gov/sites/default/files/covid-19-laboratory-data-reporting-guidance.pdf)
+\[5] [CARES Act Section 18115](https://www.hhs.gov/sites/default/files/covid-19-laboratory-data-reporting-guidance.pdf)
 
 *Data*
 
-\[6][The COVID Tracking Project | The COVID Tracking Project](https://covidtracking.com/)
+\[6] [The COVID Tracking Project | The COVID Tracking Project](https://covidtracking.com/)
 
 * For raw case data.
 
 *For region populations*
 
-\[7][2019 National and State Population Estimates](https://www.census.gov/newsroom/press-kits/2019/national-state-estimates.html)
+\[7] [2019 National and State Population Estimates](https://www.census.gov/newsroom/press-kits/2019/national-state-estimates.html)
 
-\[8][Islands We Serve | US Department of the Interior](https://www.doi.gov/oia/islands)
+\[8] [Islands We Serve | US Department of the Interior](https://www.doi.gov/oia/islands)
 
 * American Samoa, Guam, Northern Mariana Islands, Virgin Islands.
