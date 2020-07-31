@@ -2,6 +2,9 @@
 title: Missing Racial Data in COVID-19 Reporting
 author: Brian Williams
 date: 2020-07-31
+excerpt: As of July 26th, there were **4.2 million** positive COVID-19 tests in
+  the United States, however, only about **2.2 million** of those cases have
+  race data associated.
 tags:
   - Covid
   - Health
@@ -34,7 +37,7 @@ When investigating, I wondered “What’s the functional difference between the
 
 **The Bigger Picture**
 
-As of July 26th, there were 4.2 million positive COVID-19 tests in the United States, however, only about 2.2 million of those cases have race data associated. TheOthercategory is purposefully **not** considered to be a race designation in this calculation because of how it differs descriptively from *Multiracial*. (2)
+As of July 26th, there were **4.2 million** positive COVID-19 tests in the United States, however, only about **2.2 million** of those cases have race data associated. The *Other* category is purposefully **not** considered to be a race designation in this calculation because of how it differs descriptively from *Multiracial*. (2)
 
 In other words, for any given COVID test, you could flip a coin to determine whether the patient’s race is known. With that level of (un)certainty, I ask: what aren’t we seeing? What could all this missing racial data mean for real COVID testing results? And how is it impacting our communities?
 
