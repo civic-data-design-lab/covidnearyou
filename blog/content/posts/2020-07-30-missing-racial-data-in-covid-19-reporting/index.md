@@ -25,11 +25,11 @@ As a part of the CDDL’s Missing Data Project, this investigation tries to tack
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
-<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="//plotly.com/~brianwilliams2022/13.embed?link=false "></iframe>
+<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="www.plotly.com/~brianwilliams2022/13.embed?link=false "></iframe>
 
 **Notes:** 
 
-It’s an [interactive visualization](//plotly.com/~brianwilliams2022/13.embed?link=false)! (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature! 
+It’s an [interactive visualization](www.plotly.com/~brianwilliams2022/13.embed?link=false)! (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature! 
 
 I urge you to pay attention to the *Unknown* category as percentages move over time. **Notice these states and territories in particular:** North Dakota (ND), New York (NY), Puerto Rico (PR), Texas (TX), Northern Marianas (MS), and Virgin Islands (VI). These regions do a particularly poor job in reporting race in their testing results.
 
