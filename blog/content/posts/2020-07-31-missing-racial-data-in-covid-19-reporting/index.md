@@ -27,7 +27,7 @@ Below is a graphic representing the racial breakdown of positive cases in each U
 
 **Notes:**
 
-It’s an [interactive visualization](www.plotly.com/~brianwilliams2022/13.embed?link=false)! (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature!
+It’s an [interactive visualization](www.plotly.com/~brianwilliams2022/13.embed?link=false)! *Please click the link to view in proper dimensions.* (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature!
 
 I urge you to pay attention to the *Unknown* category as percentages move over time. **Notice these states and territories in particular:** North Dakota (ND), New York (NY), Puerto Rico (PR), Texas (TX), Northern Marianas (MP), and Virgin Islands (VI). These regions do a particularly poor job in reporting race in their testing results.
 
@@ -45,7 +45,7 @@ In the below visualization, the known percentages of cases with reported race ar
 
 **Notes:**
 
-Another [interactive visualization](https://plotly.com/~brianwilliams2022/11.embed?link=false)! Use the options in the top right to pan around the graph and select states to highlight their path over time. You can also select multiple states with Shift+Select for easy comparisons. Hover over each state bubble for more relevant data. You can press each category name to only view states of that category as well.
+Another [interactive visualization](https://plotly.com/~brianwilliams2022/11.embed?link=false)! *Please click the link to view in proper dimensions.* Use the options in the top right to pan around the graph and select states to highlight their path over time. You can also select multiple states with Shift+Select for easy comparisons. Hover over each state bubble for more relevant data. You can press each category name to only view states of that category as well.
 
 The size of each state bubble represents its total positive tests. So a state with more cases will be represented as a larger bubble than a state with fewer cases in this visualization.
 
@@ -95,7 +95,7 @@ This is a red flag category and some concern should be shown toward data managem
 
 Notably, North Dakota, New York, and Puerto Rico do not report **any** race data for their reported cases. This is alarming, and we need better data from these regions.
 
-Here’s a clear visualization of what these categories look like on a map.
+Here’s a clear visualization of what these categories look like on a map. *Please click the link to view in proper dimensions.*
 
 ### **Interview Insights**
 
