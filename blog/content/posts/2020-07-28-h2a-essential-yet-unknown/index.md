@@ -1,7 +1,7 @@
 ---
 title: "America's Essential yet Unknown Program: H2A"
 author: Evan Denmark
-date: 2020-07-31T00:00:00.000Z
+date: 2020-07-31
 excerpt: "The first of many posts that dig into America's H2A visa program, how
   our food supply chain depends on it, and how data can show its potential
   flaws, especially in the midst of a pandemic.   "
