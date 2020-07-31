@@ -25,7 +25,7 @@ As a part of the CDDL’s Missing Data Project, this investigation tries to tack
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
-<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/13.embed"></iframe>
+<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/13.embed?link=false"></iframe>
 
 **Notes:** 
 
@@ -45,7 +45,7 @@ From various [sources](https://www.nytimes.com/interactive/2020/07/05/us/coronav
 
 In the below visualization, the known percentages of cases with reported race are plotted against each state’s testing per capita. (3) The plot is animated to show how each state has progressed over time.
 
-<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/11.embed"></iframe>
+<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/11.embed?link=false"></iframe>
 
 **Notes:**
 
@@ -101,7 +101,7 @@ Notably, North Dakota, New York, and Puerto Rico do not report **any** race data
 
 Here's a clear visualization of what these categories look like on a map. 
 
-<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/15.embed"></iframe>
+<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/15.embed?link=false"></iframe>
 
 ### **Interview Insights**
 
