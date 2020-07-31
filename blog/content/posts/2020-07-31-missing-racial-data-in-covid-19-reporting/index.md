@@ -95,7 +95,7 @@ This is a red flag category and some concern should be shown toward data managem
 
 Notably, North Dakota, New York, and Puerto Rico do not report **any** race data for their reported cases. This is alarming, and we need better data from these regions.
 
-Here’s a clear visualization of what these categories look like on a map. *Please click the link to view in proper dimensions.*
+Here’s a clear [visualization](http://www.plotly.com/~brianwilliams2022/15.embed?link=false) of what these categories look like on a map. *Please click the link to view in proper dimensions.*
 
 ### **Interview Insights**
 
