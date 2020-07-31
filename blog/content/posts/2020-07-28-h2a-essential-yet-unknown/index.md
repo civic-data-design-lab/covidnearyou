@@ -1,5 +1,5 @@
 ---
-title: "The H2A Visa: Vital yet Unknown"
+title: "America's Essential yet Unknown Program: H2A"
 author: Evan Denmark
 date: 2020-07-31T00:00:00.000Z
 excerpt: "The first of many posts that dig into America's H2A visa program, how
