@@ -1,7 +1,10 @@
 ---
 title: Missing Racial Data in COVID-19 Reporting
 author: Brian Williams
-date: 2020-07-31
+date: 2020-07-31T00:00:00.000Z
+excerpt: As of July 26th, there were 4.2 million positive COVID-19 tests in the
+  United States, however, only about 2.2 million of those cases have race data
+  associated.
 tags:
   - Covid
   - Data
@@ -10,8 +13,6 @@ tags:
   - Visualization
 hero: images/newplot-1-.png
 ---
-
-
 **Missing Racial Data in COVID-19 Reporting**
 
 In the past six months, hospitals, clinics, and medical institutions across the United States have conducted millions of COVID-19 tests. The data from the tests has been made publicly available through multiple avenues for public use.[The Covid Tracking Project](https://covidtracking.com/), a volunteer organization launched from*The Atlantic*, has collected and published metadata to accompany the testing data. One such piece of metadata: race.
@@ -26,15 +27,15 @@ Below is a graphic representing the racial breakdown of positive cases in each U
 
 **Notes:**
 
-It’s an[interactive visualization](https://blog.civicdatadesignlab.mit.edu/www.plotly.com/~brianwilliams2022/13.embed?link=false)! (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature!
+It’s an [interactive visualization](https://blog.civicdatadesignlab.mit.edu/www.plotly.com/~brianwilliams2022/13.embed?link=false)! (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature!
 
-I urge you to pay attention to the*Unknown*category as percentages move over time.**Notice these states and territories in particular:**North Dakota (ND), New York (NY), Puerto Rico (PR), Texas (TX), Northern Marianas (MP), and Virgin Islands (VI). These regions do a particularly poor job in reporting race in their testing results.
+I urge you to pay attention to the *Unknown* category as percentages move over time. **Notice these states and territories in particular:** North Dakota (ND), New York (NY), Puerto Rico (PR), Texas (TX), Northern Marianas (MP), and Virgin Islands (VI). These regions do a particularly poor job in reporting race in their testing results.
 
-When investigating, I wondered “What’s the functional difference between the*Other*designation and the*Unknown*designation?” In the context of the other racial and ethnic categories:*American Indian or Alaska Native, Asian, Black or African American, Latinx, Native Hawaiian or Other Pacific Islander*, and*White*, the*Other*category doesn’t give any description of value more than the*Unknown*category. And in some states, reported race data seems to switch categories - from*Unknown*to*Other*- after a certain date. Therefore, I decided*Other*will be treated as*Unknown*for the purposes of this project. Regardless, it speaks to how “missing data” is pervasive throughout the healthcare system.
+When investigating, I wondered “What’s the functional difference between the *Other* designation and the*Unknown*designation?” In the context of the other racial and ethnic categories: *American Indian or Alaska Native, Asian, Black or African American, Latinx, Native Hawaiian or Other Pacific Islander*, and *White*, the *Other* category doesn’t give any description of value more than the *Unknown* category. And in some states, reported race data seems to switch categories - from*Unknown*to*Other*- after a certain date. Therefore, I decided *Other* will be treated as *Unknown* for the purposes of this project. Regardless, it speaks to how “missing data” is pervasive throughout the healthcare system.
 
 ### **The Bigger Picture**
 
-As of July 26th, there were**4.2 million**positive COVID-19 tests in the United States, however, only about**2.2 million**of those cases have race data associated. The*Other*category is purposefully**not**considered to be a race designation in this calculation because of how it differs descriptively from*Multiracial*. (2)
+As of July 26th, there were **4.2 million** positive COVID-19 tests in the United States, however, only about**2.2 million** of those cases have race data associated. The *Other* category is purposefully **not** considered to be a race designation in this calculation because of how it differs descriptively from *Multiracial*. (2)
 
 In other words, for any given COVID test, you could flip a coin to determine whether the patient’s race is known. With that level of (un)certainty, I ask: what aren’t we seeing? What could all this missing racial data mean for real COVID testing results? And how is it impacting our communities?
 
