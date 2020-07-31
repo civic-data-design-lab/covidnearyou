@@ -21,7 +21,7 @@ When analyzing the reported race data, I’ve noticed that some states report ra
 
 As a part of the CDDL’s Missing Data Project, this investigation tries to tackle just that: the missing data that is inherent in reported health data. By trying to highlight this missing data, we may be able to better illuminate issues within this larger system.
 
-**At First glance.**
+### **At First glance.**
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
@@ -35,7 +35,7 @@ I urge you to pay attention to the *Unknown* category as percentages move over t
 
 When investigating, I wondered “What’s the functional difference between the *Other* designation and the *Unknown* designation?” In the context of the other racial and ethnic categories: *American Indian or Alaska Native, Asian, Black or African American, Latinx, Native Hawaiian or Other Pacific Islander*, and *White*, the *Other* category doesn’t give any description of value more than the *Unknown* category. And in some states, reported race data seems to switch categories - from *Unknown* to *Other* - after a certain date. Therefore, I decided *Other* will be treated as *Unknown* for the purposes of this project. Regardless, it speaks to how “missing data” is pervasive throughout the healthcare system.
 
-**The Bigger Picture**
+### **The Bigger Picture**
 
 As of July 26th, there were **4.2 million** positive COVID-19 tests in the United States, however, only about **2.2 million** of those cases have race data associated. The *Other* category is purposefully **not** considered to be a race designation in this calculation because of how it differs descriptively from *Multiracial*. (2)
 
@@ -53,7 +53,7 @@ Another [interactive visualization](//plotly.com/~brianwilliams2022/11.embed?lin
 
 The size of each state bubble represents its total positive tests. So a state with more cases will be represented as a larger bubble than a state with fewer cases in this visualization.
 
-**Categories**
+### **Categories**
 
 *\[Highly Impacted States, Increasing, Decreasing, and Constant]*
 
@@ -61,7 +61,7 @@ States are categorized by whether this “known percentage” factor has increas
 
 For example, if a state’s “known percentage” is 69.7% on it’s earliest date and on it’s latest date it’s 85.4%, the state will be placed in the “Increasing” category which is labeled green in the visualization.
 
-**Discussion**
+### **Discussion**
 
 The motivation to use testing per capita as a metric rather than absolute state population was because we thought the rate of reporting race could be affected by the total number of tests, which correlates with a state’s population. Rather, we were interested in comparing states with similar tests per capita as that could correlate better with similar testing practices.
 
@@ -103,7 +103,7 @@ Here's a clear visualization of what these categories look like on a map.
 
 <iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plotly.com/~brianwilliams2022/15.embed?link=false"></iframe>
 
-**Interview Insights**
+### **Interview Insights**
 
 To get a more qualitative explanation of what is happening in the data, I sought experts and health officials to help me understand why so much race data could be missing and where in the process - from patient arrival to lab collection to data reporting - the missing link could occur. Additionally, I wanted to understand what the process of race designation is and how it is reported accurately.
 
@@ -129,7 +129,7 @@ Her experience is not in isolation. Shortly after the interview with Ferullo, I 
 
 But maybe there’s hope; an amendment to the Coronavirus Aid, Relief, and Economic Security (CARES) Act passed back on June 4th will require laboratories to include relevant demographic data, such as age and race, on every test. \[5] However, this is scheduled to go into effect on August 1st, leaving many passionate researchers and relief organizations in the dark about this crucial piece of metadata. I guess we’ll have to wait and see if this makes a difference in the data.
 
-**Conclusions**
+### **Conclusions**
 
 I believe the lack of normalized and uniform systems of reporting demographic data at the local level - individual laboratories, medical institutions, testing locations, communities, and counties - results in these large discrepancies that we see at the state and national level when researchers try to draw conclusions from data aggregates. This needs to change, and fast.
 
