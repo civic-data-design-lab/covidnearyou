@@ -15,7 +15,7 @@ hero: images/newplot-1-.png
 ---
 **Missing Racial Data in COVID-19 Reporting**
 
-In the past six months, hospitals, clinics, and medical institutions across the United States have conducted millions of COVID-19 tests. The data from the tests has been made publicly available through multiple avenues for public use.[The Covid Tracking Project](https://covidtracking.com/), a volunteer organization launched from*The Atlantic*, has collected and published metadata to accompany the testing data. One such piece of metadata: race.
+In the past six months, hospitals, clinics, and medical institutions across the United States have conducted millions of COVID-19 tests. The data from the tests has been made publicly available through multiple avenues for public use. [The Covid Tracking Project](https://covidtracking.com/), a volunteer organization launched from*The Atlantic*, has collected and published metadata to accompany the testing data. One such piece of metadata: race.
 
 When analyzing the reported race data, I’ve noticed that some states report race data much more consistently and thoroughly than others. This prompted me to dig into why this is, why a testing center does or does not report race, and how the state, county, municipal, and lab policies vary with regards to collecting and reporting race information.
 
@@ -39,13 +39,13 @@ As of July 26th, there were **4.2 million** positive COVID-19 tests in the Unite
 
 In other words, for any given COVID test, you could flip a coin to determine whether the patient’s race is known. With that level of (un)certainty, I ask: what aren’t we seeing? What could all this missing racial data mean for real COVID testing results? And how is it impacting our communities?
 
-From various[sources](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html), we know that the pandemic impacts varying demographics differently, notably, disproportionately impacting Black and Latinx communities. To that end, how accurately can we create solutions or policy decisions to alleviate and support these communities with only 50% certainty of data?
+From various [sources](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html), we know that the pandemic impacts varying demographics differently, notably, disproportionately impacting Black and Latinx communities. To that end, how accurately can we create solutions or policy decisions to alleviate and support these communities with only 50% certainty of data?
 
 In the below visualization, the known percentages of cases with reported race are plotted against each state’s testing per capita. (3) The plot is animated to show how each state has progressed over time.
 
 **Notes:**
 
-Another[interactive visualization](https://plotly.com/~brianwilliams2022/11.embed?link=false)! Use the options in the top right to pan around the graph and select states to highlight their path over time. You can also select multiple states with Shift+Select for easy comparisons. Hover over each state bubble for more relevant data. You can press each category name to only view states of that category as well.
+Another [interactive visualization](https://plotly.com/~brianwilliams2022/11.embed?link=false)! Use the options in the top right to pan around the graph and select states to highlight their path over time. You can also select multiple states with Shift+Select for easy comparisons. Hover over each state bubble for more relevant data. You can press each category name to only view states of that category as well.
 
 The size of each state bubble represents its total positive tests. So a state with more cases will be represented as a larger bubble than a state with fewer cases in this visualization.
 
@@ -71,11 +71,11 @@ Nonetheless, here are some interesting numbers:
 
 As of July 26th,
 
-* The percent of cases that have race data in those**five**highly impacted states: 32.81%
+* The percent of cases that have race data in those **five** highly impacted states: 32.81%
 * The percent of cases that have race data in every state and territory: 51.75%
 * The percent of cases that have race data in the non-vulnerable states: 66.29%
 
-In Arizona, California, Florida, Texas, and New York, for every 3 cases, only 1 case has race data reported, but in every other region in the United States combined, 2 out of 3 cases have race data reported. Yet, when you combine these two sets, the national average moves to 1 out of 2 cases having race data reported. This means that around**half of all COVID-19 cases in the United States**are in these**five, most impacted**states.
+In Arizona, California, Florida, Texas, and New York, for every 3 cases, only 1 case has race data reported, but in every other region in the United States combined, 2 out of 3 cases have race data reported. Yet, when you combine these two sets, the national average moves to 1 out of 2 cases having race data reported. This means that around **half of all COVID-19 cases in the United States** are in these **five, most impacted** states.
 
 *Category: Increasing - Green*
 
