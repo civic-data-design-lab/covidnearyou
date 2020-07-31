@@ -11,7 +11,7 @@ tags:
   - Race
   - Visualization
   - Data
-hero: images/newplot-1-.png
+hero: images/newplot.png
 ---
 **Missing Racial Data in COVID-19 Reporting**
 
