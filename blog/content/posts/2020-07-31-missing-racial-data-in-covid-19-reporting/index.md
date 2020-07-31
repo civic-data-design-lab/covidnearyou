@@ -15,7 +15,7 @@ hero: images/newplot-1-.png
 ---
 **Missing Racial Data in COVID-19 Reporting**
 
-In the past six months, hospitals, clinics, and medical institutions across the United States have conducted millions of COVID-19 tests. The data from the tests has been made publicly available through multiple avenues for public use. [The Covid Tracking Project](https://covidtracking.com/), a volunteer organization launched from*The Atlantic*, has collected and published metadata to accompany the testing data. One such piece of metadata: race.
+In the past six months, hospitals, clinics, and medical institutions across the United States have conducted millions of COVID-19 tests. The data from the tests has been made publicly available through multiple avenues for public use. [The Covid Tracking Project](https://covidtracking.com/), a volunteer organization launched from *The Atlantic*, has collected and published metadata to accompany the testing data. One such piece of metadata: race.
 
 When analyzing the reported race data, I’ve noticed that some states report race data much more consistently and thoroughly than others. This prompted me to dig into why this is, why a testing center does or does not report race, and how the state, county, municipal, and lab policies vary with regards to collecting and reporting race information.
 
@@ -33,7 +33,7 @@ It’s an [interactive visualization](http://www.plotly.com/~brianwilliams2022/1
 
 I urge you to pay attention to the *Unknown* category as percentages move over time. **Notice these states and territories in particular:** North Dakota (ND), New York (NY), Puerto Rico (PR), Texas (TX), Northern Marianas (MP), and Virgin Islands (VI). These regions do a particularly poor job in reporting race in their testing results.
 
-When investigating, I wondered “What’s the functional difference between the *Other* designation and the*Unknown*designation?” In the context of the other racial and ethnic categories: *American Indian or Alaska Native, Asian, Black or African American, Latinx, Native Hawaiian or Other Pacific Islander*, and *White*, the *Other* category doesn’t give any description of value more than the *Unknown* category. And in some states, reported race data seems to switch categories - from *Unknown* to *Other*- after a certain date. Therefore, I decided *Other* will be treated as *Unknown* for the purposes of this project. Regardless, it speaks to how “missing data” is pervasive throughout the healthcare system.
+When investigating, I wondered “What’s the functional difference between the *Other* designation and the*Unknown*designation?” In the context of the other racial and ethnic categories: *American Indian or Alaska Native, Asian, Black or African American, Latinx, Native Hawaiian or Other Pacific Islander*, and *White*, the *Other* category doesn’t give any description of value more than the *Unknown* category. And in some states, reported race data seems to switch categories - from *Unknown* to *Other* - after a certain date. Therefore, I decided *Other* will be treated as *Unknown* for the purposes of this project. Regardless, it speaks to how “missing data” is pervasive throughout the healthcare system.
 
 ### **The Bigger Picture**
 
