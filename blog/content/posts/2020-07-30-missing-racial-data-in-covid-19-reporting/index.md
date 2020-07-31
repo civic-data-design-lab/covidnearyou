@@ -22,10 +22,12 @@ As a part of the CDDL’s Missing Data Project, this investigation tries to tack
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
+```
 <div>
     <a href="https://plotly.com/~brianwilliams2022/13/?share_key=3igIEVoIoLHP0xsruCkd9V" target="_blank" title="Animated COVID-19 Bar Graph" style="display: block; text-align: center;"><img src="https://plotly.com/~brianwilliams2022/13.png?share_key=3igIEVoIoLHP0xsruCkd9V" alt="Animated COVID-19 Bar Graph" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
     <script data-plotly="brianwilliams2022:13" sharekey-plotly="3igIEVoIoLHP0xsruCkd9V" src="https://plotly.com/embed.js" async></script>
 </div>
+```
 
 **Notes:** 
 
