@@ -1,7 +1,7 @@
 ---
 title: "The H2A Visa: Vital yet Unknown"
 author: Evan Denmark
-date: 2020-07-31
+date: 2020-07-31T00:00:00.000Z
 excerpt: "The first of many posts that dig into America's H2A visa program, how
   our food supply chain depends on it, and how data can show its potential
   flaws, especially in the midst of a pandemic.   "
@@ -39,7 +39,7 @@ Despite posting the positions in newspapers and on job boards in multiple states
 
 Without an American agriculture workforce, the demand for visa-issued foreign workers has increased but comes at no small expense for farmers. In addition to paying employees their hourly wage, farmers are required to pay for worker housing, which must abide by a strict code, transportation between the farm and the foreign Consulate, and other visa related fees.
 
-Despite the expense, the program has seen a steady rise in the past decade. One decade ago, the US Department of Labor would consistently issue fewer than 75,000 visas each year.Today, that number has nearly tripled with more than 205,000 visas issued in 2019.
+Despite the expense, the program has seen a steady rise in the past decade. One decade ago, the US Department of Labor would consistently issue fewer than 75,000 visas each year. Today, that number has nearly tripled with more than 205,000 visas issued in 2019.
 
 ![](images/screen-shot-2020-07-27-at-2.36.51-pm.png)
 
@@ -51,9 +51,7 @@ Additionally, while the number of farms participating in H2A increased by 28%, t
 
 The use and expense of the H2A program have been steadily increasing, yet most Americans are completely unaware of its existence. Our food is the foundation of our health as individuals and, by extension, our society. Without an understanding of the farm to table process, the American food supply chain and agricultural economy at large becomes less resilient to obstacles… like a pandemic.
 
-Thus, this post is the first of many CDDL posts which will explore the H2A visa program, its value in America’s supply chain, and its [pitfalls](http://www.ruralneighborhoods.org/wp-content/uploads/2014/03/no-way-to-treat-a-guest.pdf) through both data visualizations and extensive interviews to bring our readers and Americans at large a little bit closer to the food they eat.
-
-
+Thus, this post is the first of many CDDL posts which will explore the H2A visa program, its value in America’s supply chain, and its [failures](https://www.nbcnews.com/specials/h2a-visa-program-for-farmworkers-surging-under-trump-and-labor-violations/index.html?fbclid=IwAR30iL0RLxMBpUfQzh-b4d_Qeu-x_R6rERytYMGeEuG-J6OfR1pvFJ0_7HY) through both data visualizations and extensive interviews to bring our readers and Americans at large a little bit closer to the food they eat.
 
 ## H2A, Visually
 
