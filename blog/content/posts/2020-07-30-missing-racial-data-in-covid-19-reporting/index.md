@@ -2,9 +2,9 @@
 title: Missing Racial Data in COVID-19 Reporting
 author: Brian Williams
 date: 2020-07-31T00:00:00.000Z
-excerpt: As of July 26th, there were **4.2 million** positive COVID-19 tests in
-  the United States, however, only about **2.2 million** of those cases have
-  race data associated. ...How did we get here?
+excerpt: As of July 26th, there were 4.2 million positive COVID-19 tests in the
+  United States, however, only about 2.2 million of those cases have race data
+  associated. ...How did we get here?
 tags:
   - Covid
   - Health
@@ -25,11 +25,11 @@ As a part of the CDDL’s Missing Data Project, this investigation tries to tack
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
-<iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~brianwilliams2022/13.embed"></iframe>
+<iframe width="1200" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~brianwilliams2022/13.embed?link=false"></iframe>
 
 **Notes:** 
 
-It’s an [interactive visualization](www.plotly.com/~brianwilliams2022/13.embed?link=false)! (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature! 
+It’s an [interactive visualization](https://plotly.com/~brianwilliams2022/13.embed?link=false)! (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature! 
 
 I urge you to pay attention to the *Unknown* category as percentages move over time. **Notice these states and territories in particular:** North Dakota (ND), New York (NY), Puerto Rico (PR), Texas (TX), Northern Marianas (MP), and Virgin Islands (VI). These regions do a particularly poor job in reporting race in their testing results.
 
@@ -45,7 +45,7 @@ From various [sources](https://www.nytimes.com/interactive/2020/07/05/us/coronav
 
 In the below visualization, the known percentages of cases with reported race are plotted against each state’s testing per capita. (3) The plot is animated to show how each state has progressed over time.
 
-<iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~brianwilliams2022/11.embed"></iframe>
+<iframe width="1200" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~brianwilliams2022/11.embed?link=false"></iframe>
 
 **Notes:**
 
@@ -99,9 +99,9 @@ This is a red flag category and some concern should be shown toward data managem
 
 Notably, North Dakota, New York, and Puerto Rico do not report **any** race data for their reported cases. This is alarming, and we need better data from these regions.
 
-Here's a clear visualization of what these categories look like on a map. 
+Here's a clear [visualization](https://plotly.com/~brianwilliams2022/15.embed?link=false) of what these categories look like on a map. 
 
-<iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~brianwilliams2022/15.embed"></iframe>
+<iframe width="1200" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~brianwilliams2022/15.embed?link=false"></iframe>
 
 ### **Interview Insights**
 
