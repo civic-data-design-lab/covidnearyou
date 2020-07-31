@@ -47,6 +47,10 @@ From various [sources](https://www.nytimes.com/interactive/2020/07/05/us/coronav
 
 In the below visualization, the known percentages of cases with reported race are plotted against each state’s testing per capita. (3) The plot is animated to show how each state has progressed over time.
 
+<iframe width="900" height="600" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" 
+
+src="//plotly.com/~brianwilliams2022/11.embed?link=false"></iframe>
+
 **Notes:**
 
 Another [interactive visualization](https://plotly.com/~brianwilliams2022/11.embed?link=false)! *Please click the link to view in proper dimensions.* Use the options in the top right to pan around the graph and select states to highlight their path over time. You can also select multiple states with Shift+Select for easy comparisons. Hover over each state bubble for more relevant data. You can press each category name to only view states of that category as well.
