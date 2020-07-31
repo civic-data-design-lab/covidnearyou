@@ -1,7 +1,7 @@
 ---
 title: Missing Racial Data in COVID-19 Reporting
 author: Brian Williams
-date: 2020-07-31T00:00:00.000Z
+date: 2020-07-31
 tags:
   - Covid
   - Health
