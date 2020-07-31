@@ -27,7 +27,7 @@ Below is a graphic representing the racial breakdown of positive cases in each U
 
 **Notes:**
 
-It’s an [interactive visualization](/www.plotly.com/~brianwilliams2022/13.embed?link=false)! *Please click the link to view in proper dimensions.* (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature!
+It’s an [interactive visualization](http://www.plotly.com/~brianwilliams2022/13.embed?link=false)! *Please click the link to view in proper dimensions.* (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature!
 
 I urge you to pay attention to the *Unknown* category as percentages move over time. **Notice these states and territories in particular:** North Dakota (ND), New York (NY), Puerto Rico (PR), Texas (TX), Northern Marianas (MP), and Virgin Islands (VI). These regions do a particularly poor job in reporting race in their testing results.
 
