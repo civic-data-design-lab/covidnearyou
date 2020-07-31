@@ -25,13 +25,13 @@ As a part of the CDDL’s Missing Data Project, this investigation tries to tack
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
-<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/13.embed?link=false"></iframe>
+<iframe width=100% height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/13.embed?link=false"></iframe>
 
 **Notes:** 
 
 It’s an [interactive visualization](www.plotly.com/~brianwilliams2022/13.embed?link=false)! (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature! 
 
-I urge you to pay attention to the *Unknown* category as percentages move over time. **Notice these states and territories in particular:** North Dakota (ND), New York (NY), Puerto Rico (PR), Texas (TX), Northern Marianas (MS), and Virgin Islands (VI). These regions do a particularly poor job in reporting race in their testing results.
+I urge you to pay attention to the *Unknown* category as percentages move over time. **Notice these states and territories in particular:** North Dakota (ND), New York (NY), Puerto Rico (PR), Texas (TX), Northern Marianas (MP), and Virgin Islands (VI). These regions do a particularly poor job in reporting race in their testing results.
 
 When investigating, I wondered “What’s the functional difference between the *Other* designation and the *Unknown* designation?” In the context of the other racial and ethnic categories: *American Indian or Alaska Native, Asian, Black or African American, Latinx, Native Hawaiian or Other Pacific Islander*, and *White*, the *Other* category doesn’t give any description of value more than the *Unknown* category. And in some states, reported race data seems to switch categories - from *Unknown* to *Other* - after a certain date. Therefore, I decided *Other* will be treated as *Unknown* for the purposes of this project. Regardless, it speaks to how “missing data” is pervasive throughout the healthcare system.
 
@@ -45,7 +45,7 @@ From various [sources](https://www.nytimes.com/interactive/2020/07/05/us/coronav
 
 In the below visualization, the known percentages of cases with reported race are plotted against each state’s testing per capita. (3) The plot is animated to show how each state has progressed over time.
 
-<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/11.embed?link=false"></iframe>
+<iframe width=100% height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/11.embed?link=false"></iframe>
 
 **Notes:**
 
@@ -101,7 +101,7 @@ Notably, North Dakota, New York, and Puerto Rico do not report **any** race data
 
 Here's a clear visualization of what these categories look like on a map. 
 
-<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/15.embed?link=false"></iframe>
+<iframe width=100% height="800" frameborder="0" logo=False scrolling="no" src="https://plotly.com/~brianwilliams2022/15.embed?link=false"></iframe>
 
 ### **Interview Insights**
 
