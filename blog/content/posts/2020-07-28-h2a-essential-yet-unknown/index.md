@@ -55,11 +55,13 @@ Thus, this post is the first of many CDDL posts which will explore the H2A visa 
 
 ## H2A, Visually
 
+
+
+https://public.tableau.com/shared/8YXPTJFYZ?:display_count=y&:origin=viz_share_link
+
 This [visualization](https://public.tableau.com/views/TheCurrentStateofH2A/Story1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link) is a Tableau storyboard that highlights some of the basics about the H2A program: where workers are employed by county, which states use the H2A program, and which crops are most affected by H2A.
 
 All of the data used in this graphic come from the US Department of Labor’s Employment and Training Administration’s published dataset on H2A visa applications for the years 2016-2019.
-
-
 
 The map,  *Where do H2A visa workers go?*, shows where H2A jobs are being taken in each county in the US. If a county has H2A activity, the size of the circle represents the number of certified H2A jobs in 2019. It is worth noting that this does not show the number of workers going to each county but rather the number of jobs that were given to an H2A visa holder. Although the two may correlate, a single H2A visa holder may have multiple jobs (potentially on the same farm) at different points in the year. Mike Williamson - the Mississippi sweet potato farmer - hires the same 28 workers in May to plant the crop and in September to pick the harvest. For these 28 workers, these are two separate jobs. In the summer months between the jobs, the workers must leave the US.
 
