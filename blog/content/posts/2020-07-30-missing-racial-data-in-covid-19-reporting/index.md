@@ -2,9 +2,9 @@
 title: Missing Racial Data in COVID-19 Reporting
 author: Brian Williams
 date: 2020-07-31T00:00:00.000Z
-excerpt: As of July 26th, there were **4.2 million** positive COVID-19 tests in
-  the United States, however, only about **2.2 million** of those cases have
-  race data associated. ...How did we get here?
+excerpt: As of July 26th, there were 4.2 million positive COVID-19 tests in the
+  United States, however, only about 2.2 million of those cases have race data
+  associated. ...How did we get here?
 tags:
   - Covid
   - Health
