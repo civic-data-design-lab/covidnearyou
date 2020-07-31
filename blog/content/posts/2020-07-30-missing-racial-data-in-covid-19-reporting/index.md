@@ -22,11 +22,11 @@ As a part of the CDDL’s Missing Data Project, this investigation tries to tack
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
-<iframe width="1000" height="800" frameborder="0" scrolling="no" src="//plotly.com/~brianwilliams2022/13.embed"></iframe>
+<iframe width=1200 height="800" frameborder="0" logo=False scrolling="no" src="//plotly.com/~brianwilliams2022/13.embed?link=false "></iframe>
 
 **Notes:** 
 
-It’s an interactive visualization! (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature! 
+It’s an [interactive visualization](//plotly.com/~brianwilliams2022/13.embed?link=false)! (1) Use the options in the top right to start/pause the animation, or even select states to compare percentages over time. You can highlight one racial category (like Asian or white) and see those individual trends in the states over time. This is a very useful feature! 
 
 I urge you to pay attention to the *Unknown* category as percentages move over time. **Notice these states and territories in particular:** North Dakota (ND), New York (NY), Puerto Rico (PR), Texas (TX), Northern Marianas (MS), and Virgin Islands (VI). These regions do a particularly poor job in reporting race in their testing results.
 
@@ -40,9 +40,9 @@ In other words, for any given COVID test, you could flip a coin to determine whe
 
 From various [sources](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html), we know that the pandemic impacts varying demographics differently, notably, disproportionately impacting Black and Latinx communities. To that end, how accurately can we create solutions or policy decisions to alleviate and support these communities with only 50% certainty of data?
 
-In the below visualization, the known percentages of cases with reported race is plotted against each state’s testing per capita. (3) The plot is animated to show how each state has progressed over time.
+In the below visualization, the known percentages of cases with reported race are plotted against each state’s testing per capita. (3) The plot is animated to show how each state has progressed over time.
 
-\[insert animated scatter plot]
+<iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plotly.com/~brianwilliams2022/11.embed?link=false"></iframe>
 
 **Notes:**
 
