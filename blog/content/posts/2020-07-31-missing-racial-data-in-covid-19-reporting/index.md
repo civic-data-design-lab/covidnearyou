@@ -101,7 +101,7 @@ Notably, North Dakota, New York, and Puerto Rico do not report **any** race data
 
 Here’s a clear [visualization](http://www.plotly.com/~brianwilliams2022/15.embed?link=false) of what these categories look like on a map. *Please click the link to view in proper dimensions.*
 
-<iframe width="1200" height="600" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" src="//plotly.com/~brianwilliams2022/15.embed?link=false"></iframe>
+<iframe width="1200" height="800" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" src="//plotly.com/~brianwilliams2022/15.embed?link=false"></iframe>
 
 ### **Interview Insights**
 
