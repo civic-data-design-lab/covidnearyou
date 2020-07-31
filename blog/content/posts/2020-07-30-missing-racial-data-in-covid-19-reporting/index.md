@@ -25,7 +25,7 @@ As a part of the CDDL’s Missing Data Project, this investigation tries to tack
 
 Below is a graphic representing the racial breakdown of positive cases in each U.S. state and territory over time, as data is made available.
 
-<iframe width="100%" height="800" frameborder="10" scrolling="no" src="https://plotly.com/~brianwilliams2022/13.embed?link=false"></iframe>
+<iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~brianwilliams2022/13.embed?link=false"></iframe>
 
 **Notes:** 
 
