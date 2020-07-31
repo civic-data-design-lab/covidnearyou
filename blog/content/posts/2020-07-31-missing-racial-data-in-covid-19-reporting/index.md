@@ -77,7 +77,7 @@ As of July 26th,
 
 * The percent of cases that have race data in those **five** highly impacted states: 32.81%
 * The percent of cases that have race data in every state and territory: 51.75%
-* The percent of cases that have race data in the non-vulnerable states: 66.29%
+* The percent of cases that have race data in the *non-vulnerable* states: 66.29%
 
 In Arizona, California, Florida, Texas, and New York, for every 3 cases, only 1 case has race data reported, but in every other region in the United States combined, 2 out of 3 cases have race data reported. Yet, when you combine these two sets, the national average moves to 1 out of 2 cases having race data reported. This means that around **half of all COVID-19 cases in the United States** are in these **five, most impacted** states.
 
