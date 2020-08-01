@@ -1,5 +1,6 @@
 ---
-title: Missing Racial Data in COVID-19 Reporting
+title: "Data from reported COVID-19 tests are telling an incomplete story:
+  Here's what you need to know"
 author: Brian Williams
 date: 2020-07-31T00:00:00.000Z
 excerpt: As of July 26th, there were 4.2 million positive COVID-19 tests in the
