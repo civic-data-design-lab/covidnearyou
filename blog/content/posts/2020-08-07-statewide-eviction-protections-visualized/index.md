@@ -1,7 +1,7 @@
 ---
 title: Statewide Eviction Protections, Visualized
 author: Joyce Zhao
-date: 2020-08-07
+date: 2020-08-07T00:00:00.000Z
 tags:
   - Covid
   - Data
@@ -15,7 +15,7 @@ The graph below ranks each state by eviction rate (the number of evictions per 1
 
 ![Eviction Rates and COVID Eviction Protections](images/evictionrates.png)
 
-What is first noticeable about this graph is the sheer number of states with expired eviction protections. As of July 31, only20states had existing eviction protections. Of the states with no available eviction rate data, only New Jersey currently has eviction protections; North Dakota and Alaska protections have expired, while South Dakota and Arkansas did not have state-wide protections. The constant line represents the 2.34% eviction rate of the United States in 2016. Interestingly, the four states with no state-wide COVID eviction protections all have higher rates than the national average.
+What is first noticeable about this graph is the sheer number of states with expired eviction protections. As of July 31, only 20 states had existing eviction protections. Of the states with no available eviction rate data, only New Jersey currently has eviction protections; North Dakota and Alaska protections have expired, while South Dakota and Arkansas did not have state-wide protections. The constant line represents the 2.34% eviction rate of the United States in 2016. Interestingly, the four states with no state-wide COVID eviction protections all have higher rates than the national average.
 
 How long do these protections last? This next visualization examines the timeline during which these eviction protections exist. The color of each date represents the number of states with eviction protections in place on that date.
 
