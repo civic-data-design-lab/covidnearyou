@@ -1,7 +1,7 @@
 ---
 title: "COVID-19 Open Spaces: Numbers and Reality in NYC"
 author: Laura Kim
-date: 2020-08-14
+date: 2020-08-14T00:00:00.000Z
 tags:
   - Covid
   - Mapping
@@ -69,3 +69,5 @@ And now with businesses using the street and increased vehicle traffic compared 
 #### The Silver Lining
 
 Covid-19, of its many impacts, has taken away the joys of city living and accentuated the difficult experiences. But New Yorkers are resilient and creative. Stoop birthday parties, sidewalk ceramic studios, parklet dining color coded with the restaurant’s sign, and streets as space to demand justice. \[BLM street?] Moreover, the increased attention on reevaluating public spaces offers hope towards a healthier, more equitable, safer -- livable for all -- city.
+
+**<iframe width="100%" height="520" frameborder="0" src="https://mit.carto.com/u/laurapk/builder/e37c169c-c929-4de6-a8c5-a19f94af5319/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>**
