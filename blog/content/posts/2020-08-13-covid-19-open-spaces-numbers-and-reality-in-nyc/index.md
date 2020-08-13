@@ -17,7 +17,6 @@ Inequitable distribution of parks and public space is not news. "The average par
 
 ![Map of all open spaces in NYC](images/maps.png "Map of all open spaces in NYC before the pandemic")
 
-\
 New York City, on a pre-pandemic day, would have approximately 33,630 acres of open space, which is around 16% of total city land. Streets are considered as open spaces as well, adding 8137 miles. What counts as open space in this map:
 
 * Parks operated by Department of Parks and Recreation
@@ -68,6 +67,6 @@ And now with businesses using the street and increased vehicle traffic compared 
 
 #### The Silver Lining
 
-Covid-19, of its many impacts, has taken away the joys of city living and accentuated the difficult experiences. But New Yorkers are resilient and creative. Stoop birthday parties, sidewalk ceramic studios, parklet dining color coded with the restaurant’s sign, and streets as space to demand justice. \[BLM street?] Moreover, the increased attention on reevaluating public spaces offers hope towards a healthier, more equitable, safer -- livable for all -- city.
+Covid-19, of its many impacts, has taken away the joys of city living and accentuated the difficult experiences. But New Yorkers are resilient and creative. Stoop birthday parties, sidewalk ceramic studios, parklet dining color coded with the restaurant’s sign, and streets as space to demand justice. Moreover, the increased attention on reevaluating public spaces offers hope towards a healthier, more equitable, safer -- livable for all -- city.
 
 **<iframe width="100%" height="520" frameborder="0" src="https://mit.carto.com/u/laurapk/builder/e37c169c-c929-4de6-a8c5-a19f94af5319/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>**
