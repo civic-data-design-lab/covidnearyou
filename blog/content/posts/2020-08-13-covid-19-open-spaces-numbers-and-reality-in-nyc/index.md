@@ -15,7 +15,7 @@ Inequitable distribution of parks and public space is not news. "The average par
 
 **How much space is open in NYC?**
 
-![Map of all open spaces in NYC](images/maps.png "Map of all open spaces in NYC before the pandemic")
+![Map of all open spaces in NYC](images/map.png "Map of all open spaces in NYC before the pandemic")
 
 New York City, on a pre-pandemic day, would have approximately 33,630 acres of open space, which is around 16% of total city land. Streets are considered as open spaces as well, adding 8,137 miles. What counts as open space in this map:
 
