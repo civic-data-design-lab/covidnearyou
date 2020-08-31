@@ -30,7 +30,7 @@ In the United States, the percent of cases with associated race data has varied 
 
 <iframe width="1200" height="600" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" src="//plotly.com/~brianwilliams2022/17.embed?link=false"></iframe>
 
-This [visualization](www.plotly.com/~brianwilliams2022/17.embed?link=false) shows the difference of percents of cases where race data is known, per state. The number represented in each bar is the percent difference in cases with associated race between two different periods: from *July 26th to August 26th* and from the beginning of data collection up until July 26th.
+This [visualization](https://chart-studio.plotly.com/~brianwilliams2022/17.embed?link=false) shows the difference of percents of cases where race data is known, per state. The number represented in each bar is the percent difference in cases with associated race between two different periods: from *July 26th to August 26th* and from the beginning of data collection up until July 26th.
 
 For example, let’s say that a given state’s total cases rose from July to August by x, and of those cases, there is a subsection where race data is unknown. Let’s say this subsection of unknown race data increases by y. I calculated 1 - (y/x), and compared that same calculation instead with the cumulative period from toward the beginning of the pandemic (late March) to July 26th.
 
