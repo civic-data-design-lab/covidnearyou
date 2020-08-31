@@ -1,5 +1,5 @@
 ---
-title: WHO CARES about COVID-19?
+title: Who CARES about COVID-19?
 author: Brian Williams
 date: 2020-08-30T00:00:00.000Z
 tags:
