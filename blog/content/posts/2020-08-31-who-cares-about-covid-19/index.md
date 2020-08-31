@@ -46,7 +46,7 @@ For example, if a scientist was able to confirm a case or a set of cases belonge
 
 Here’s a regional breakdown of the same data.
 
-\[[insert color map]](http://plotly.com/~brianwilliams2022/35.embed)
+<iframe width="900" height="800" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" src="//plotly.com/~brianwilliams2022/35.embed?link=false"></iframe>
 
 **Discussion: Almost too little, too late**
 
