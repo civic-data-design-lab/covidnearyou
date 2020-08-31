@@ -44,7 +44,7 @@ This seems unusual but I think it can be explained by retroactive revisions to t
 
 For example, if a scientist was able to confirm a case or a set of cases belonged to certain demographic after the total number of cases had already been reported, you would simply move cases over to their respective categories. Maybe in certain situations, backlogs of case data prevent labs from sorting cases by demographic data before state deadlines but as time goes along, they are able to update their reported case data. This doesn't seem to happen in many states and the testing efficiency problem could easily be a bigger and more widespread problem than I am expressing/speculating here.
 
-[Here’s](www.plotly.com/~brianwilliams2022/35.embed?link=false) a regional breakdown of the same data.
+[Here’s](https://chart-studio.plotly.com/~brianwilliams2022/35.embed?link=false) a regional breakdown of the same data.
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" src="//plotly.com/~brianwilliams2022/35.embed?link=false"></iframe>
 
