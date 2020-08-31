@@ -28,7 +28,7 @@ In the United States, the percent of cases with associated race data has varied 
 2. only between July 26th and August 26th: 66.10%
 3. cumulative as of July 26th: 51.75%
 
-<iframe width="1200" height="600" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" src="//plotly.com/~brianwilliams2022/17.embed"></iframe>
+<iframe width="1200" height="600" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" src="//plotly.com/~brianwilliams2022/17.embed?link=false"></iframe>
 
 This visualization shows the difference of percents of cases where race data is known, per state. The number represented in each bar is the percent difference in cases with associated race between two different periods: from *July 26th to August 26th* and from the beginning of data collection up until July 26th.
 
