@@ -30,7 +30,7 @@ In the United States, the percent of cases with associated race data has varied 
 
 <iframe width="1200" height="600" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" src="//plotly.com/~brianwilliams2022/17.embed?link=false"></iframe>
 
-This [visualization](plotly.com/~brianwilliams2022/17.embed?link=false) shows the difference of percents of cases where race data is known, per state. The number represented in each bar is the percent difference in cases with associated race between two different periods: from *July 26th to August 26th* and from the beginning of data collection up until July 26th.
+This [visualization](www.plotly.com/~brianwilliams2022/17.embed?link=false) shows the difference of percents of cases where race data is known, per state. The number represented in each bar is the percent difference in cases with associated race between two different periods: from *July 26th to August 26th* and from the beginning of data collection up until July 26th.
 
 For example, let’s say that a given state’s total cases rose from July to August by x, and of those cases, there is a subsection where race data is unknown. Let’s say this subsection of unknown race data increases by y. I calculated 1 - (y/x), and compared that same calculation instead with the cumulative period from toward the beginning of the pandemic (late March) to July 26th.
 
@@ -44,7 +44,7 @@ This seems unusual but I think it can be explained by retroactive revisions to t
 
 For example, if a scientist was able to confirm a case or a set of cases belonged to certain demographic after the total number of cases had already been reported, you would simply move cases over to their respective categories. Maybe in certain situations, backlogs of case data prevent labs from sorting cases by demographic data before state deadlines but as time goes along, they are able to update their reported case data. This doesn't seem to happen in many states and the testing efficiency problem could easily be a bigger and more widespread problem than I am expressing/speculating here.
 
-[Here’s](plotly.com/~brianwilliams2022/35.embed?link=false) a regional breakdown of the same data.
+[Here’s](www.plotly.com/~brianwilliams2022/35.embed?link=false) a regional breakdown of the same data.
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" style="border:none;" seamless="seamless" src="//plotly.com/~brianwilliams2022/35.embed?link=false"></iframe>
 
