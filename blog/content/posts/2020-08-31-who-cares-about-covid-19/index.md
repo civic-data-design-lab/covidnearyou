@@ -14,9 +14,9 @@ hero: images/pic-for-2nd-article-cares.png
 
 On June 4th, the U.S. Department of Health and Human Services (HHS) released new guidance requiring laboratories to include relevant demographic data, such as age and race, on every COVID-19 test. As specified in the Coronavirus Aid, Relief, and Economic Security (CARES) Act *Section 18115*, these changes went into effect on August 1st. But did anything *really* happen?
 
-As a follow up to the [previous article](https://blog.civicdatadesignlab.mit.edu/data-from-reported-covid-19-tests-are-telling-an-incomplete-story:-here's-what-you-need-to-know) on missing reported race data in COVID-19 tests nationwide, we wanted to see the significant effects (if any) of the new federal guidance passed in the CARES Act Section 18115. Previously, we found large gaps in the aggregate data across the United States. From this, we asked if anything could be done at individual laboratories or medical testing centers to compensate for the gap. Now, we seek to investigate the impact of the new federal regulation on reporting race data.
+As a follow up to the [previous article](https://blog.civicdatadesignlab.mit.edu/data-from-reported-covid-19-tests-are-telling-an-incomplete-story:-here's-what-you-need-to-know) on missing reported race data in COVID-19 tests nationwide, we wanted to see the significant effects (if any) of the new federal guidance passed in the CARES Act *Section 18115*. Previously, we found large gaps in the aggregate data across the United States. From this, we asked if anything could be done at individual laboratories or medical testing centers to compensate for the gap. Now, we seek to investigate the impact of the new federal regulation on reporting race data.
 
-Data Comparisons, Before and After 18115
+**Data Comparisons, Before and After 18115**
 
 Section 18115 may actually be impacting the level of reported race data nationwide... But is it enough?
 
@@ -30,13 +30,13 @@ In the United States, the percent of cases with associated race data has varied 
 
 \[[insert bar graph]](https://chart-studio.plotly.com/~brianwilliams2022/17.embed)
 
-This visualization shows the difference of percents of cases where race data is known, per state. The number represented in each bar is the percent difference in cases with associated race between two different periods: fromJuly 26th to August 26thand from the beginning of data collection up until July 26th.
+This visualization shows the difference of percents of cases where race data is known, per state. The number represented in each bar is the percent difference in cases with associated race between two different periods: from *July 26th to August 26th* and from the beginning of data collection up until July 26th.
 
 For example, let’s say that a given state’s total cases rose from July to August by x, and of those cases, there is a subsection where race data is unknown. Let’s say this subsection of unknown race data increases by y. I calculated 1 - (y/x), and compared that same calculation instead with the cumulative period from toward the beginning of the pandemic (late March) to July 26th.
 
-Some of these values are negative because the total number of Other and Unknown cases actuallyincreasesfrom July to August at a greater percentage compared to the beginning of the pandemic. This is pretty alarming.
+Some of these values are negative because the total number of Other and Unknown cases actually **increases** from July to August at a greater percentage compared to the beginning of the pandemic. This is pretty alarming.
 
-Please note that North Dakota (ND) seems to have a very large value: 87%. This is due to the fact that North Dakota only very recently started reporting race data foranyof their cases.
+Please note that North Dakota (ND) seems to have a very large value: 87%. This is due to the fact that North Dakota only very recently started reporting race data for **any** of their cases.
 
 But why?
 
@@ -48,7 +48,7 @@ Here’s a regional breakdown of the same data.
 
 \[[insert color map]](http://plotly.com/~brianwilliams2022/35.embed)
 
-Discussion: Almost too little, too late
+**Discussion: Almost too little, too late**
 
 So far, the national average of cases with race data increased by about 15% directly following the period Section 18115 went into effect, compared to reported race averages during the rest of the pandemic.
 
@@ -62,5 +62,3 @@ Sources
 
 1. <https://www.hhs.gov/sites/default/files/covid-19-laboratory-data-reporting-guidance.pdf>
 2. <https://www.cdc.gov/coronavirus/2019-ncov/lab/reporting-lab-data.html#what-to-include>
-
-<!--EndFragment-->
