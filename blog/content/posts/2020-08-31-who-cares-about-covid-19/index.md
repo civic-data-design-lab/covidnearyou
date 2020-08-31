@@ -2,6 +2,9 @@
 title: Who CARES about race and COVID-19?
 author: Brian Williams
 date: 2020-08-30T00:00:00.000Z
+excerpt: As a follow up to the previous article on missing reported race data in
+  COVID-19 tests nationwide, we wanted to see the significant effects (if any)
+  of the new federal guidance passed in the CARES Act Section 18115.
 tags:
   - Covid
   - Data
